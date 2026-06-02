@@ -1,112 +1,37 @@
-    %
-    % If you are looking for the PDF file, you can compile the .tex file or donwload the PDF from here:
-    % https://github.com/ilario/The_Fully_Automated_Board_Game-LaTeX
-    
-    % Instruction for compiling: install TeXlive or whatever other LaTeX distribution
-    %
-    % pdflatex The_Fully_Automated_Board_Game-ENG
-    % makeglossaries The_Fully_Automated_Board_Game-ENG
-    % pdflatex The_Fully_Automated_Board_Game-ENG
-    % pdflatex The_Fully_Automated_Board_Game-ENG
-    
-    % In order to decrease the dimension of the PDF file and reduce the resolution of some raster images, use:
-    % gs -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress -dPrinted=false -dNOPAUSE -dQUIET -dBATCH -dAutoFilterColorImages=false -dColorImageFilter=/FlateEncode -sOutputFile=The_Fully_Automated_Board_Game-ENG-printer_quality.pdf The_Fully_Automated_Board_Game-ENG.pdf
-    % instead of preprint, you can also try /screen and /ebook
+% If you are looking for the PDF file, you can compile the .tex file or donwload the PDF from here:
+% https://github.com/ilario/The_Fully_Automated_Board_Game-LaTeX
+
+% Instruction for compiling: install TeXlive or whatever other LaTeX distribution
+%
+% pdflatex The_Fully_Automated_Board_Game.en
+% makeglossaries The_Fully_Automated_Board_Game.en
+% pdflatex The_Fully_Automated_Board_Game.en
+% pdflatex The_Fully_Automated_Board_Game.en
+
+% In order to decrease the dimension of the PDF file and reduce the resolution of some raster images, use:
+% gs -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress -dPrinted=false -dNOPAUSE -dQUIET -dBATCH -dAutoFilterColorImages=false -dColorImageFilter=/FlateEncode -sOutputFile=The_Fully_Automated_Board_Game-ENG-printer_quality.pdf The_Fully_Automated_Board_Game.en.pdf
+% instead of preprint, you can also try /screen and /ebook
 
 % Some rights are reserved as specified by
-% Creative Commons Attribution - NonCommercial - NoDerivs version 3.0 licence
-% which can be accessed on https://creativecommons.org/licenses/by-nc-nd/3.0/
+% Creative Commons Attribution - NonCommercial version 4.0 licence
+% which can be accessed on https://creativecommons.org/licenses/by-nc/4.0/
 
-\documentclass[a5paper, 10pt, openany]{book}
+% po4a: command -titleformat {}[]{}{}{}{}
+% po4a: command -posttitle {}
+% po4a: command -pretitle {}
+% po4a: command -makeglossaries 
+% po4a: command -date {}
+% po4a: command -uppercase {_}
+% po4a: command -subtitle {_}
+% po4a: command -url {}
+% po4a: command -texttt {_}
+% po4a: command -textit {_}
+% po4a: command -paragraph {_}
+% po4a: command -newglossaryentry {}{_}
+% po4a: command -glsaddall 
+% po4a: command -printglossary 
 
-\usepackage[
-    paperheight=17cm,
-    paperwidth=14cm,
-    top=1.3cm,
-    bottom=1.3cm,
-    heightrounded,
-    %bindingoffset=1cm, % this is useful for keeping text away from the stapled union of the pages
-    centering,
-    marginparwidth=1.3cm,
-    textwidth=11cm,
-    marginparsep=0.1cm,
-    %showframe
-]{geometry}% booklets of the original box are 14x17 cm, perfectly filling the internal size of the box
-
-\usepackage[T1]{fontenc}
-
-\usepackage{fontawesome7} % for the rubles symbol with \faRubleSign and for the busts symbol with \faPeopleGroup
-
-\usepackage[english]{babel}% spanish, italian, catalan, 
-
-\usepackage{hyperref}
-    \hypersetup{
-        hidelinks,
-        pdftitle={The Fully Automated Board Game - English rulebook},
-    %        pdfsubject={Your PDF subject},
-        pdfauthor={No Board Games}
-        pdfkeywords={the fully automated board game, no boad games} % list of keywords
-    }
-    
-% allowing url breaks at hyphens https://tex.stackexchange.com/a/3034/173645
-% https://tex.stackexchange.com/a/407368/173645
-\usepackage{xurl}
-
-\usepackage{xcolor} % for colors in hyperref links and in thumbs
-    \definecolor{colorone}{HTML}{1B9E77}
-    \definecolor{colortwo}{HTML}{d95f02}
-%    \definecolor{colorthree}{HTML}{7570B3}
-%    \definecolor{colorfour}{HTML}{E7298A}
-%    \definecolor{colorfive}{HTML}{66A61E}
-%    \definecolor{colorsix}{HTML}{E6AB02}
-%    \definecolor{colorseven}{HTML}{A6761D}
-%    \definecolor{coloreight}{HTML}{666666}
-
-\usepackage{glossaries} % list of explained concepts at the end of the rulebook
-    \makeglossaries % has to be after glossaries and after hyperref
-    \setacronymstyle{long-sp-short}
-
-% automagically reduces overfull lines and improves justification, but the compilation takes longer
-\usepackage{microtype} 
-
-% for customizing titles
-\usepackage{titlesec}
-    % for removing "Chapter 1" from the first chapter's page
-    % taken from https://tex.stackexchange.com/a/120743/173645
-    \titleformat{\chapter}[display]{\normalfont\bfseries}{}{0pt}{\Huge}
-
-% to add a subtitle. Taken from here: https://apurbapaul.blogspot.com/2013/01/subtitle-in-latex.html
-\usepackage{titling}
-    \newcommand{\subtitle}[1]{%
-        \posttitle{%
-            \par\end{center}
-        \begin{center}\large#1\end{center}
-        \vskip0.1em}}%
-    
-    % bigger main title
-    \pretitle{\begin{center}\Huge}
-    \posttitle{\par\end{center}\vskip 0.5em}
-
-% to add the colorful marks on the page edges
-\usepackage[width=1cm]{thumbs}
-
-% electronic pdf bookmark, no change in the printed version
-\usepackage{bookmark}
-
-\usepackage{epigraph}% for inserting stupid phrases in random places
-%\setlength{\epigraphrule}{0pt}% eliminate the rule below the epigraphs
-    
-\usepackage{rotating} % for vertical sideways text
-
-
-% limit main table of content to sections, do not print subsections
-\setcounter{tocdepth}{1}
-
-% we don't want to show the 1.2.3 numbering before the section titles, but we still want them to appear in the table of contents
-% using \section*{} removes the numbering but also removes them from the ToC
-% solution taken from https://tex.stackexchange.com/a/11669/173645
-\setcounter{secnumdepth}{0}
-
+\include{contents_tex/latex_preamble.tex}
 
 \title{\uppercase{The Fully Automated\\ Boardgame}\\
     English rulebook}
@@ -118,9 +43,6 @@
     
     From 2 to 10 players\\
     Duration 1 to 60 minutes}
-\author{No Board Games}
-\date{2025}
-
 
 \begin{document}
 
@@ -130,17 +52,15 @@
 
 \tableofcontents
 
-
-
 \mainmatter
 
-\input{contents_tex/preamble.tex}
+\include{contents_tex/introduction.en.tex}
 
 \chapter{Rules for 5 to 10 players}\label{ch:5-10}
 
     \addthumb{\thechapter}{\begin{sideways}\large{\textbf{5-10 \faPeopleGroup}}\end{sideways}}{white}{colorone}
 
-    \input{contents_tex/five_to_ten_players.tex}
+    \input{contents_tex/five_to_ten_players.en.tex}
 
     \stopthumb
     
@@ -152,7 +72,7 @@
 
     \graphicspath{ {./contents_img/} }
 
-    \input{contents_tex/two_to_four_players.tex}
+    \input{contents_tex/two_to_four_players.en.tex}
 
     \stopthumb
 
@@ -162,79 +82,10 @@
     % GLOSSARY %
     %%%%%%%%%%%%
 
-%\newglossaryentry{}{name={}, description={}, sort={}}
-\newglossaryentry{Acceleration}{name={Acceleration Strike (action)}, description={
-    A strike in which a boss is forced to buy a robot
-    immediately. This robot remains in control of the boss.}}
-\newglossaryentry{Bank}{name={Bank (place)}, description={
-    The reservoir of coins, property of no player.}}
-\newglossaryentry{Boss}{name={Boss (role/card)}, description={
-    The stingy blue character. [2–4 \faPeopleGroup] An automated role collecting
-    the Rent, and buying robots. [5–10 \faPeopleGroup] Two human players.}}
-\newglossaryentry{Class}{name={Class Betrayal (winning condition)}, description={
-    [2–4 \faPeopleGroup] Any player can win individually by
-    accumulating coins. [5–10 \faPeopleGroup] The Startupper can win by accumulating coins.}}
-\newglossaryentry{Contract}{name={Contract (card/agreement)}, description={
-    [2–4 \faPeopleGroup] Each of the enlistment options on the Contracts
-    cards. [5–10 \faPeopleGroup] The agreements between bosses and workers happening
-    during phase 1.}}
-\newglossaryentry{Event}{name={Event (card)}, description={
-    [2–4 \faPeopleGroup] During phase 2, the starting player reveals an Event card
-    that can affect this/any/all players in an instantaneous or permanent fashion.}}
-\newglossaryentry{Expropriation}{name={Expropriation Strike (action)}, description={
-    A strike in which workers can take a robot from a
-    chosen boss. [5–10 \faPeopleGroup] From a boss without the Security Guard.}}
-\newglossaryentry{Holidays}{name={Holidays (action)}, description={
-    [2–4 \faPeopleGroup] Workers can choose a Contract with Holidays to
-    remove Stress. [5–10 \faPeopleGroup] Workers can remove Stress with Holidays if they: pay
-    2 \faRubleSign; or choose the Public Work; or get it as part of a Contract offered by a boss.}}
-\newglossaryentry{Luddite}{name={Luddite (role/card)}, description={
-    [6–10 \faPeopleGroup] A saboteur secret role for workers. Adds an individual
-    winning option, destroying 3 robots during failed strikes. Destroyed robots
-    also count towards the workers' collective victory.}}
-\newglossaryentry{Monopoly}{name={Monopoly (winning condition)}, description={
-    [5–10 \faPeopleGroup] When a boss gets eliminated due to
-    not being able to pay the Rent or cannot buy a robot after a successful Acceleration
-    Strike. The winner gets determined based on the expropriated or destroyed
-    robots. See the victory conditions Early ending of the game.}}
-\newglossaryentry{Prolet}{name={Prolet (role/card)}, description={
-    [5–10 \faPeopleGroup] A “virtual pauper” secret role for workers. Does not
-    have any individual winning option. It's very focused on striking!}}
-\newglossaryentry{Public}{name={Public Work (card)}, description={
-    [5–10 \faPeopleGroup] During phase 1, workers can take this Contract
-    instead of one offered from the bosses. There is only one such job in games with
-    5–6 \faPeopleGroup, two in games with 7–8 \faPeopleGroup, and 3 in games with 9–10 \faPeopleGroup.}}
-\newglossaryentry{Rent}{name={Rent (phase)}, description={
-    In the Rent phase, each player pays an amount of coins. With [2–4
-    \faPeopleGroup] the Rent goes to the automated boss, [5–10 \faPeopleGroup] The Rent goes to the Bank.}}
-\newglossaryentry{Sabotage}{name={Sabotage (action)}, description={
-    [6–10 \faPeopleGroup] In phase 2 Strike, the Luddite player can destroy a
-    robot during a failed strike.}}
-\newglossaryentry{Scab}{name={Scab (role/card)}, description={
-    [5–10 \faPeopleGroup] A workaholic secret role for workers. Adds an individual
-    winning option: each Scab can win together with a victory-declaring boss
-    (a boss winning either with coins accumulation or Monopoly) if they were working
-    (not on strike) for this boss when the victory declaration happens.}}
-\newglossaryentry{Security}{name={Security Guard (card)}, description={
-    [5–10 \faPeopleGroup] It is a protection from Expropriation Strike and
-    Sabotage. The bosses bid for getting it (from 0 to 5 fingers, check phase 2 rules).}}
-\newglossaryentry{Startupper}{name={Startupper (role/card)}, description={
-    [5–10 \faPeopleGroup] A petite bourgeoisie secret role for workers.
-    Adds a Class Betrayal individual winning option via the accumulation of coins
-    and stealing from the Union Fund.}}
-\newglossaryentry{Stress}{name={Stress (status)}, description={
-    A condition for workers that hinders them from striking, and thus
-    forces them to work.}}
-\newglossaryentry{Tap}{name={Tap/Untap (action)}, description={
-    Tap your character card, placing it rotated 90° in front of
-    you for indicating Stress. Untap placing it straight.}}
-\newglossaryentry{Union}{name={Union Fund (card)}, description={
-    [5–10 \faPeopleGroup] The workers can share their coins, placing them on
-    this card during phase 6.}}
+\input{contents_tex/glossary.en.tex}
 
-
-% glossary
 \glsaddall
+
 \printglossary
 
 \end{document}

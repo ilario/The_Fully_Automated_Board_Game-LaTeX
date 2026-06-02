@@ -1,0 +1,109 @@
+% po4a: command -titleformat {}[]{}{}{}{}
+% po4a: command -posttitle {}
+% po4a: command -pretitle {}
+% po4a: command -makeglossaries 
+% po4a: command -stopthumb 
+% po4a: command -addthumb {}{}{}{}
+% po4a: command -date {}
+% po4a: command -uppercase {_}
+% po4a: command -subtitle {_}
+% po4a: command -url {}
+% po4a: command -texttt {_}
+% po4a: command -textit {_}
+% po4a: command -paragraph {_}
+% po4a: command -newglossaryentry {}{_}
+% po4a: command -glsaddall 
+% po4a: command -printglossary 
+
+\documentclass[a5paper, 10pt, openany]{book}
+
+\usepackage[
+    paperheight=17cm,
+    paperwidth=14cm,
+    top=1.3cm,
+    bottom=1.3cm,
+    heightrounded,
+    %bindingoffset=1cm, % this is useful for keeping text away from the stapled union of the pages
+    centering,
+    marginparwidth=1.3cm,
+    textwidth=11cm,
+    marginparsep=0.1cm,
+    %showframe
+]{geometry}% booklets of the original box are 14x17 cm, perfectly filling the internal size of the box
+
+\usepackage[T1]{fontenc}
+
+\usepackage{fontawesome7} % for the rubles symbol with \faRubleSign and for the busts symbol with \faPeopleGroup
+
+\usepackage[english]{babel}% spanish, italian, catalan, 
+
+\usepackage{hyperref}
+    \hypersetup{
+        hidelinks,
+        pdftitle={The Fully Automated Board Game - English rulebook},
+    %        pdfsubject={Your PDF subject},
+        pdfauthor={No Board Games}
+        pdfkeywords={the fully automated board game, no boad games} % list of keywords
+    }
+    
+% allowing url breaks at hyphens https://tex.stackexchange.com/a/3034/173645
+% https://tex.stackexchange.com/a/407368/173645
+\usepackage{xurl}
+
+\usepackage{xcolor} % for colors in hyperref links and in thumbs
+    \definecolor{colorone}{HTML}{1B9E77}
+    \definecolor{colortwo}{HTML}{d95f02}
+%    \definecolor{colorthree}{HTML}{7570B3}
+%    \definecolor{colorfour}{HTML}{E7298A}
+%    \definecolor{colorfive}{HTML}{66A61E}
+%    \definecolor{colorsix}{HTML}{E6AB02}
+%    \definecolor{colorseven}{HTML}{A6761D}
+%    \definecolor{coloreight}{HTML}{666666}
+
+\usepackage{glossaries} % list of explained concepts at the end of the rulebook
+    \makeglossaries % has to be after glossaries and after hyperref
+
+% automagically reduces overfull lines and improves justification, but the compilation takes longer
+\usepackage{microtype} 
+
+% for customizing titles
+\usepackage{titlesec}
+    % for removing "Chapter 1" from the first chapter's page
+    % taken from https://tex.stackexchange.com/a/120743/173645
+    \titleformat{\chapter}[display]{\normalfont\bfseries}{}{0pt}{\Huge}
+
+% to add a subtitle. Taken from here: https://apurbapaul.blogspot.com/2013/01/subtitle-in-latex.html
+\usepackage{titling}
+    \newcommand{\subtitle}[1]{%
+        \posttitle{%
+            \par\end{center}
+        \begin{center}\large#1\end{center}
+        \vskip0.1em}}%
+    
+    % bigger main title
+    \pretitle{\begin{center}\Huge}
+
+    \posttitle{\par\end{center}\vskip 0.5em}
+
+% to add the colorful marks on the page edges
+\usepackage[width=1cm]{thumbs}
+
+% electronic pdf bookmark, no change in the printed version
+\usepackage{bookmark}
+
+\usepackage{epigraph}% for inserting stupid phrases in random places
+%\setlength{\epigraphrule}{0pt}% eliminate the rule below the epigraphs
+    
+\usepackage{rotating} % for vertical sideways text
+
+
+% limit main table of content to sections, do not print subsections
+\setcounter{tocdepth}{1}
+
+% we don't want to show the 1.2.3 numbering before the section titles, but we still want them to appear in the table of contents
+% using \section*{} removes the numbering but also removes them from the ToC
+% solution taken from https://tex.stackexchange.com/a/11669/173645
+\setcounter{secnumdepth}{0}
+
+\author{No Board Games}
+\date{2025}
