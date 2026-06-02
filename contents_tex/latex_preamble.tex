@@ -3,15 +3,17 @@
 \usepackage[
     paperheight=17cm,
     paperwidth=14cm,
-    top=1.3cm,
-    bottom=1.3cm,
+    top=1.1cm,
+    bottom=0.9cm,
     heightrounded,
     %bindingoffset=1cm, % this is useful for keeping text away from the stapled union of the pages
     centering,
     marginparwidth=1.3cm,
     textwidth=11cm,
     marginparsep=0.1cm,
-    %showframe
+    headsep=0.4cm,
+    footskip=0.6cm,
+    showframe
 ]{geometry}% booklets of the original box are 14x17 cm, perfectly filling the internal size of the box
 
 \usepackage[T1]{fontenc}
@@ -64,7 +66,9 @@
         \vskip0.1em}}%
     
     % bigger main title
-    \pretitle{\begin{center}\Huge}
+    % and moving everything up so that it fits, the vspace idea has been taken from here:
+    % https://tex.stackexchange.com/a/123379/173645
+    \pretitle{\vspace{-3cm}\begin{center}\Huge}
 
     \posttitle{\par\end{center}\vskip 0.5em}
 
@@ -87,6 +91,11 @@
 % using \section*{} removes the numbering but also removes them from the ToC
 % solution taken from https://tex.stackexchange.com/a/11669/173645
 \setcounter{secnumdepth}{0}
+
+% for having images
+\usepackage{graphicx}
+    % for avoiding to include the path every time an image is included
+    \graphicspath{ {./contents_img/} }
 
 \author{No Board Games}
 \date{2025}
