@@ -134,7 +134,7 @@ acs-*.bib
 *.sls
 
 # uncomment this for glossaries-extra (will ignore makeindex's style files!)
-# *.ist
+*.ist
 
 # gnuplot
 *.gnuplot
@@ -246,6 +246,9 @@ pythontex-files-*/
 
 # thmtools
 *.loe
+
+# thumbs
+*.tmb
 
 # TikZ & PGF
 *.dpth
