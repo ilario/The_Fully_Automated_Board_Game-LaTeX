@@ -118,6 +118,12 @@
     \setlength{\parindent}{\currentparindent} % restore the value
     }{\end{minipage}} % close the minipage
 
+% \par has to be included so that LaTeX understands that the paragraph is over and 
+% calculates again the distance between lines for the smaller font
+\newcommand{\itsmall}[1]{
+    {\small\textit{#1}
+    \par\normalsize}}
+
 
 \author{No Board Games}
 \date{2025}
