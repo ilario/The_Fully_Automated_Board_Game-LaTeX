@@ -97,5 +97,23 @@
     % for avoiding to include the path every time an image is included
     \graphicspath{ {./contents_img/} }
 
+% for adding images with text flowing next and around them
+% taken from here:
+% https://docs.overleaf.com/writing-and-editing/inserting-images/positioning-figures#wrapping-text-around-figures
+\usepackage{wrapfig}
+
+%Create a new minipage environment where paragraphs have indents
+% minipage is convenient for placing an image next to a text, without needing to deal with wrapfig
+% but inside minipage the paragraphs start with no indent, therefore this new environment
+% taken from:
+% https://tex.stackexchange.com/a/619781/173645
+\newlength{\currentparindent} % define new variable
+\newenvironment{minipageparindent}[2][c]{
+    \setlength{\currentparindent}{\parindent} % save the value
+    \noindent\begin{minipage}[#1]{#2} % open the minipage
+    \setlength{\parindent}{\currentparindent} % restore the value
+    }{\end{minipage}} % close the minipage
+
+
 \author{No Board Games}
 \date{2025}
