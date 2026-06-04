@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-06-04 10:45+0200\n"
+"POT-Creation-Date: 2026-06-04 14:06+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,44 +26,60 @@ msgid ""
 msgstr ""
 
 #. type: author{#1}
-#: The_Fully_Automated_Board_Game.en.tex:49
-#: contents_tex/latex_preamble.en.tex:139
+#: The_Fully_Automated_Board_Game.en.tex:58
+#: contents_tex/latex_preamble.en.tex:156
 msgid "No Board Games"
 msgstr ""
 
-#.  the poster image in the title page, idea taken from here:
-#.  https://tex.stackexchange.com/a/551584/173645
-#. type: uppercase{#1}
-#: The_Fully_Automated_Board_Game.en.tex:55
-msgid "The Fully Automated\\\\ Boardgame"
+#. type: textbf{#1}
+#: The_Fully_Automated_Board_Game.en.tex:64 contents_tex/rear_page.en.tex:15
+msgid "The Fully Automated Boardgame"
 msgstr ""
 
 #. type: title{#1}
-#: The_Fully_Automated_Board_Game.en.tex:55
+#: The_Fully_Automated_Board_Game.en.tex:64
 msgid "English rulebook"
 msgstr ""
 
 #. type: subtitle{#1}
-#: The_Fully_Automated_Board_Game.en.tex:63
+#: The_Fully_Automated_Board_Game.en.tex:72
 msgid ""
 "A party game about robots and strikes.\\\\ Become a greedy boss or a riotous "
 "worker! --- From 2 to 10 players\\\\ Duration 1 to 60 minutes"
 msgstr ""
 
+#. type: selectlanguage{#1}
+#: The_Fully_Automated_Board_Game.en.tex:76
+msgid "english"
+msgstr ""
+
+#. type: document
+#: The_Fully_Automated_Board_Game.en.tex:85
+msgid "\\let\\cleardoublepage\\relax"
+msgstr ""
+
+#.  ToC on two columns
+#.  customize title location for the ToC
+#. type: multicols
+#: The_Fully_Automated_Board_Game.en.tex:94
+msgid "{ \\setupTOC \\tableofcontents }"
+msgstr ""
+
+#.  closing the group opened for avoiding the page break after the ToC
 #. type: Plain text
-#: contents_tex/introduction.en.tex:6
+#: contents_tex/introduction.en.tex:7
 msgid "Copyright 2025 No Board Games"
 msgstr ""
 
 #. type: Plain text
-#: contents_tex/introduction.en.tex:8
+#: contents_tex/introduction.en.tex:11
 msgid ""
 "Some rights are reserved as specified by Creative Commons Attribution - "
 "NonCommercial version 4.0 licence, which can be accessed on"
 msgstr ""
 
 #. type: minipageparindent
-#: contents_tex/introduction.en.tex:21
+#: contents_tex/introduction.en.tex:24
 msgid ""
 "\\textbf{No Board Games} is an international group that creates radical "
 "board games.  Check for gameplay videos on our website: "
@@ -71,7 +87,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: contents_tex/introduction.en.tex:35
+#: contents_tex/introduction.en.tex:38
 msgid ""
 "\\textit{You are reading the version 1.0 of the rulebook, printed in English "
 "and Italian. For new revisions and more translations, check our website. If "
@@ -82,27 +98,27 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: contents_tex/introduction.en.tex:37
+#: contents_tex/introduction.en.tex:40
 msgid "Printed in Poland by Fabryka Kart, 2025."
 msgstr ""
 
 #. type: section{#2}
-#: contents_tex/introduction.en.tex:39
+#: contents_tex/introduction.en.tex:42
 msgid "ACKNOWLEDGEMENTS"
 msgstr ""
 
 #. type: Plain text
-#: contents_tex/introduction.en.tex:41
+#: contents_tex/introduction.en.tex:44
 msgid "\\textbf{Design}: Matteo Modena, Ilario Gelmetti"
 msgstr ""
 
 #. type: Plain text
-#: contents_tex/introduction.en.tex:43
+#: contents_tex/introduction.en.tex:46
 msgid "\\textbf{Art}: Bernardo \"RUPE\" Anichini - IG: \\texttt{@rupe\\_b}"
 msgstr ""
 
 #. type: Plain text
-#: contents_tex/introduction.en.tex:47
+#: contents_tex/introduction.en.tex:50
 msgid ""
 "\\textbf{Testing}: Ilario Gelmetti, Matteo Modena, Matteo Paolini, Giulio "
 "Mazzocchi,Bernardo Anichini, Emanuele Croce, Dan Howitt, Luis Gutiérrez, "
@@ -110,17 +126,17 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: contents_tex/introduction.en.tex:49
+#: contents_tex/introduction.en.tex:52
 msgid "\\textbf{Communication}: Matteo Paolini, Matteo Modena"
 msgstr ""
 
 #. type: Plain text
-#: contents_tex/introduction.en.tex:51
+#: contents_tex/introduction.en.tex:54
 msgid "\\textbf{Video}: Davide Morittu"
 msgstr ""
 
 #. type: Plain text
-#: contents_tex/introduction.en.tex:54
+#: contents_tex/introduction.en.tex:57
 msgid ""
 "We want to thank all the backers that trusted us during the crowdfunding "
 "campaign, and specifically \"The Boss\" backers: \\textbf{Rock Castle}, "
@@ -128,7 +144,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: contents_tex/introduction.en.tex:58
+#: contents_tex/introduction.en.tex:61
 msgid ""
 "Also, this game would not have been possible without the countless online "
 "testing sessions that were joined by many. Special thanks go to the heroic "
@@ -136,22 +152,22 @@ msgid ""
 msgstr ""
 
 #. type: section{#2}
-#: contents_tex/introduction.en.tex:61
+#: contents_tex/introduction.en.tex:64
 msgid "BACKGROUND"
 msgstr ""
 
 #. type: epigraph{#1}
-#: contents_tex/introduction.en.tex:63
+#: contents_tex/introduction.en.tex:66
 msgid "The working class and the employing class have nothing in common."
 msgstr ""
 
 #. type: textit{#1}
-#: contents_tex/introduction.en.tex:63
+#: contents_tex/introduction.en.tex:66
 msgid "Industrial Workers of the World"
 msgstr ""
 
 #. type: Plain text
-#: contents_tex/introduction.en.tex:76
+#: contents_tex/introduction.en.tex:79
 msgid ""
 "There will never be peace between the oppressed and the oppressors, and thus "
 "between master and subordinate. From the first utopian socialists to the "
@@ -169,8 +185,8 @@ msgid ""
 "equally among people."
 msgstr ""
 
-#. type: Plain text
-#: contents_tex/introduction.en.tex:79
+#. type: textsl{#1}
+#: contents_tex/introduction.en.tex:82
 msgid ""
 "*The Luddite movement was a class struggle in England during the 19th "
 "century, whereby workers struggled against their labours being replaced with "
@@ -178,19 +194,19 @@ msgid ""
 msgstr ""
 
 #. type: section{#2}
-#: contents_tex/introduction.en.tex:82
+#: contents_tex/introduction.en.tex:85
 msgid "OVERVIEW"
 msgstr ""
 
 #. type: Plain text
-#: contents_tex/introduction.en.tex:85
+#: contents_tex/introduction.en.tex:88
 msgid ""
 "Take the role of a greedy boss (representing the Bourgeoisie) or suffer the "
 "burden of a worker (representing the Proletariat)."
 msgstr ""
 
 #. type: Plain text
-#: contents_tex/introduction.en.tex:89
+#: contents_tex/introduction.en.tex:92
 msgid ""
 "As a \\textbf{worker}, you must negotiate and accept Contracts from the "
 "bosses, to collect enough coins to pay your Rent and \\textbf{survive}. But "
@@ -199,7 +215,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: contents_tex/introduction.en.tex:93
+#: contents_tex/introduction.en.tex:96
 msgid ""
 "As a \\textbf{boss}, you control the production, the money, and therefore "
 "the workers. You must offer the favoured Contracts and \\textbf{accumulate "
@@ -207,108 +223,24 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: contents_tex/introduction.en.tex:96
+#: contents_tex/introduction.en.tex:99
 msgid ""
 "The Fully Automated Board Game is a fusion of negotiation, hidden roles, "
 "bluffing, voting, and class struggle."
 msgstr ""
 
 #. type: section{#2}
-#: contents_tex/introduction.en.tex:99
+#: contents_tex/introduction.en.tex:102
 msgid "COMPONENTS"
 msgstr ""
 
-#. type: itemize
-#: contents_tex/introduction.en.tex:103
-msgid "2 Boss cards - Bourgeoisie (blue card with a blue pig symbol)"
-msgstr ""
-
-#. type: itemize
-#: contents_tex/introduction.en.tex:105
-msgid "10 Worker character cards:"
-msgstr ""
-
-#. type: itemize
-#: contents_tex/introduction.en.tex:109
-msgid "4 Proletarians - Virtual pauper (red card with a red flag symbol)"
-msgstr ""
-
-#. type: itemize
-#: contents_tex/introduction.en.tex:112
-msgid "3 Startupper - Petite bourgeoisie (red card with a blue pig symbol)"
-msgstr ""
-
-#. type: itemize
-#: contents_tex/introduction.en.tex:115
-msgid ""
-"2 Scab - Workaholic (red card with a symbol of a mug \"I \\textless3 "
-"Mondays\")"
-msgstr ""
-
-#. type: itemize
-#: contents_tex/introduction.en.tex:119
-msgid "1 Luddite - Saboteur (red card with a bomb symbol)"
-msgstr ""
-
-#. type: itemize
-#: contents_tex/introduction.en.tex:131
-msgid "10 Robot cards (blue and red sides)"
-msgstr ""
-
-#. type: itemize
-#: contents_tex/introduction.en.tex:131
-msgid "17 Event cards"
-msgstr ""
-
-#. type: itemize
-#: contents_tex/introduction.en.tex:131
-msgid "6 Contracts cards"
-msgstr ""
-
-#. type: itemize
-#: contents_tex/introduction.en.tex:131
-msgid "1 Union Fund card"
-msgstr ""
-
-#. type: itemize
-#: contents_tex/introduction.en.tex:131
-msgid "1 Public Work card"
-msgstr ""
-
-#. type: itemize
-#: contents_tex/introduction.en.tex:131
-msgid "1 Mayor card"
-msgstr ""
-
-#. type: itemize
-#: contents_tex/introduction.en.tex:131
-msgid "1 Security Guard card"
-msgstr ""
-
-#. type: itemize
-#: contents_tex/introduction.en.tex:131
-msgid "6 Phase cards"
-msgstr ""
-
-#. type: itemize
-#: contents_tex/introduction.en.tex:131
-msgid "8 Personal tokens for workers"
-msgstr ""
-
-#. type: itemize
-#: contents_tex/introduction.en.tex:131
-msgid "1 Phase marker token"
-msgstr ""
-
 #. type: subsubsection{#2}
-#: The_Fully_Automated_Board_Game.en.tex:75
-#: contents_tex/introduction.en.tex:153
+#: contents_tex/introduction.en.tex:126
 msgid "PHASE MARKER TOKEN"
 msgstr ""
 
 #. type: Plain text
-#: The_Fully_Automated_Board_Game.en.tex:75
-#: contents_tex/introduction.en.tex:153
+#: contents_tex/introduction.en.tex:126
 msgid ""
 "In this box, we decided to not include any component representing the "
 "\\faRubleSign\\ money. Instead, we propose you to use real coins. This will "
@@ -322,8 +254,105 @@ msgid ""
 "Reach out, maybe we can recommend some entity!"
 msgstr ""
 
+#. type: subsubsection{#2}
+#: contents_tex/introduction.en.tex:132
+msgid "WHAT'S IN THE BOX"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/introduction.en.tex:132
+msgid "2 Boss cards - Bourgeoisie (blue card with a blue pig symbol)"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/introduction.en.tex:134
+msgid "10 Worker character cards:"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/introduction.en.tex:138
+msgid "4 Proletarians - Virtual pauper (red card with a red flag symbol)"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/introduction.en.tex:141
+msgid "3 Startupper - Petite bourgeoisie (red card with a blue pig symbol)"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/introduction.en.tex:144
+msgid ""
+"2 Scab - Workaholic (red card with a symbol of a mug \"I \\textless3 "
+"Mondays\")"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/introduction.en.tex:148
+msgid "1 Luddite - Saboteur (red card with a bomb symbol)"
+msgstr ""
+
+#. type: itemize
+#: The_Fully_Automated_Board_Game.en.tex:102
+#: contents_tex/introduction.en.tex:160
+msgid "10 Robot cards (blue and red sides)"
+msgstr ""
+
+#. type: itemize
+#: The_Fully_Automated_Board_Game.en.tex:102
+#: contents_tex/introduction.en.tex:160
+msgid "17 Event cards"
+msgstr ""
+
+#. type: itemize
+#: The_Fully_Automated_Board_Game.en.tex:102
+#: contents_tex/introduction.en.tex:160
+msgid "6 Contracts cards"
+msgstr ""
+
+#. type: itemize
+#: The_Fully_Automated_Board_Game.en.tex:102
+#: contents_tex/introduction.en.tex:160
+msgid "1 Union Fund card"
+msgstr ""
+
+#. type: itemize
+#: The_Fully_Automated_Board_Game.en.tex:102
+#: contents_tex/introduction.en.tex:160
+msgid "1 Public Work card"
+msgstr ""
+
+#. type: itemize
+#: The_Fully_Automated_Board_Game.en.tex:102
+#: contents_tex/introduction.en.tex:160
+msgid "1 Mayor card"
+msgstr ""
+
+#. type: itemize
+#: The_Fully_Automated_Board_Game.en.tex:102
+#: contents_tex/introduction.en.tex:160
+msgid "1 Security Guard card"
+msgstr ""
+
+#. type: itemize
+#: The_Fully_Automated_Board_Game.en.tex:102
+#: contents_tex/introduction.en.tex:160
+msgid "6 Phase cards"
+msgstr ""
+
+#. type: itemize
+#: The_Fully_Automated_Board_Game.en.tex:102
+#: contents_tex/introduction.en.tex:160
+msgid "8 Personal tokens for workers"
+msgstr ""
+
+#. type: itemize
+#: The_Fully_Automated_Board_Game.en.tex:102
+#: contents_tex/introduction.en.tex:160
+msgid "1 Phase marker token"
+msgstr ""
+
 #. type: chapter{#2}
-#: The_Fully_Automated_Board_Game.en.tex:77
+#: The_Fully_Automated_Board_Game.en.tex:105
 msgid "Rules for 5 to 10 players"
 msgstr ""
 
@@ -535,11 +564,11 @@ msgstr ""
 #: contents_tex/five_to_ten_players.en.tex:394
 #: contents_tex/five_to_ten_players.en.tex:443
 #: contents_tex/five_to_ten_players.en.tex:507
-#: contents_tex/two_to_four_players.en.tex:185
-#: contents_tex/two_to_four_players.en.tex:247
-#: contents_tex/two_to_four_players.en.tex:292
-#: contents_tex/two_to_four_players.en.tex:332
-#: contents_tex/two_to_four_players.en.tex:365
+#: contents_tex/two_to_four_players.en.tex:184
+#: contents_tex/two_to_four_players.en.tex:246
+#: contents_tex/two_to_four_players.en.tex:291
+#: contents_tex/two_to_four_players.en.tex:331
+#: contents_tex/two_to_four_players.en.tex:364
 msgid "EXAMPLE"
 msgstr ""
 
@@ -848,10 +877,10 @@ msgstr ""
 #: contents_tex/five_to_ten_players.en.tex:474
 #: contents_tex/five_to_ten_players.en.tex:539
 #: contents_tex/two_to_four_players.en.tex:131
-#: contents_tex/two_to_four_players.en.tex:200
-#: contents_tex/two_to_four_players.en.tex:260
-#: contents_tex/two_to_four_players.en.tex:313
-#: contents_tex/two_to_four_players.en.tex:343
+#: contents_tex/two_to_four_players.en.tex:199
+#: contents_tex/two_to_four_players.en.tex:259
+#: contents_tex/two_to_four_players.en.tex:312
+#: contents_tex/two_to_four_players.en.tex:342
 msgid "WORKERS ACTIONS"
 msgstr ""
 
@@ -890,11 +919,11 @@ msgstr ""
 #: contents_tex/five_to_ten_players.en.tex:392
 #: contents_tex/five_to_ten_players.en.tex:427
 #: contents_tex/five_to_ten_players.en.tex:489
-#: contents_tex/two_to_four_players.en.tex:139
-#: contents_tex/two_to_four_players.en.tex:209
-#: contents_tex/two_to_four_players.en.tex:274
-#: contents_tex/two_to_four_players.en.tex:324
-#: contents_tex/two_to_four_players.en.tex:350
+#: contents_tex/two_to_four_players.en.tex:138
+#: contents_tex/two_to_four_players.en.tex:208
+#: contents_tex/two_to_four_players.en.tex:273
+#: contents_tex/two_to_four_players.en.tex:323
+#: contents_tex/two_to_four_players.en.tex:349
 msgid "ADDITIONAL DETAILS AND EXAMPLES"
 msgstr ""
 
@@ -1396,7 +1425,7 @@ msgstr ""
 
 #. type: section{#2}
 #: contents_tex/five_to_ten_players.en.tex:556
-#: contents_tex/two_to_four_players.en.tex:373
+#: contents_tex/two_to_four_players.en.tex:372
 msgid "ADDITIONAL RULES"
 msgstr ""
 
@@ -1417,7 +1446,7 @@ msgstr ""
 
 #. type: itemize
 #: contents_tex/five_to_ten_players.en.tex:567
-#: contents_tex/two_to_four_players.en.tex:386
+#: contents_tex/two_to_four_players.en.tex:385
 msgid "Workers cannot keep their coins hidden."
 msgstr ""
 
@@ -1439,7 +1468,7 @@ msgid ""
 msgstr ""
 
 #. type: chapter{#2}
-#: The_Fully_Automated_Board_Game.en.tex:87
+#: The_Fully_Automated_Board_Game.en.tex:115
 msgid "Rules for 2 to 4 players"
 msgstr ""
 
@@ -1688,7 +1717,7 @@ msgstr ""
 
 #. type: subsection{#2}
 #: contents_tex/two_to_four_players.en.tex:120
-#: contents_tex/two_to_four_players.en.tex:307
+#: contents_tex/two_to_four_players.en.tex:306
 msgid "AUTOMATED BOSS ACTIONS"
 msgstr ""
 
@@ -1713,37 +1742,37 @@ msgid ""
 msgstr ""
 
 #. type: subsubsection{#2}
-#: contents_tex/two_to_four_players.en.tex:141
+#: contents_tex/two_to_four_players.en.tex:140
 msgid "SYMBOLS ON THE EVENT CARDS"
 msgstr ""
 
 #. type: textbf{#1}
-#: contents_tex/two_to_four_players.en.tex:148
+#: contents_tex/two_to_four_players.en.tex:147
 msgid "PLAY AND DISCARD"
 msgstr ""
 
 #. type: minipage
-#: contents_tex/two_to_four_players.en.tex:156
+#: contents_tex/two_to_four_players.en.tex:155
 msgid "\\textbf{PERMANENT EFFECT}, the affected player keeps the card"
 msgstr ""
 
 #. type: minipage
-#: contents_tex/two_to_four_players.en.tex:164
+#: contents_tex/two_to_four_players.en.tex:163
 msgid "This card affects the \\textbf{CURRENT STARTING PLAYER}"
 msgstr ""
 
 #. type: minipage
-#: contents_tex/two_to_four_players.en.tex:172
+#: contents_tex/two_to_four_players.en.tex:171
 msgid "This card affects a \\textbf{CHOSEN PLAYER}"
 msgstr ""
 
 #. type: minipage
-#: contents_tex/two_to_four_players.en.tex:180
+#: contents_tex/two_to_four_players.en.tex:179
 msgid "This card affects \\textbf{MORE THAN ONE PLAYER}"
 msgstr ""
 
 #. type: Plain text
-#: contents_tex/two_to_four_players.en.tex:183
+#: contents_tex/two_to_four_players.en.tex:182
 msgid ""
 "If the unavoidable and immediate effect of an Event card is to eliminate a "
 "player, ignore this effect: \\textbf{Event cards cannot directly eliminate "
@@ -1751,7 +1780,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: contents_tex/two_to_four_players.en.tex:194
+#: contents_tex/two_to_four_players.en.tex:193
 msgid ""
 "\\itsmall{The automated boss has no coins at the beginning of the game, so "
 "clearly will not buy a robot just yet. Between the 3 workers, Asdrubale, "
@@ -1766,12 +1795,12 @@ msgid ""
 msgstr ""
 
 #. type: section{#2}
-#: contents_tex/two_to_four_players.en.tex:198
+#: contents_tex/two_to_four_players.en.tex:197
 msgid "Phase 3 CONTRACTS"
 msgstr ""
 
 #. type: itemize
-#: contents_tex/two_to_four_players.en.tex:207
+#: contents_tex/two_to_four_players.en.tex:206
 msgid ""
 "The starting player must reveal a \\textbf{Contracts card}, choose a "
 "Contract and \\textbf{place the personal token} on it. The other players, in "
@@ -1780,14 +1809,14 @@ msgid ""
 msgstr ""
 
 #. type: itemize
-#: contents_tex/two_to_four_players.en.tex:223
+#: contents_tex/two_to_four_players.en.tex:222
 msgid ""
 "\\textbf{Get Stressed}: Contracts may cause Stress, this will be applied "
 "during phase 5 Payday."
 msgstr ""
 
 #. type: itemize
-#: contents_tex/two_to_four_players.en.tex:223
+#: contents_tex/two_to_four_players.en.tex:222
 msgid ""
 "\\textbf{Holidays included}: in addition to the salary, Contracts may "
 "include Holidays.  Holidays will allow players to eliminate Stress during "
@@ -1795,7 +1824,7 @@ msgid ""
 msgstr ""
 
 #. type: itemize
-#: contents_tex/two_to_four_players.en.tex:223
+#: contents_tex/two_to_four_players.en.tex:222
 msgid ""
 "\\textbf{Permanent Contract}: will last for more rounds, until the player "
 "accepts another Contract or participates in a strike. This player will keep "
@@ -1803,33 +1832,33 @@ msgid ""
 msgstr ""
 
 #. type: itemize
-#: contents_tex/two_to_four_players.en.tex:223
+#: contents_tex/two_to_four_players.en.tex:222
 msgid ""
 "A \\textbf{Contracts card cannot directly eliminate a player}: if a Contract "
 "says \"get Stressed\" but you are already Stressed, you are unaffected."
 msgstr ""
 
 #. type: itemize
-#: contents_tex/two_to_four_players.en.tex:223
+#: contents_tex/two_to_four_players.en.tex:222
 msgid ""
 "When the Contracts cards run out, shuffle the discarded Contracts cards "
 "(except the permanent Contract cards still in use by the players)."
 msgstr ""
 
 #. type: subsubsection{#2}
-#: contents_tex/two_to_four_players.en.tex:225
+#: contents_tex/two_to_four_players.en.tex:224
 msgid "SYMBOLS ON THE CONTRACTS CARDS"
 msgstr ""
 
 #. type: minipage
-#: contents_tex/two_to_four_players.en.tex:234
+#: contents_tex/two_to_four_players.en.tex:233
 msgid ""
 "\\textbf{Get Stressed}: Contracts may cause Stress, this will be applied "
 "during phase 5."
 msgstr ""
 
 #. type: minipage
-#: contents_tex/two_to_four_players.en.tex:243
+#: contents_tex/two_to_four_players.en.tex:242
 msgid ""
 "\\textbf{Holidays included}: in addition to the salary, Contracts may "
 "include Holidays.  Holidays will allow players to eliminate Stress during "
@@ -1837,7 +1866,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: contents_tex/two_to_four_players.en.tex:254
+#: contents_tex/two_to_four_players.en.tex:253
 msgid ""
 "\\itsmall{Since it's her turn to start, Bedelia draws a Contracts card, and "
 "shows it to everyone. It's the \"Boom\" card! She chooses the \"3-coins "
@@ -1850,12 +1879,12 @@ msgid ""
 msgstr ""
 
 #. type: section{#2}
-#: contents_tex/two_to_four_players.en.tex:258
+#: contents_tex/two_to_four_players.en.tex:257
 msgid "Phase 4 STRIKE"
 msgstr ""
 
 #. type: itemize
-#: contents_tex/two_to_four_players.en.tex:271
+#: contents_tex/two_to_four_players.en.tex:270
 msgid ""
 "All the non-eliminated \\textbf{non-Stressed} players place one hand towards "
 "the centre of the table and, \\textbf{at the same time, must vote} one of "
@@ -1863,37 +1892,37 @@ msgid ""
 msgstr ""
 
 #. type: itemize
-#: contents_tex/two_to_four_players.en.tex:271
+#: contents_tex/two_to_four_players.en.tex:270
 msgid "\\textbf{thumb up} = strike for \\textbf{Acceleration}"
 msgstr ""
 
 #. type: itemize
-#: contents_tex/two_to_four_players.en.tex:271
+#: contents_tex/two_to_four_players.en.tex:270
 msgid "\\textbf{closed fist} = strike for \\textbf{Expropriation}"
 msgstr ""
 
 #. type: itemize
-#: contents_tex/two_to_four_players.en.tex:271
+#: contents_tex/two_to_four_players.en.tex:270
 msgid "\\textbf{open hand} = \\textbf{work}"
 msgstr ""
 
 #. type: Plain text
-#: contents_tex/two_to_four_players.en.tex:271
+#: contents_tex/two_to_four_players.en.tex:270
 msgid "Alternatively, they can write their action on a piece of paper."
 msgstr ""
 
 #. type: itemize
-#: contents_tex/two_to_four_players.en.tex:290
+#: contents_tex/two_to_four_players.en.tex:289
 msgid "\\textbf{Stressed players cannot strike} and so must work."
 msgstr ""
 
 #. type: itemize
-#: contents_tex/two_to_four_players.en.tex:290
+#: contents_tex/two_to_four_players.en.tex:289
 msgid "\\textbf{It's forbidden to talk} or communicate \\textbf{about strikes}."
 msgstr ""
 
 #. type: itemize
-#: contents_tex/two_to_four_players.en.tex:290
+#: contents_tex/two_to_four_players.en.tex:289
 msgid ""
 "\\textbf{Acceleration Strike: every thumb raised creates one robot for the "
 "boss}.  The boss loses all the coins earned up to that point. Beware that "
@@ -1904,7 +1933,7 @@ msgid ""
 msgstr ""
 
 #. type: itemize
-#: contents_tex/two_to_four_players.en.tex:290
+#: contents_tex/two_to_four_players.en.tex:289
 msgid ""
 "\\textbf{Expropriation Strike}: If the \\textbf{majority} of players (with 2 "
 "\\faPeopleGroup\\ the majority is 2; with 3 \\faPeopleGroup\\ majority is 2; "
@@ -1917,7 +1946,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: contents_tex/two_to_four_players.en.tex:301
+#: contents_tex/two_to_four_players.en.tex:300
 msgid ""
 "\\itsmall{After a short countdown, the 3 \\faPeopleGroup\\ express their "
 "decisions with their hands: Bedelia wants to work (secretly intends to win "
@@ -1931,19 +1960,19 @@ msgid ""
 msgstr ""
 
 #. type: section{#2}
-#: contents_tex/two_to_four_players.en.tex:305
+#: contents_tex/two_to_four_players.en.tex:304
 msgid "Phase 5 PAYDAY"
 msgstr ""
 
 #. type: itemize
-#: contents_tex/two_to_four_players.en.tex:311
+#: contents_tex/two_to_four_players.en.tex:310
 msgid ""
 "Each \\textbf{robot} the boss controls \\textbf{produces 2 \\faRubleSign}\\ "
 "for the boss."
 msgstr ""
 
 #. type: itemize
-#: contents_tex/two_to_four_players.en.tex:322
+#: contents_tex/two_to_four_players.en.tex:321
 msgid ""
 "Each \\textbf{non-striking worker} receives the \\textbf{salary} and applies "
 "the \\textbf{additional effects} from the chosen Contract. The effect of "
@@ -1953,14 +1982,14 @@ msgid ""
 msgstr ""
 
 #. type: itemize
-#: contents_tex/two_to_four_players.en.tex:322
+#: contents_tex/two_to_four_players.en.tex:321
 msgid ""
 "Each \\textbf{Expropriated robot} produces \\textbf{1 coin} for the worker "
 "it is assigned to."
 msgstr ""
 
 #. type: itemize
-#: contents_tex/two_to_four_players.en.tex:330
+#: contents_tex/two_to_four_players.en.tex:329
 msgid ""
 "Players who attempt any kind of strike will receive neither the salary from "
 "the chosen Contract, nor its positive or negative effect (i.e. \"get "
@@ -1968,7 +1997,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: contents_tex/two_to_four_players.en.tex:337
+#: contents_tex/two_to_four_players.en.tex:336
 msgid ""
 "\\itsmall{The new robot produces 2 \\faRubleSign\\ for the boss. Bedelia "
 "receives 3 \\faRubleSign\\ from the Bank, but has to Tap her Prolet "
@@ -1978,19 +2007,19 @@ msgid ""
 msgstr ""
 
 #. type: section{#2}
-#: contents_tex/two_to_four_players.en.tex:341
+#: contents_tex/two_to_four_players.en.tex:340
 msgid "Phase 6 RENT"
 msgstr ""
 
 #. type: itemize
-#: contents_tex/two_to_four_players.en.tex:348
+#: contents_tex/two_to_four_players.en.tex:347
 msgid ""
 "Unless an Event card changes this, \\textbf{each worker pays 1 coin directly "
 "to the boss}."
 msgstr ""
 
 #. type: itemize
-#: contents_tex/two_to_four_players.en.tex:362
+#: contents_tex/two_to_four_players.en.tex:361
 msgid ""
 "A player who \\textbf{can't pay the Rent gets Stressed}. \\textbf{If already "
 "Stressed} and cannot pay the Rent, this player is considered "
@@ -1998,7 +2027,7 @@ msgid ""
 msgstr ""
 
 #. type: itemize
-#: contents_tex/two_to_four_players.en.tex:362
+#: contents_tex/two_to_four_players.en.tex:361
 msgid ""
 "If a player needs to pay Rent of 2 \\faRubleSign\\ (e.g. due to the "
 "\"Birth\" Event card), but has only 1 coin, they pay nothing but become "
@@ -2006,7 +2035,7 @@ msgid ""
 msgstr ""
 
 #. type: itemize
-#: contents_tex/two_to_four_players.en.tex:362
+#: contents_tex/two_to_four_players.en.tex:361
 msgid ""
 "\\textbf{If half of the players are eliminated, the game is over}, see "
 "collective de- feat. In a game with 3 \\faPeopleGroup, this happens when 2 "
@@ -2014,14 +2043,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: contents_tex/two_to_four_players.en.tex:362
+#: contents_tex/two_to_four_players.en.tex:361
 msgid ""
 "The player on the left of the starting player is the new starting "
 "player. The game continues with phase 1, and follows all the phases again."
 msgstr ""
 
 #. type: Plain text
-#: contents_tex/two_to_four_players.en.tex:369
+#: contents_tex/two_to_four_players.en.tex:368
 msgid ""
 "\\itsmall{Bedelia pays her 1-coin Rent, moving one of her 3 \\faRubleSign\\ "
 "next to the boss card. Candida does the same thing. Asdrubale, having no "
@@ -2029,74 +2058,74 @@ msgid ""
 msgstr ""
 
 #. type: itemize
-#: contents_tex/two_to_four_players.en.tex:386
+#: contents_tex/two_to_four_players.en.tex:385
 msgid ""
 "An elimination can happen only if a player cannot pay the Rent during phase "
 "6 and is already Stressed."
 msgstr ""
 
 #. type: itemize
-#: contents_tex/two_to_four_players.en.tex:386
+#: contents_tex/two_to_four_players.en.tex:385
 msgid ""
 "If some effect of an Event card cannot be applied, skip it and apply the "
 "remaining effects on that card."
 msgstr ""
 
 #. type: itemize
-#: contents_tex/two_to_four_players.en.tex:386
+#: contents_tex/two_to_four_players.en.tex:385
 msgid ""
 "It is forbidden to communicate about strikes: only the voting during phase 4 "
 "will reveal the workers' actions."
 msgstr ""
 
 #. type: itemize
-#: contents_tex/two_to_four_players.en.tex:386
+#: contents_tex/two_to_four_players.en.tex:385
 msgid "Workers pay the Rent directly to the automated boss."
 msgstr ""
 
 #. type: itemize
-#: contents_tex/two_to_four_players.en.tex:386
+#: contents_tex/two_to_four_players.en.tex:385
 msgid ""
 "In case of disagreement between players (e.g. who should control an "
 "expropriated robot), the starting player will decide."
 msgstr ""
 
 #. type: section{#2}
-#: contents_tex/two_to_four_players.en.tex:390
+#: contents_tex/two_to_four_players.en.tex:389
 msgid "NOTES ON THE EVENT CARDS"
 msgstr ""
 
 #. type: paragraph{#1}
-#: contents_tex/two_to_four_players.en.tex:392
+#: contents_tex/two_to_four_players.en.tex:391
 msgid "Birth"
 msgstr ""
 
 #. type: Plain text
-#: contents_tex/two_to_four_players.en.tex:395
+#: contents_tex/two_to_four_players.en.tex:394
 msgid ""
 "If a married couple (see Marriage card) has a Birth, they can decide who "
 "takes care of the child in case there will be a Divorce Event."
 msgstr ""
 
 #. type: paragraph{#1}
-#: contents_tex/two_to_four_players.en.tex:397
+#: contents_tex/two_to_four_players.en.tex:396
 msgid "Collective Agreement"
 msgstr ""
 
 #. type: Plain text
-#: contents_tex/two_to_four_players.en.tex:400
+#: contents_tex/two_to_four_players.en.tex:399
 msgid ""
 "Each Contract on this round's Contracts card can be chosen by more than one "
 "player."
 msgstr ""
 
 #. type: paragraph{#1}
-#: contents_tex/two_to_four_players.en.tex:402
+#: contents_tex/two_to_four_players.en.tex:401
 msgid "Dentist"
 msgstr ""
 
 #. type: Plain text
-#: contents_tex/two_to_four_players.en.tex:406
+#: contents_tex/two_to_four_players.en.tex:405
 msgid ""
 "If possible, one player should pay or get Stressed. If no player has 2 "
 "\\faRubleSign, and all players are already Stressed, this card is the least "
@@ -2104,58 +2133,58 @@ msgid ""
 msgstr ""
 
 #. type: paragraph{#1}
-#: contents_tex/two_to_four_players.en.tex:408
+#: contents_tex/two_to_four_players.en.tex:407
 msgid "Divorce"
 msgstr ""
 
 #. type: Plain text
-#: contents_tex/two_to_four_players.en.tex:411
+#: contents_tex/two_to_four_players.en.tex:410
 msgid ""
 "If the Marriage card is in game, both of the involved players lose all the "
 "coins, and remove the Stress, if not, ignore this card."
 msgstr ""
 
 #. type: paragraph{#1}
-#: contents_tex/two_to_four_players.en.tex:413
+#: contents_tex/two_to_four_players.en.tex:412
 msgid "Eviction"
 msgstr ""
 
 #. type: Plain text
-#: contents_tex/two_to_four_players.en.tex:415
+#: contents_tex/two_to_four_players.en.tex:414
 msgid "The card effect is applied to the player who has the Gentrification card."
 msgstr ""
 
 #. type: paragraph{#1}
-#: contents_tex/two_to_four_players.en.tex:417
+#: contents_tex/two_to_four_players.en.tex:416
 msgid "Gentrification"
 msgstr ""
 
 #. type: Plain text
-#: contents_tex/two_to_four_players.en.tex:420
+#: contents_tex/two_to_four_players.en.tex:419
 msgid ""
 "Once one player has this card, the only way to get rid of it is that any "
 "player draws the Eviction card."
 msgstr ""
 
 #. type: paragraph{#1}
-#: contents_tex/two_to_four_players.en.tex:422
+#: contents_tex/two_to_four_players.en.tex:421
 msgid "Mandatory Overtime"
 msgstr ""
 
 #. type: Plain text
-#: contents_tex/two_to_four_players.en.tex:426
+#: contents_tex/two_to_four_players.en.tex:425
 msgid ""
 "If the player who picked this card participates in a strike this round, they "
 "do not get the 1 coin extra, and do not get Stressed due to this card."
 msgstr ""
 
 #. type: paragraph{#1}
-#: contents_tex/two_to_four_players.en.tex:428
+#: contents_tex/two_to_four_players.en.tex:427
 msgid "Marriage"
 msgstr ""
 
 #. type: Plain text
-#: contents_tex/two_to_four_players.en.tex:433
+#: contents_tex/two_to_four_players.en.tex:432
 msgid ""
 "You can bring the characters cards closer together and put this card in the "
 "middle. Even if married, the Rent is 1 coin for each worker. What changes is "
@@ -2164,48 +2193,48 @@ msgid ""
 msgstr ""
 
 #. type: paragraph{#1}
-#: contents_tex/two_to_four_players.en.tex:435
+#: contents_tex/two_to_four_players.en.tex:434
 msgid "Production Bonus"
 msgstr ""
 
 #. type: Plain text
-#: contents_tex/two_to_four_players.en.tex:438
+#: contents_tex/two_to_four_players.en.tex:437
 msgid ""
 "If the player who picked this card participates in a strike this round, they "
 "do not receive the extra 2 \\faRubleSign."
 msgstr ""
 
 #. type: paragraph{#1}
-#: contents_tex/two_to_four_players.en.tex:440
+#: contents_tex/two_to_four_players.en.tex:439
 msgid "Rotating Shifts"
 msgstr ""
 
 #. type: Plain text
-#: contents_tex/two_to_four_players.en.tex:443
+#: contents_tex/two_to_four_players.en.tex:442
 msgid ""
 "Participants in a strike this round, do not get the 1 coin extra, and do not "
 "get Stressed due to this card."
 msgstr ""
 
 #. type: paragraph{#1}
-#: contents_tex/two_to_four_players.en.tex:445
+#: contents_tex/two_to_four_players.en.tex:444
 msgid "Sabotage"
 msgstr ""
 
 #. type: Plain text
-#: contents_tex/two_to_four_players.en.tex:448
+#: contents_tex/two_to_four_players.en.tex:447
 msgid ""
 "If there is only a red robot (an expropriated one), destroy it, if there are "
 "no robots in play, ignore this card."
 msgstr ""
 
 #. type: paragraph{#1}
-#: contents_tex/two_to_four_players.en.tex:450
+#: contents_tex/two_to_four_players.en.tex:449
 msgid "Workers' Union"
 msgstr ""
 
 #. type: Plain text
-#: contents_tex/two_to_four_players.en.tex:452
+#: contents_tex/two_to_four_players.en.tex:451
 msgid "If the boss is out of money, you are out of luck."
 msgstr ""
 
@@ -2369,22 +2398,20 @@ msgid ""
 msgstr ""
 
 #. type: newglossaryentry{#2}
-#: The_Fully_Automated_Board_Game.en.tex:103 contents_tex/glossary.en.tex:88
+#: The_Fully_Automated_Board_Game.en.tex:131 contents_tex/glossary.en.tex:88
 msgid ""
 "name={Union Fund (card)}, description={ [5–10 \\faPeopleGroup] The workers "
 "can share their coins, placing them on this card during phase 6.}"
 msgstr ""
 
-#. type: textbf{#1}
-#: contents_tex/rear_page.en.tex:15
-msgid "The Fully Automated Boardgame"
+#. type: center
+#: contents_tex/rear_page.en.tex:32
+msgid "NO BOARD GAMES is an international group that creates radical board games."
 msgstr ""
 
 #. type: center
 #: contents_tex/rear_page.en.tex:32
-msgid ""
-"NO BOARD GAMES is an international group that creates radical board games.  "
-"\\url{https://noboardgames.com}"
+msgid "\\url{https://noboardgames.com}"
 msgstr ""
 
 #. type: center

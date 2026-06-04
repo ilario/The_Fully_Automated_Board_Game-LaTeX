@@ -41,8 +41,17 @@
 % po4a: command -addthumb {}{}{}{}
 % po4a: command -stopthumb 
 % po4a: command -noindent 
+% po4a: command -begingroup 
+% po4a: command -let 
+% po4a: command -cleardoublepage 
+% po4a: command -relax 
+% po4a: command -endgroup 
+% po4a: command -setupTOC 
+% po4a: command -hrule 
+% po4a: command selectlanguage {_}
 % po4a: environment minipageparindent {}
 % po4a: environment wrapfigure []{}{}
+% po4a: environment multicols {}
 
 
 \input{contents_tex/latex_preamble.en.tex}
@@ -71,12 +80,16 @@
 
 % avoid having a page break just after the ToC
 \begingroup
+
 \let\cleardoublepage\relax
 
 % ToC on two columns
 \begin{multicols}{2}
 % customize title location for the ToC
-{\setupTOC  \tableofcontents}
+    {
+        \setupTOC
+        \tableofcontents
+    }
 \end{multicols}
 
 \hrule
