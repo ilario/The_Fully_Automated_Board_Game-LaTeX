@@ -116,6 +116,23 @@
 % https://tex.stackexchange.com/a/157400/173645
 \newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
 
+% for having the table of content on two columns
+\usepackage{multicol}
+
+% for adapting the ToC title to the new two columns format
+% taken from:
+% https://tex.stackexchange.com/a/606682/173645
+% standatard definitions from section 9.2 in titlesec manual
+%\titleformat{\chapter}[display]{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
+\newcommand*{\setupTOC}{%
+% "Contents" should also be translated
+    \renewcommand*\contentsname{Contents}
+    \titleformat{\chapter}{\normalfont\LARGE\bfseries}{}{200pt}{\LARGE} 
+    \titlespacing*{\chapter}{0pt}
+        {-3\baselineskip} %  % vertical space before the title <<<<<<<<<<
+        {0pt}  %  idem after title (in ex units + glue) <<<<<<<<<<<
+    }
+
 %Create a new minipage environment where paragraphs have indents
 % minipage is convenient for placing an image next to a text, without needing to deal with wrapfig
 % but inside minipage the paragraphs start with no indent, therefore this new environment

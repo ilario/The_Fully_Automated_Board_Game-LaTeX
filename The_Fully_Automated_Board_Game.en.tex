@@ -65,13 +65,28 @@
 
 \selectlanguage{english}
 
+\frontmatter
+
 \maketitle
 
-\tableofcontents
+% avoid having a page break just after the ToC
+\begingroup
+\let\cleardoublepage\relax
+
+% ToC on two columns
+\begin{multicols}{2}
+% customize title location for the ToC
+{\setupTOC  \tableofcontents}
+\end{multicols}
+
+\hrule
+
+\vspace{6pt}
 
 \mainmatter
 
 \input{contents_tex/introduction.en.tex}
+
 
 \chapter{Rules for 5 to 10 players}\label{ch:5-10}
 
