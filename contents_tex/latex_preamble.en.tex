@@ -47,10 +47,6 @@
 %    \definecolor{colorseven}{HTML}{A6761D}
 %    \definecolor{coloreight}{HTML}{666666}
 
-% list of explained concepts at the end of the rulebook
-\usepackage{glossaries}
-    \makeglossaries % has to be after glossaries and after hyperref
-
 % automagically reduces overfull lines and improves justification, but the compilation takes longer
 \usepackage{microtype} 
 
@@ -125,13 +121,14 @@
 % standatard definitions from section 9.2 in titlesec manual
 %\titleformat{\chapter}[display]{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
 \newcommand*{\setupTOC}{%
-% "Contents" should also be translated
-    \renewcommand*\contentsname{Contents}
     \titleformat{\chapter}{\normalfont\LARGE\bfseries}{}{0pt}{\LARGE} 
     \titlespacing*{\chapter}{0pt}
-        {-3\baselineskip} %  % vertical space before the title <<<<<<<<<<
+        {-3\baselineskip} % vertical space before the title <<<<<<<<<<
         {0pt}  %  idem after title (in ex units + glue) <<<<<<<<<<<
     }
+
+% even for the title of normal chapters, reduce spacing above
+\titlespacing*{\chapter}{0pt}{-1\baselineskip}{0pt}
 
 %Create a new minipage environment where paragraphs have indents
 % minipage is convenient for placing an image next to a text, without needing to deal with wrapfig

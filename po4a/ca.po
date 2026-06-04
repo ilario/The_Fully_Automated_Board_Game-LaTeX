@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-06-04 14:06+0200\n"
+"POT-Creation-Date: 2026-06-04 15:37+0200\n"
 "PO-Revision-Date: 2026-06-04 10:56+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -27,8 +27,8 @@ msgid ""
 msgstr ""
 
 #. type: author{#1}
-#: The_Fully_Automated_Board_Game.en.tex:58
-#: contents_tex/latex_preamble.en.tex:156
+#: The_Fully_Automated_Board_Game.en.tex:57
+#: contents_tex/latex_preamble.en.tex:153
 msgid "No Board Games"
 msgstr ""
 
@@ -57,13 +57,6 @@ msgstr ""
 #. type: document
 #: The_Fully_Automated_Board_Game.en.tex:85
 msgid "\\let\\cleardoublepage\\relax"
-msgstr ""
-
-#.  ToC on two columns
-#.  customize title location for the ToC
-#. type: multicols
-#: The_Fully_Automated_Board_Game.en.tex:94
-msgid "{ \\setupTOC \\tableofcontents }"
 msgstr ""
 
 #.  closing the group opened for avoiding the page break after the ToC
@@ -293,67 +286,67 @@ msgid "1 Luddite - Saboteur (red card with a bomb symbol)"
 msgstr ""
 
 #. type: itemize
-#: The_Fully_Automated_Board_Game.en.tex:102
+#: The_Fully_Automated_Board_Game.en.tex:100
 #: contents_tex/introduction.en.tex:160
 msgid "10 Robot cards (blue and red sides)"
 msgstr ""
 
 #. type: itemize
-#: The_Fully_Automated_Board_Game.en.tex:102
+#: The_Fully_Automated_Board_Game.en.tex:100
 #: contents_tex/introduction.en.tex:160
 msgid "17 Event cards"
 msgstr ""
 
 #. type: itemize
-#: The_Fully_Automated_Board_Game.en.tex:102
+#: The_Fully_Automated_Board_Game.en.tex:100
 #: contents_tex/introduction.en.tex:160
 msgid "6 Contracts cards"
 msgstr ""
 
 #. type: itemize
-#: The_Fully_Automated_Board_Game.en.tex:102
+#: The_Fully_Automated_Board_Game.en.tex:100
 #: contents_tex/introduction.en.tex:160
 msgid "1 Union Fund card"
 msgstr ""
 
 #. type: itemize
-#: The_Fully_Automated_Board_Game.en.tex:102
+#: The_Fully_Automated_Board_Game.en.tex:100
 #: contents_tex/introduction.en.tex:160
 msgid "1 Public Work card"
 msgstr ""
 
 #. type: itemize
-#: The_Fully_Automated_Board_Game.en.tex:102
+#: The_Fully_Automated_Board_Game.en.tex:100
 #: contents_tex/introduction.en.tex:160
 msgid "1 Mayor card"
 msgstr ""
 
 #. type: itemize
-#: The_Fully_Automated_Board_Game.en.tex:102
+#: The_Fully_Automated_Board_Game.en.tex:100
 #: contents_tex/introduction.en.tex:160
 msgid "1 Security Guard card"
 msgstr ""
 
 #. type: itemize
-#: The_Fully_Automated_Board_Game.en.tex:102
+#: The_Fully_Automated_Board_Game.en.tex:100
 #: contents_tex/introduction.en.tex:160
 msgid "6 Phase cards"
 msgstr ""
 
 #. type: itemize
-#: The_Fully_Automated_Board_Game.en.tex:102
+#: The_Fully_Automated_Board_Game.en.tex:100
 #: contents_tex/introduction.en.tex:160
 msgid "8 Personal tokens for workers"
 msgstr ""
 
 #. type: itemize
-#: The_Fully_Automated_Board_Game.en.tex:102
+#: The_Fully_Automated_Board_Game.en.tex:100
 #: contents_tex/introduction.en.tex:160
 msgid "1 Phase marker token"
 msgstr ""
 
 #. type: chapter{#2}
-#: The_Fully_Automated_Board_Game.en.tex:105
+#: The_Fully_Automated_Board_Game.en.tex:103
 msgid "Rules for 5 to 10 players"
 msgstr ""
 
@@ -368,8 +361,9 @@ msgstr ""
 msgid ""
 "\\textbf{Beware!} The rules of the 5–10 \\faPeopleGroup\\ game are very "
 "different from the ones for 2–4 \\faPeopleGroup! \\textbf{Some cards have a "
-"text saying} \"5–10 \\faPeopleGroup\": this is the side to use for games "
-"from 5 to 10 players."
+"text saying} \"5–10 \\faPeopleGroup\": the rules here are for games from 5 "
+"to 10 players. For games with 2–4 \\faPeopleGroup, go to page "
+"\\pageref{ch:2-4}."
 msgstr ""
 
 #. type: section{#2}
@@ -1473,7 +1467,7 @@ msgid ""
 msgstr ""
 
 #. type: chapter{#2}
-#: The_Fully_Automated_Board_Game.en.tex:115
+#: The_Fully_Automated_Board_Game.en.tex:113
 msgid "Rules for 2 to 4 players"
 msgstr ""
 
@@ -1482,8 +1476,9 @@ msgstr ""
 msgid ""
 "\\textbf{Beware!} The rules of the 2–4 \\faPeopleGroup\\ game are very "
 "different from the ones for 5–10 \\faPeopleGroup! \\textbf{Some cards have a "
-"text saying \"2–4 \\faPeopleGroup\"}: this is the side to use for games from "
-"2 to 4 players."
+"text saying \"2–4 \\faPeopleGroup\"}: the rules here are for games from 2 to "
+"4 players. For games with 5–10 \\faPeopleGroup, go to page "
+"\\pageref{ch:5-10}."
 msgstr ""
 
 #. type: enumerate
@@ -2101,36 +2096,36 @@ msgid "NOTES ON THE EVENT CARDS"
 msgstr ""
 
 #. type: paragraph{#1}
-#: contents_tex/two_to_four_players.en.tex:391
+#: contents_tex/two_to_four_players.en.tex:393
 msgid "Birth"
 msgstr ""
 
-#. type: Plain text
-#: contents_tex/two_to_four_players.en.tex:394
+#. type: multicols
+#: contents_tex/two_to_four_players.en.tex:396
 msgid ""
 "If a married couple (see Marriage card) has a Birth, they can decide who "
 "takes care of the child in case there will be a Divorce Event."
 msgstr ""
 
 #. type: paragraph{#1}
-#: contents_tex/two_to_four_players.en.tex:396
+#: contents_tex/two_to_four_players.en.tex:398
 msgid "Collective Agreement"
 msgstr ""
 
-#. type: Plain text
-#: contents_tex/two_to_four_players.en.tex:399
+#. type: multicols
+#: contents_tex/two_to_four_players.en.tex:401
 msgid ""
 "Each Contract on this round's Contracts card can be chosen by more than one "
 "player."
 msgstr ""
 
 #. type: paragraph{#1}
-#: contents_tex/two_to_four_players.en.tex:401
+#: contents_tex/two_to_four_players.en.tex:403
 msgid "Dentist"
 msgstr ""
 
-#. type: Plain text
-#: contents_tex/two_to_four_players.en.tex:405
+#. type: multicols
+#: contents_tex/two_to_four_players.en.tex:407
 msgid ""
 "If possible, one player should pay or get Stressed. If no player has 2 "
 "\\faRubleSign, and all players are already Stressed, this card is the least "
@@ -2138,59 +2133,59 @@ msgid ""
 msgstr ""
 
 #. type: paragraph{#1}
-#: contents_tex/two_to_four_players.en.tex:407
+#: contents_tex/two_to_four_players.en.tex:409
 msgid "Divorce"
 msgstr ""
 
-#. type: Plain text
-#: contents_tex/two_to_four_players.en.tex:410
+#. type: multicols
+#: contents_tex/two_to_four_players.en.tex:412
 msgid ""
 "If the Marriage card is in game, both of the involved players lose all the "
 "coins, and remove the Stress, if not, ignore this card."
 msgstr ""
 
 #. type: paragraph{#1}
-#: contents_tex/two_to_four_players.en.tex:412
+#: contents_tex/two_to_four_players.en.tex:414
 msgid "Eviction"
 msgstr ""
 
-#. type: Plain text
-#: contents_tex/two_to_four_players.en.tex:414
+#. type: multicols
+#: contents_tex/two_to_four_players.en.tex:416
 msgid ""
 "The card effect is applied to the player who has the Gentrification card."
 msgstr ""
 
 #. type: paragraph{#1}
-#: contents_tex/two_to_four_players.en.tex:416
+#: contents_tex/two_to_four_players.en.tex:418
 msgid "Gentrification"
 msgstr ""
 
-#. type: Plain text
-#: contents_tex/two_to_four_players.en.tex:419
+#. type: multicols
+#: contents_tex/two_to_four_players.en.tex:421
 msgid ""
 "Once one player has this card, the only way to get rid of it is that any "
 "player draws the Eviction card."
 msgstr ""
 
 #. type: paragraph{#1}
-#: contents_tex/two_to_four_players.en.tex:421
+#: contents_tex/two_to_four_players.en.tex:423
 msgid "Mandatory Overtime"
 msgstr ""
 
-#. type: Plain text
-#: contents_tex/two_to_four_players.en.tex:425
+#. type: multicols
+#: contents_tex/two_to_four_players.en.tex:427
 msgid ""
 "If the player who picked this card participates in a strike this round, they "
 "do not get the 1 coin extra, and do not get Stressed due to this card."
 msgstr ""
 
 #. type: paragraph{#1}
-#: contents_tex/two_to_four_players.en.tex:427
+#: contents_tex/two_to_four_players.en.tex:429
 msgid "Marriage"
 msgstr ""
 
-#. type: Plain text
-#: contents_tex/two_to_four_players.en.tex:432
+#. type: multicols
+#: contents_tex/two_to_four_players.en.tex:434
 msgid ""
 "You can bring the characters cards closer together and put this card in the "
 "middle. Even if married, the Rent is 1 coin for each worker. What changes is "
@@ -2199,215 +2194,220 @@ msgid ""
 msgstr ""
 
 #. type: paragraph{#1}
-#: contents_tex/two_to_four_players.en.tex:434
+#: contents_tex/two_to_four_players.en.tex:436
 msgid "Production Bonus"
 msgstr ""
 
-#. type: Plain text
-#: contents_tex/two_to_four_players.en.tex:437
+#. type: multicols
+#: contents_tex/two_to_four_players.en.tex:439
 msgid ""
 "If the player who picked this card participates in a strike this round, they "
 "do not receive the extra 2 \\faRubleSign."
 msgstr ""
 
 #. type: paragraph{#1}
-#: contents_tex/two_to_four_players.en.tex:439
+#: contents_tex/two_to_four_players.en.tex:441
 msgid "Rotating Shifts"
 msgstr ""
 
-#. type: Plain text
-#: contents_tex/two_to_four_players.en.tex:442
+#. type: multicols
+#: contents_tex/two_to_four_players.en.tex:444
 msgid ""
 "Participants in a strike this round, do not get the 1 coin extra, and do not "
 "get Stressed due to this card."
 msgstr ""
 
 #. type: paragraph{#1}
-#: contents_tex/two_to_four_players.en.tex:444
+#: contents_tex/two_to_four_players.en.tex:446
 msgid "Sabotage"
 msgstr ""
 
-#. type: Plain text
-#: contents_tex/two_to_four_players.en.tex:447
+#. type: multicols
+#: contents_tex/two_to_four_players.en.tex:449
 msgid ""
 "If there is only a red robot (an expropriated one), destroy it, if there are "
 "no robots in play, ignore this card."
 msgstr ""
 
 #. type: paragraph{#1}
-#: contents_tex/two_to_four_players.en.tex:449
+#: contents_tex/two_to_four_players.en.tex:451
 msgid "Workers' Union"
 msgstr ""
 
-#. type: Plain text
-#: contents_tex/two_to_four_players.en.tex:451
+#. type: multicols
+#: contents_tex/two_to_four_players.en.tex:453
 msgid "If the boss is out of money, you are out of luck."
 msgstr ""
 
-#
-#. ewglossaryentry{}{name={}, description={}, sort={}}
-#. type: newglossaryentry{#2}
-#: contents_tex/glossary.en.tex:5
-msgid ""
-"name={Acceleration Strike (action)}, description={ A strike in which a boss "
-"is forced to buy a robot immediately. This robot remains in control of the "
-"boss.}"
+#. type: chapter{#2}
+#: The_Fully_Automated_Board_Game.en.tex:129
+msgid "Glossary"
 msgstr ""
 
-#. type: newglossaryentry{#2}
-#: contents_tex/glossary.en.tex:8
-msgid ""
-"name={Bank (place)}, description={ The reservoir of coins, property of no "
-"player.}"
+#. type: paragraph{#1}
+#: contents_tex/glossary.en.tex:94
+msgid "Acceleration Strike (action)"
 msgstr ""
 
-#. type: newglossaryentry{#2}
-#: contents_tex/glossary.en.tex:12
+#. type: multicols
+#: contents_tex/glossary.en.tex:97
 msgid ""
-"name={Boss (role/card)}, description={ The stingy blue character. [2–4 "
+"A strike in which a boss is forced to buy a robot immediately. This robot "
+"remains in control of the boss."
+msgstr ""
+
+#. type: multicols
+#: contents_tex/glossary.en.tex:100
+msgid ""
+"\\paragraph{Bank (place)} The reservoir of coins, property of no player."
+msgstr ""
+
+#. type: multicols
+#: contents_tex/glossary.en.tex:104
+msgid ""
+"\\paragraph{Boss (role/card)} The stingy blue character. [2–4 "
 "\\faPeopleGroup] An automated role collecting the Rent, and buying robots. "
-"[5–10 \\faPeopleGroup] Two human players.}"
+"[5–10 \\faPeopleGroup] Two human players."
 msgstr ""
 
-#. type: newglossaryentry{#2}
-#: contents_tex/glossary.en.tex:16
+#. type: multicols
+#: contents_tex/glossary.en.tex:108
 msgid ""
-"name={Class Betrayal (winning condition)}, description={ [2–4 "
-"\\faPeopleGroup] Any player can win individually by accumulating coins. [5–"
-"10 \\faPeopleGroup] The Startupper can win by accumulating coins.}"
+"\\paragraph{Class Betrayal (winning condition)} [2–4 \\faPeopleGroup] Any "
+"player can win individually by accumulating coins. [5–10 \\faPeopleGroup] "
+"The Startupper can win by accumulating coins."
 msgstr ""
 
-#. type: newglossaryentry{#2}
-#: contents_tex/glossary.en.tex:21
+#. type: multicols
+#: contents_tex/glossary.en.tex:113
 msgid ""
-"name={Contract (card/agreement)}, description={ [2–4 \\faPeopleGroup] Each "
-"of the enlistment options on the Contracts cards. [5–10 \\faPeopleGroup] The "
-"agreements between bosses and workers happening during phase 1.}"
+"\\paragraph{Contract (card/agreement)} [2–4 \\faPeopleGroup] Each of the "
+"enlistment options on the Contracts cards. [5–10 \\faPeopleGroup] The "
+"agreements between bosses and workers happening during phase 1."
 msgstr ""
 
-#. type: newglossaryentry{#2}
-#: contents_tex/glossary.en.tex:25
+#. type: multicols
+#: contents_tex/glossary.en.tex:117
 msgid ""
-"name={Event (card)}, description={ [2–4 \\faPeopleGroup] During phase 2, the "
-"starting player reveals an Event card that can affect this/any/all players "
-"in an instantaneous or permanent fashion.}"
+"\\paragraph{Event (card)} [2–4 \\faPeopleGroup] During phase 2, the starting "
+"player reveals an Event card that can affect this/any/all players in an "
+"instantaneous or permanent fashion."
 msgstr ""
 
-#. type: newglossaryentry{#2}
-#: contents_tex/glossary.en.tex:29
+#. type: multicols
+#: contents_tex/glossary.en.tex:121
 msgid ""
-"name={Expropriation Strike (action)}, description={ A strike in which "
-"workers can take a robot from a chosen boss. [5–10 \\faPeopleGroup] From a "
-"boss without the Security Guard.}"
+"\\paragraph{Expropriation Strike (action)} A strike in which workers can "
+"take a robot from a chosen boss. [5–10 \\faPeopleGroup] From a boss without "
+"the Security Guard."
 msgstr ""
 
-#. type: newglossaryentry{#2}
-#: contents_tex/glossary.en.tex:34
+#. type: multicols
+#: contents_tex/glossary.en.tex:126
 msgid ""
-"name={Holidays (action)}, description={ [2–4 \\faPeopleGroup] Workers can "
-"choose a Contract with Holidays to remove Stress. [5–10 \\faPeopleGroup] "
-"Workers can remove Stress with Holidays if they: pay 2 \\faRubleSign; or "
-"choose the Public Work; or get it as part of a Contract offered by a boss.}"
+"\\paragraph{Holidays (action)} [2–4 \\faPeopleGroup] Workers can choose a "
+"Contract with Holidays to remove Stress. [5–10 \\faPeopleGroup] Workers can "
+"remove Stress with Holidays if they: pay 2 \\faRubleSign; or choose the "
+"Public Work; or get it as part of a Contract offered by a boss."
 msgstr ""
 
-#. type: newglossaryentry{#2}
-#: contents_tex/glossary.en.tex:39
+#. type: multicols
+#: contents_tex/glossary.en.tex:131
 msgid ""
-"name={Luddite (role/card)}, description={ [6–10 \\faPeopleGroup] A saboteur "
-"secret role for workers. Adds an individual winning option, destroying 3 "
-"robots during failed strikes. Destroyed robots also count towards the "
-"workers' collective victory.}"
+"\\paragraph{Luddite (role/card)} [6–10 \\faPeopleGroup] A saboteur secret "
+"role for workers. Adds an individual winning option, destroying 3 robots "
+"during failed strikes. Destroyed robots also count towards the workers' "
+"collective victory."
 msgstr ""
 
-#. type: newglossaryentry{#2}
-#: contents_tex/glossary.en.tex:45
+#. type: multicols
+#: contents_tex/glossary.en.tex:137
 msgid ""
-"name={Monopoly (winning condition)}, description={ [5–10 \\faPeopleGroup] "
-"When a boss gets eliminated due to not being able to pay the Rent or cannot "
-"buy a robot after a successful Acceleration Strike. The winner gets "
-"determined based on the expropriated or destroyed robots. See the victory "
-"conditions Early ending of the game.}"
+"\\paragraph{Monopoly (winning condition)} [5–10 \\faPeopleGroup] When a boss "
+"gets eliminated due to not being able to pay the Rent or cannot buy a robot "
+"after a successful Acceleration Strike. The winner gets determined based on "
+"the expropriated or destroyed robots. See the victory conditions Early "
+"ending of the game."
 msgstr ""
 
-#. type: newglossaryentry{#2}
-#: contents_tex/glossary.en.tex:49
+#. type: multicols
+#: contents_tex/glossary.en.tex:141
 msgid ""
-"name={Prolet (role/card)}, description={ [5–10 \\faPeopleGroup] A “virtual "
-"pauper” secret role for workers. Does not have any individual winning "
-"option. It's very focused on striking!}"
+"\\paragraph{Prolet (role/card)} [5–10 \\faPeopleGroup] A “virtual pauper” "
+"secret role for workers. Does not have any individual winning option. It's "
+"very focused on striking!"
 msgstr ""
 
-#. type: newglossaryentry{#2}
-#: contents_tex/glossary.en.tex:54
+#. type: multicols
+#: contents_tex/glossary.en.tex:146
 msgid ""
-"name={Public Work (card)}, description={ [5–10 \\faPeopleGroup] During phase "
-"1, workers can take this Contract instead of one offered from the bosses. "
-"There is only one such job in games with 5–6 \\faPeopleGroup, two in games "
-"with 7–8 \\faPeopleGroup, and 3 in games with 9–10 \\faPeopleGroup.}"
+"\\paragraph{Public Work (card)} [5–10 \\faPeopleGroup] During phase 1, "
+"workers can take this Contract instead of one offered from the bosses. There "
+"is only one such job in games with 5–6 \\faPeopleGroup, two in games with 7–"
+"8 \\faPeopleGroup, and 3 in games with 9–10 \\faPeopleGroup."
 msgstr ""
 
-#. type: newglossaryentry{#2}
-#: contents_tex/glossary.en.tex:58
+#. type: multicols
+#: contents_tex/glossary.en.tex:150
 msgid ""
-"name={Rent (phase)}, description={ In the Rent phase, each player pays an "
-"amount of coins. With [2–4 \\faPeopleGroup] the Rent goes to the automated "
-"boss, [5–10 \\faPeopleGroup] The Rent goes to the Bank.}"
+"\\paragraph{Rent (phase)} In the Rent phase, each player pays an amount of "
+"coins. With [2–4 \\faPeopleGroup] the Rent goes to the automated boss, [5–10 "
+"\\faPeopleGroup] The Rent goes to the Bank."
 msgstr ""
 
-#. type: newglossaryentry{#2}
-#: contents_tex/glossary.en.tex:62
+#. type: multicols
+#: contents_tex/glossary.en.tex:154
 msgid ""
-"name={Sabotage (action)}, description={ [6–10 \\faPeopleGroup] In phase 2 "
-"Strike, the Luddite player can destroy a robot during a failed strike.}"
+"\\paragraph{Sabotage (action)} [6–10 \\faPeopleGroup] In phase 2 Strike, the "
+"Luddite player can destroy a robot during a failed strike."
 msgstr ""
 
-#. type: newglossaryentry{#2}
-#: contents_tex/glossary.en.tex:68
+#. type: multicols
+#: contents_tex/glossary.en.tex:160
 msgid ""
-"name={Scab (role/card)}, description={ [5–10 \\faPeopleGroup] A workaholic "
-"secret role for workers. Adds an individual winning option: each Scab can "
-"win together with a victory-declaring boss (a boss winning either with coins "
+"\\paragraph{Scab (role/card)} [5–10 \\faPeopleGroup] A workaholic secret "
+"role for workers. Adds an individual winning option: each Scab can win "
+"together with a victory-declaring boss (a boss winning either with coins "
 "accumulation or Monopoly) if they were working (not on strike) for this boss "
-"when the victory declaration happens.}"
+"when the victory declaration happens."
 msgstr ""
 
-#. type: newglossaryentry{#2}
-#: contents_tex/glossary.en.tex:72
+#. type: multicols
+#: contents_tex/glossary.en.tex:164
 msgid ""
-"name={Security Guard (card)}, description={ [5–10 \\faPeopleGroup] It is a "
-"protection from Expropriation Strike and Sabotage. The bosses bid for "
-"getting it (from 0 to 5 fingers, check phase 2 rules).}"
+"\\paragraph{Security Guard (card)} [5–10 \\faPeopleGroup] It is a protection "
+"from Expropriation Strike and Sabotage. The bosses bid for getting it (from "
+"0 to 5 fingers, check phase 2 rules)."
 msgstr ""
 
-#. type: newglossaryentry{#2}
-#: contents_tex/glossary.en.tex:77
+#. type: multicols
+#: contents_tex/glossary.en.tex:169
 msgid ""
-"name={Startupper (role/card)}, description={ [5–10 \\faPeopleGroup] A petite "
+"\\paragraph{Startupper (role/card)} [5–10 \\faPeopleGroup] A petite "
 "bourgeoisie secret role for workers.  Adds a Class Betrayal individual "
 "winning option via the accumulation of coins and stealing from the Union "
-"Fund.}"
+"Fund."
 msgstr ""
 
-#. type: newglossaryentry{#2}
-#: contents_tex/glossary.en.tex:81
+#. type: multicols
+#: contents_tex/glossary.en.tex:173
 msgid ""
-"name={Stress (status)}, description={ A condition for workers that hinders "
-"them from striking, and thus forces them to work.}"
+"\\paragraph{Stress (status)} A condition for workers that hinders them from "
+"striking, and thus forces them to work."
 msgstr ""
 
-#. type: newglossaryentry{#2}
-#: contents_tex/glossary.en.tex:85
+#. type: multicols
+#: contents_tex/glossary.en.tex:177
 msgid ""
-"name={Tap/Untap (action)}, description={ Tap your character card, placing it "
-"rotated 90° in front of you for indicating Stress. Untap placing it "
-"straight.}"
+"\\paragraph{Tap/Untap (action)} Tap your character card, placing it rotated "
+"90° in front of you for indicating Stress. Untap placing it straight."
 msgstr ""
 
-#. type: newglossaryentry{#2}
-#: The_Fully_Automated_Board_Game.en.tex:131 contents_tex/glossary.en.tex:88
+#. type: multicols
+#: contents_tex/glossary.en.tex:181
 msgid ""
-"name={Union Fund (card)}, description={ [5–10 \\faPeopleGroup] The workers "
-"can share their coins, placing them on this card during phase 6.}"
+"\\paragraph{Union Fund (card)} [5–10 \\faPeopleGroup] The workers can share "
+"their coins, placing them on this card during phase 6."
 msgstr ""
 
 #. type: center

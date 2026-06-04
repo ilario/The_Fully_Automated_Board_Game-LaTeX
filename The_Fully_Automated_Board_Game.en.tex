@@ -4,8 +4,6 @@
 % Instruction for compiling: install TeXlive or whatever other LaTeX distribution
 %
 % pdflatex The_Fully_Automated_Board_Game.en
-% makeglossaries The_Fully_Automated_Board_Game.en
-% pdflatex The_Fully_Automated_Board_Game.en
 % pdflatex The_Fully_Automated_Board_Game.en
 
 % In order to decrease the dimension of the PDF file and reduce the resolution of some raster images, use:
@@ -48,6 +46,7 @@
 % po4a: command -endgroup 
 % po4a: command -setupTOC 
 % po4a: command -hrule 
+% po4a: command -titlespacing {}{}{}{}
 % po4a: command selectlanguage {_}
 % po4a: environment minipageparindent {}
 % po4a: environment wrapfigure []{}{}
@@ -58,6 +57,7 @@
 
 \title{\uppercase{\textbf{The Fully Automated Boardgame}}\\
     English rulebook\\
+    \vspace{1ex}
     % the poster image in the title page, idea taken from here:
     % https://tex.stackexchange.com/a/551584/173645
     \includegraphics[scale=0.45]{cover.jpg}}
@@ -86,10 +86,8 @@
 % ToC on two columns
 \begin{multicols}{2}
 % customize title location for the ToC
-    {
-        \setupTOC
-        \tableofcontents
-    }
+    \setupTOC
+    \tableofcontents
 \end{multicols}
 
 \hrule
@@ -127,11 +125,9 @@
     % GLOSSARY %
     %%%%%%%%%%%%
 
+\chapter{Glossary}
+
 \input{contents_tex/glossary.en.tex}
-
-\glsaddall
-
-\printglossary
 
 \input{contents_tex/rear_page.en.tex}
 
