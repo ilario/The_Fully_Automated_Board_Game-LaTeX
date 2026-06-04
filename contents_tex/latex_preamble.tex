@@ -1,5 +1,6 @@
 \documentclass[a5paper, 10pt, openany]{book}
 
+% booklets of the original box are 14x17 cm, perfectly filling the internal size of the box
 \usepackage[
     paperheight=17cm,
     paperwidth=14cm,
@@ -14,11 +15,12 @@
     headsep=0.4cm,
     footskip=0.6cm,
     %showframe
-]{geometry}% booklets of the original box are 14x17 cm, perfectly filling the internal size of the box
+]{geometry}
 
 \usepackage[T1]{fontenc}
 
-\usepackage{fontawesome7} % for the rubles symbol with \faRubleSign and for the busts symbol with \faPeopleGroup
+% for the rubles symbol with \faRubleSign and for the busts symbol with \faPeopleGroup
+\usepackage{fontawesome7}
 
 \usepackage[english]{babel}% spanish, italian, catalan, 
 
@@ -26,7 +28,6 @@
     \hypersetup{
         hidelinks,
         pdftitle={The Fully Automated Board Game - English rulebook},
-    %        pdfsubject={Your PDF subject},
         pdfauthor={No Board Games}
         pdfkeywords={the fully automated board game, no boad games} % list of keywords
     }
@@ -35,7 +36,8 @@
 % https://tex.stackexchange.com/a/407368/173645
 \usepackage{xurl}
 
-\usepackage{xcolor} % for colors in hyperref links and in thumbs
+% for colors in hyperref links and in thumbs
+\usepackage{xcolor}
     \definecolor{colorone}{HTML}{1B9E77}
     \definecolor{colortwo}{HTML}{d95f02}
 %    \definecolor{colorthree}{HTML}{7570B3}
@@ -45,7 +47,8 @@
 %    \definecolor{colorseven}{HTML}{A6761D}
 %    \definecolor{coloreight}{HTML}{666666}
 
-\usepackage{glossaries} % list of explained concepts at the end of the rulebook
+% list of explained concepts at the end of the rulebook
+\usepackage{glossaries}
     \makeglossaries % has to be after glossaries and after hyperref
 
 % automagically reduces overfull lines and improves justification, but the compilation takes longer
@@ -78,11 +81,11 @@
 % electronic pdf bookmark, no change in the printed version
 \usepackage{bookmark}
 
-\usepackage{epigraph}% for inserting stupid phrases in random places
-%\setlength{\epigraphrule}{0pt}% eliminate the rule below the epigraphs
-    
-\usepackage{rotating} % for vertical sideways text
+% for inserting stupid phrases in random places
+\usepackage{epigraph}
 
+% for vertical sideways text in thumbs
+\usepackage{rotating}
 
 % limit main table of content to sections, do not print subsections
 \setcounter{tocdepth}{1}
@@ -106,6 +109,13 @@
 \usepackage{csquotes}
     \MakeOuterQuote{"}
 
+% we need array to have \newcolumntype and column type m
+\usepackage{array}
+% the p or m type columns are not horizontally centered
+% taken from:
+% https://tex.stackexchange.com/a/157400/173645
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
+
 %Create a new minipage environment where paragraphs have indents
 % minipage is convenient for placing an image next to a text, without needing to deal with wrapfig
 % but inside minipage the paragraphs start with no indent, therefore this new environment
@@ -123,7 +133,6 @@
 \newcommand{\itsmall}[1]{
     {\small\textit{#1}
     \par}}
-
 
 \author{No Board Games}
 \date{2025}
