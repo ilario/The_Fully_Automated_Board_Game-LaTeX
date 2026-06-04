@@ -1,0 +1,2404 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2026-06-04 10:45+0200\n"
+"PO-Revision-Date: 2026-06-04 10:56+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.9\n"
+
+#.  list of keywords
+#. type: hypersetup{#1}
+#: contents_tex/latex_preamble.en.tex:34
+msgid ""
+"hidelinks, pdftitle={The Fully Automated Board Game - English rulebook}, "
+"pdfauthor={No Board Games} pdfkeywords={the fully automated board game, no "
+"boad games}"
+msgstr ""
+
+#. type: author{#1}
+#: The_Fully_Automated_Board_Game.en.tex:49
+#: contents_tex/latex_preamble.en.tex:139
+msgid "No Board Games"
+msgstr ""
+
+#.  the poster image in the title page, idea taken from here:
+#.  https://tex.stackexchange.com/a/551584/173645
+#. type: uppercase{#1}
+#: The_Fully_Automated_Board_Game.en.tex:55
+msgid "The Fully Automated\\\\ Boardgame"
+msgstr ""
+
+#. type: title{#1}
+#: The_Fully_Automated_Board_Game.en.tex:55
+msgid "English rulebook"
+msgstr "Regles en català"
+
+#. type: subtitle{#1}
+#: The_Fully_Automated_Board_Game.en.tex:63
+msgid ""
+"A party game about robots and strikes.\\\\ Become a greedy boss or a riotous "
+"worker! --- From 2 to 10 players\\\\ Duration 1 to 60 minutes"
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/introduction.en.tex:6
+msgid "Copyright 2025 No Board Games"
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/introduction.en.tex:8
+msgid ""
+"Some rights are reserved as specified by Creative Commons Attribution - "
+"NonCommercial version 4.0 licence, which can be accessed on"
+msgstr ""
+
+#. type: minipageparindent
+#: contents_tex/introduction.en.tex:21
+msgid ""
+"\\textbf{No Board Games} is an international group that creates radical "
+"board games.  Check for gameplay videos on our website: \\url{https://"
+"noboardgames.com}"
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/introduction.en.tex:35
+msgid ""
+"\\textit{You are reading the version 1.0 of the rulebook, printed in English "
+"and Italian. For new revisions and more translations, check our website. If "
+"you want to contribute translations, contact us at: info@noboardgames.com "
+"The development and discussion on the rules will continue on BoardGameGeek "
+"forum \"Rules\". Log your games on the forum \"Sessions\".} \\url{https://"
+"boardgamegeek.com/boardgame/357812/fully-automated-board-game/forums/}"
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/introduction.en.tex:37
+msgid "Printed in Poland by Fabryka Kart, 2025."
+msgstr ""
+
+#. type: section{#2}
+#: contents_tex/introduction.en.tex:39
+msgid "ACKNOWLEDGEMENTS"
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/introduction.en.tex:41
+msgid "\\textbf{Design}: Matteo Modena, Ilario Gelmetti"
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/introduction.en.tex:43
+msgid "\\textbf{Art}: Bernardo \"RUPE\" Anichini - IG: \\texttt{@rupe\\_b}"
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/introduction.en.tex:47
+msgid ""
+"\\textbf{Testing}: Ilario Gelmetti, Matteo Modena, Matteo Paolini, Giulio "
+"Mazzocchi,Bernardo Anichini, Emanuele Croce, Dan Howitt, Luis Gutiérrez, "
+"Nicola Fiorillo, Loz, Riccardo Bernori, Luna Golino, Michele Bertoldi"
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/introduction.en.tex:49
+msgid "\\textbf{Communication}: Matteo Paolini, Matteo Modena"
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/introduction.en.tex:51
+msgid "\\textbf{Video}: Davide Morittu"
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/introduction.en.tex:54
+msgid ""
+"We want to thank all the backers that trusted us during the crowdfunding "
+"campaign, and specifically \"The Boss\" backers: \\textbf{Rock Castle}, "
+"\\textbf{Matteo R.} and \\textbf{Comrade Alex}!"
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/introduction.en.tex:58
+msgid ""
+"Also, this game would not have been possible without the countless online "
+"testing sessions that were joined by many. Special thanks go to the heroic "
+"\\textbf{Dan Howitt} and the unstoppable \\textbf{Luis Gutiérrez}."
+msgstr ""
+
+#. type: section{#2}
+#: contents_tex/introduction.en.tex:61
+msgid "BACKGROUND"
+msgstr ""
+
+#. type: epigraph{#1}
+#: contents_tex/introduction.en.tex:63
+msgid "The working class and the employing class have nothing in common."
+msgstr ""
+
+#. type: textit{#1}
+#: contents_tex/introduction.en.tex:63
+msgid "Industrial Workers of the World"
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/introduction.en.tex:76
+msgid ""
+"There will never be peace between the oppressed and the oppressors, and thus "
+"between master and subordinate. From the first utopian socialists to the "
+"present day, a new vision of social change has emerged, one based on class "
+"struggle. The employers have acquired their wealth on the systematic "
+"exploitation of the working class, leveraged technology to fuel this "
+"mechanism, and for avoiding strikes and sabotage. Faced with new "
+"technologies, capable of speeding up and improving the efficiency of "
+"production, some have responded with sabotage and destruction, such as the "
+"Luddite movement*, and those who have claimed all the benefits, such as the "
+"Left-wing Accelerationist movement. This game encourages you to confront the "
+"question of the automation of work, the ever decreasing need of wageworkers, "
+"and, more generally, with the concept of class struggle. Because there will "
+"always be class struggle as long as power and resources are not distributed "
+"equally among people."
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/introduction.en.tex:79
+msgid ""
+"*The Luddite movement was a class struggle in England during the 19th "
+"century, whereby workers struggled against their labours being replaced with "
+"machinery."
+msgstr ""
+
+#. type: section{#2}
+#: contents_tex/introduction.en.tex:82
+msgid "OVERVIEW"
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/introduction.en.tex:85
+msgid ""
+"Take the role of a greedy boss (representing the Bourgeoisie) or suffer the "
+"burden of a worker (representing the Proletariat)."
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/introduction.en.tex:89
+msgid ""
+"As a \\textbf{worker}, you must negotiate and accept Contracts from the "
+"bosses, to collect enough coins to pay your Rent and \\textbf{survive}. But "
+"only a collective and coordinated \\textbf{strike} will bring victory to the "
+"workers."
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/introduction.en.tex:93
+msgid ""
+"As a \\textbf{boss}, you control the production, the money, and therefore "
+"the workers. You must offer the favoured Contracts and \\textbf{accumulate "
+"the greatest profit} before your competitor does."
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/introduction.en.tex:96
+msgid ""
+"The Fully Automated Board Game is a fusion of negotiation, hidden roles, "
+"bluffing, voting, and class struggle."
+msgstr ""
+
+#. type: section{#2}
+#: contents_tex/introduction.en.tex:99
+msgid "COMPONENTS"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/introduction.en.tex:103
+msgid "2 Boss cards - Bourgeoisie (blue card with a blue pig symbol)"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/introduction.en.tex:105
+msgid "10 Worker character cards:"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/introduction.en.tex:109
+msgid "4 Proletarians - Virtual pauper (red card with a red flag symbol)"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/introduction.en.tex:112
+msgid "3 Startupper - Petite bourgeoisie (red card with a blue pig symbol)"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/introduction.en.tex:115
+msgid ""
+"2 Scab - Workaholic (red card with a symbol of a mug \"I \\textless3 "
+"Mondays\")"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/introduction.en.tex:119
+msgid "1 Luddite - Saboteur (red card with a bomb symbol)"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/introduction.en.tex:131
+msgid "10 Robot cards (blue and red sides)"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/introduction.en.tex:131
+msgid "17 Event cards"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/introduction.en.tex:131
+msgid "6 Contracts cards"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/introduction.en.tex:131
+msgid "1 Union Fund card"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/introduction.en.tex:131
+msgid "1 Public Work card"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/introduction.en.tex:131
+msgid "1 Mayor card"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/introduction.en.tex:131
+msgid "1 Security Guard card"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/introduction.en.tex:131
+msgid "6 Phase cards"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/introduction.en.tex:131
+msgid "8 Personal tokens for workers"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/introduction.en.tex:131
+msgid "1 Phase marker token"
+msgstr ""
+
+#. type: subsubsection{#2}
+#: The_Fully_Automated_Board_Game.en.tex:75
+#: contents_tex/introduction.en.tex:153
+msgid "PHASE MARKER TOKEN"
+msgstr ""
+
+#. type: Plain text
+#: The_Fully_Automated_Board_Game.en.tex:75
+#: contents_tex/introduction.en.tex:153
+msgid ""
+"In this box, we decided to not include any component representing the "
+"\\faRubleSign\\ money. Instead, we propose you to use real coins. This will "
+"make the gameplay feel more \"real\" and allows us to reduce the materials, "
+"thus making the box smaller, more portable, and its fabrication less "
+"polluting. For the same reason, this game has been fabricated with the eco-"
+"friendly materials and methods of Fabryka Kart in Poland.  At the end of "
+"each game session, we encourage you to take all the real coins used as in-"
+"game currency and make a donation to a union or a social project, in the "
+"real world! Consider this a way of helping your local social community.  "
+"Reach out, maybe we can recommend some entity!"
+msgstr ""
+
+#. type: chapter{#2}
+#: The_Fully_Automated_Board_Game.en.tex:77
+msgid "Rules for 5 to 10 players"
+msgstr ""
+
+#. type: section{#2}
+#: contents_tex/five_to_ten_players.en.tex:6
+#: contents_tex/two_to_four_players.en.tex:6
+msgid "NUMBER OF PLAYERS"
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/five_to_ten_players.en.tex:9
+msgid ""
+"\\textbf{Beware!} The rules of the 5–10 \\faPeopleGroup\\ game are very "
+"different from the ones for 2–4 \\faPeopleGroup! \\textbf{Some cards have a "
+"text saying} \"5–10 \\faPeopleGroup\": this is the side to use for games "
+"from 5 to 10 players."
+msgstr ""
+
+#. type: section{#2}
+#: contents_tex/five_to_ten_players.en.tex:13
+#: contents_tex/two_to_four_players.en.tex:13
+msgid "SET-UP"
+msgstr ""
+
+#. type: tabular
+#: contents_tex/five_to_ten_players.en.tex:30
+msgid "Number of PLAYERS"
+msgstr ""
+
+#. type: tabular
+#: contents_tex/five_to_ten_players.en.tex:30
+msgid "Role: Boss"
+msgstr ""
+
+#. type: tabular
+#: contents_tex/five_to_ten_players.en.tex:30
+msgid "Role: Prolet"
+msgstr ""
+
+#. type: tabular
+#: contents_tex/five_to_ten_players.en.tex:30
+msgid "Role: Startupper"
+msgstr ""
+
+#. type: tabular
+#: contents_tex/five_to_ten_players.en.tex:30
+msgid "Role: Scab"
+msgstr ""
+
+#. type: tabular
+#: contents_tex/five_to_ten_players.en.tex:30
+msgid "Role: Luddite"
+msgstr ""
+
+#. type: tabular
+#: contents_tex/five_to_ten_players.en.tex:30
+msgid "Jobs from PUBLIC WORK card"
+msgstr ""
+
+#. type: tabular
+#: contents_tex/five_to_ten_players.en.tex:30
+#: contents_tex/five_to_ten_players.en.tex:121
+msgid "[0.5ex]"
+msgstr ""
+
+#. type: tabular
+#: contents_tex/five_to_ten_players.en.tex:30
+msgid "\\textbf{02 - 04} \\faPeopleGroup \\rule[-2ex]{0pt}{5.5ex}"
+msgstr ""
+
+#. type: tabular
+#: contents_tex/five_to_ten_players.en.tex:30
+msgid "\\multicolumn{6}{c}{GO TO PAGE \\pageref{ch:2-4} OF THIS RULEBOOK!}"
+msgstr ""
+
+#. type: tabular
+#: contents_tex/five_to_ten_players.en.tex:30
+msgid "\\textbf{05} \\faPeopleGroup \\rule[-2ex]{0pt}{3.5ex}"
+msgstr ""
+
+#. type: tabular
+#: contents_tex/five_to_ten_players.en.tex:30
+msgid "2"
+msgstr ""
+
+#. type: tabular
+#: contents_tex/five_to_ten_players.en.tex:30
+msgid "1"
+msgstr ""
+
+#. type: tabular
+#: contents_tex/five_to_ten_players.en.tex:30
+msgid "--"
+msgstr ""
+
+#. type: tabular
+#: contents_tex/five_to_ten_players.en.tex:30
+msgid "\\textbf{06} \\faPeopleGroup \\rule[-2ex]{0pt}{3.5ex}"
+msgstr ""
+
+#. type: tabular
+#: contents_tex/five_to_ten_players.en.tex:30
+msgid "\\textbf{07} \\faPeopleGroup \\rule[-2ex]{0pt}{3.5ex}"
+msgstr ""
+
+#. type: tabular
+#: contents_tex/five_to_ten_players.en.tex:30
+msgid "\\textbf{08} \\faPeopleGroup \\rule[-2ex]{0pt}{3.5ex}"
+msgstr ""
+
+#. type: tabular
+#: contents_tex/five_to_ten_players.en.tex:30
+msgid "\\textbf{09} \\faPeopleGroup \\rule[-2ex]{0pt}{3.5ex}"
+msgstr ""
+
+#. type: tabular
+#: contents_tex/five_to_ten_players.en.tex:30
+msgid "3"
+msgstr ""
+
+#. type: tabular
+#: contents_tex/five_to_ten_players.en.tex:30
+msgid "\\textbf{10} \\faPeopleGroup \\rule[-2ex]{0pt}{3.5ex}"
+msgstr ""
+
+#. type: tabular
+#: contents_tex/five_to_ten_players.en.tex:30
+#: contents_tex/five_to_ten_players.en.tex:121
+msgid "[1ex]"
+msgstr ""
+
+#. type: enumerate
+#: contents_tex/five_to_ten_players.en.tex:39
+msgid ""
+"Take the role cards following the table, shuffle and hand out one card face "
+"down to each player. \\textbf{Two} players will have the \\textbf{boss} role "
+"and the \\textbf{rest will be workers}."
+msgstr ""
+
+#. type: enumerate
+#: contents_tex/five_to_ten_players.en.tex:39
+msgid ""
+"Each worker should check the \\textbf{role} but \\textbf{keep it secret}."
+msgstr ""
+
+#. type: enumerate
+#: contents_tex/five_to_ten_players.en.tex:39
+msgid ""
+"Give a \\textbf{personal token} to each worker. Try to find the best suited "
+"token for each person, so that the association will be easier to remember. "
+"Keep aside the hourglass token."
+msgstr ""
+
+#. type: enumerate
+#: contents_tex/five_to_ten_players.en.tex:85
+msgid ""
+"Place the \\textbf{Robots} (stacked), \\textbf{Public Work}, \\textbf{Union "
+"Fund}, \\textbf{Mayor}, and \\textbf{Security Guard} cards at the centre of "
+"the table."
+msgstr ""
+
+#. type: enumerate
+#: contents_tex/five_to_ten_players.en.tex:85
+msgid ""
+"Place the 6 \\textbf{phase cards} (on the \"5–10 \\faPeopleGroup\" side) "
+"face up one next to the other at the centre of the table. Place the "
+"\\textbf{phase marker token} (the one with an hourglass drawing) on the "
+"first phase card."
+msgstr ""
+
+#. type: enumerate
+#: contents_tex/five_to_ten_players.en.tex:85
+msgid ""
+"Create a space for the \\textbf{Bank} where you put a \\textbf{pile of "
+"coins}. Take plenty of coins, the exact amount is not important (for a 5 "
+"\\faPeopleGroup\\ game, you will need approximately 60 coins representing 60 "
+"\\faRubleSign). Use some real coins, if you have them, for representing the "
+"\\faRubleSign, the in-game currency. If you don't have coins at hand, you "
+"can use anything you \"borrowed\" from work or any other small and "
+"homogeneous object you can find. Alternatively, take note of the amount of "
+"coins on a piece of paper."
+msgstr ""
+
+#. type: enumerate
+#: contents_tex/five_to_ten_players.en.tex:85
+msgid ""
+"Each \\textbf{Boss starts with 10 \\faRubleSign}\\ coins, and workers with 0 "
+"\\faRubleSign."
+msgstr ""
+
+#. type: enumerate
+#: contents_tex/five_to_ten_players.en.tex:85
+msgid ""
+"The two halves of the game box can be handed to the bosses for covering and "
+"keeping their amount of coins secret."
+msgstr ""
+
+#. type: enumerate
+#: contents_tex/five_to_ten_players.en.tex:85
+msgid ""
+"The bosses decide which activity they want to compete over. In the spirit of "
+"the game, players are encouraged to \\textbf{role-play from this point on}, "
+"starting with each boss announcing the name of their company and their "
+"unique winning business model."
+msgstr ""
+
+#. type: subsubsection{#2}
+#: contents_tex/five_to_ten_players.en.tex:92
+#: contents_tex/five_to_ten_players.en.tex:235
+#: contents_tex/five_to_ten_players.en.tex:394
+#: contents_tex/five_to_ten_players.en.tex:443
+#: contents_tex/five_to_ten_players.en.tex:507
+#: contents_tex/two_to_four_players.en.tex:185
+#: contents_tex/two_to_four_players.en.tex:247
+#: contents_tex/two_to_four_players.en.tex:292
+#: contents_tex/two_to_four_players.en.tex:332
+#: contents_tex/two_to_four_players.en.tex:365
+msgid "EXAMPLE"
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/five_to_ten_players.en.tex:98
+msgid ""
+"\\itsmall{The bosses decide they will compete in the production of spicy "
+"watermelon-flavoured toilet paper. Boss X asserts that \"Hot bottom roots\" "
+"will be successful as their product is sustainable, because it embeds "
+"watermelon seeds in the paper. Boss Y defends that the patented idea of "
+"having triangular shaped paper will crush the competition, making \"Rusty "
+"nachos\" the most used toilet paper worldwide.}"
+msgstr ""
+
+#. type: section{#2}
+#: contents_tex/five_to_ten_players.en.tex:102
+#: contents_tex/two_to_four_players.en.tex:54
+msgid "VICTORY CONDITIONS"
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/five_to_ten_players.en.tex:106
+msgid ""
+"Whoever achieves the \\textbf{victory} conditions, \\textbf{at any moment}, "
+"can declare victory, and end the game. It can happen for more than one "
+"player at the same time. In this case, all these players win the game."
+msgstr ""
+
+#. type: subsection{#2}
+#: contents_tex/five_to_ten_players.en.tex:108
+msgid "BOSS' VICTORY"
+msgstr ""
+
+#. type: textbf{#1}
+#: contents_tex/five_to_ten_players.en.tex:110
+msgid "A boss wins when reaching a certain amount of coins."
+msgstr ""
+
+#. type: tabular
+#: contents_tex/five_to_ten_players.en.tex:121
+msgid "\\faPeopleGroup\\ Total number of players (workers + 2 bosses)"
+msgstr ""
+
+#. type: tabular
+#: contents_tex/five_to_ten_players.en.tex:121
+msgid "5"
+msgstr ""
+
+#. type: tabular
+#: contents_tex/five_to_ten_players.en.tex:121
+msgid "6"
+msgstr ""
+
+#. type: tabular
+#: contents_tex/five_to_ten_players.en.tex:121
+msgid "7"
+msgstr ""
+
+#. type: tabular
+#: contents_tex/five_to_ten_players.en.tex:121
+msgid "8"
+msgstr ""
+
+#. type: tabular
+#: contents_tex/five_to_ten_players.en.tex:121
+msgid "9"
+msgstr ""
+
+#. type: tabular
+#: contents_tex/five_to_ten_players.en.tex:121
+msgid "10"
+msgstr ""
+
+#. type: tabular
+#: contents_tex/five_to_ten_players.en.tex:121
+msgid "Boss' victory condition (coins)"
+msgstr ""
+
+#. type: tabular
+#: contents_tex/five_to_ten_players.en.tex:121
+msgid "35 \\faRubleSign"
+msgstr ""
+
+#. type: tabular
+#: contents_tex/five_to_ten_players.en.tex:121
+msgid "40 \\faRubleSign"
+msgstr ""
+
+#. type: tabular
+#: contents_tex/five_to_ten_players.en.tex:121
+msgid "45 \\faRubleSign"
+msgstr ""
+
+#. type: tabular
+#: contents_tex/five_to_ten_players.en.tex:121
+msgid "50 \\faRubleSign"
+msgstr ""
+
+#. type: tabular
+#: contents_tex/five_to_ten_players.en.tex:121
+msgid "55 \\faRubleSign"
+msgstr ""
+
+#. type: tabular
+#: contents_tex/five_to_ten_players.en.tex:121
+msgid "60 \\faRubleSign"
+msgstr ""
+
+#. type: subsection{#2}
+#: contents_tex/five_to_ten_players.en.tex:123
+msgid "WORKERS COLLECTIVE VICTORY"
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/five_to_ten_players.en.tex:132
+msgid ""
+"\\textbf{All the workers win collectively} when they manage to achieve full "
+"automation, meaning they manage to \\textbf{expropriate as many robots as "
+"the number of workers}.  For games with at least 6 \\faPeopleGroup, when a "
+"Luddite role is present, the robots destroyed by the Luddite also count "
+"towards the workers' collective victory.  After an epic victory, the players "
+"are encouraged to collect all the metallic coins used for playing and use "
+"them for making a donation to a workers' union or social movement. In the "
+"real world! We mean, out of this game, give those pennies some real use!"
+msgstr ""
+
+#. type: subsection{#2}
+#: contents_tex/five_to_ten_players.en.tex:134
+msgid "STARTUPPERS' VICTORY"
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/five_to_ten_players.en.tex:142
+msgid ""
+"The worker with the \\textbf{Startupper} secret role can win with "
+"\\textbf{workers' collective victory} conditions or \\textbf{individually} "
+"with a \\textbf{Class Betrayal}: Accumulating \\textbf{as many coins as the "
+"total number of players} (workers + 2 bosses). The Startupper "
+"\\textbf{cannot} declare the individual victory \\textbf{while Stressed}. "
+"Also, for reaching the needed amount of cash, the Startupper can "
+"\\textbf{steal} all the coins from the \\textbf{Union Fund} card.  The "
+"Startupper victory (the victory of the small-medium enterprise) means that a "
+"worker earns a lot and opens a new business!"
+msgstr ""
+
+#. type: subsection{#2}
+#: contents_tex/five_to_ten_players.en.tex:144
+msgid "SCABS' VICTORY"
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/five_to_ten_players.en.tex:148
+msgid ""
+"Each \\textbf{Scab} can win with \\textbf{workers' collective victory} "
+"conditions or \\textbf{together with a boss}: when a boss declares victory, "
+"the Scab also wins \\textbf{if has been working} (not striking!) "
+"\\textbf{for that boss} in the same turn (regardless if the Scab is Stressed "
+"or not)."
+msgstr ""
+
+#. type: subsection{#2}
+#: contents_tex/five_to_ten_players.en.tex:150
+msgid "LUDDITE'S VICTORY"
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/five_to_ten_players.en.tex:156
+msgid ""
+"[6–10 \\faPeopleGroup.] The \\textbf{Luddite} can win with \\textbf{workers' "
+"collective victory} conditions (counting all the expropriated and the "
+"destroyed robots) or \\textbf{individually}. The individual victory happens "
+"for the Luddite as soon as \\textbf{3 robots get destroyed}. To understand "
+"how robots can be destroyed by the Luddite, see what happens in a failed "
+"strike during phase 2 \"Strike\"."
+msgstr ""
+
+#. type: subsection{#2}
+#: contents_tex/five_to_ten_players.en.tex:158
+msgid "EARLY ENDING OF THE GAME - MONOPOLY"
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/five_to_ten_players.en.tex:165
+msgid ""
+"\\textbf{If a boss is eliminated} from the game (i.e. cannot pay Rent, or "
+"cannot buy a robot after a successful Acceleration Strike held by the "
+"workers), a \\textbf{Monopoly} is formed by the other boss. The workers "
+"immediately and automatically expropriate the robots of the bankrupted "
+"boss.  In a Monopoly situation, the winner gets determined based on the "
+"\\textbf{number of robots controlled by the workers}:"
+msgstr ""
+
+#. type: enumerate
+#: contents_tex/five_to_ten_players.en.tex:172
+msgid ""
+"If the workers have at least as many robots (expropriated or destroyed by "
+"the Luddite) as half of the number of workers (rounded up), they "
+"collectively win (i.e. 3 workers with 2 robots, 4 workers with 2 robots...);"
+msgstr ""
+
+#. type: enumerate
+#: contents_tex/five_to_ten_players.en.tex:172
+msgid "Otherwise, the surviving boss wins."
+msgstr ""
+
+#. type: section{#2}
+#: contents_tex/five_to_ten_players.en.tex:174
+#: contents_tex/two_to_four_players.en.tex:91
+msgid "GAMEPLAY"
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/five_to_ten_players.en.tex:179
+msgid ""
+"The game is played in rounds until 1 or more players achieve their victory "
+"conditions.  When this happens, the game immediately ends.  A round consists "
+"of \\textbf{6 phases}. Each phase is played a little differently; there is "
+"no player turn order, and the actions of bosses or workers can take will "
+"differ."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:194
+msgid ""
+"\\textbf{Phase 1 HIRING}: bosses compete for workers by offering Contracts; "
+"and may acquire robots to bolster production. Workers must choose a "
+"Contract.  Players can discuss openly and negotiate."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:194
+msgid ""
+"\\textbf{Phase 2 STRIKE}: bosses may compete for the Security Guard. Each "
+"worker must decide to work or to strike. Players can discuss intentions, but "
+"must decide and then reveal their actual action during a simultaneous vote."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:194
+msgid ""
+"\\textbf{Phase 3 PRODUCTION}: bosses gain coins from the Bank, equal to the "
+"production or their workers and robots."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:194
+msgid "\\textbf{Phase 4 PAYDAY}: bosses may pay their workers' salaries."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:194
+msgid "\\textbf{Phase 5 RENT}: both bosses and workers pay their Rent."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:194
+msgid ""
+"\\textbf{Phase 6 UNION FUND}: workers may place their coins into the shared "
+"Union Fund."
+msgstr ""
+
+#. type: section{#2}
+#: contents_tex/five_to_ten_players.en.tex:198
+msgid "Phase 1 HIRING"
+msgstr ""
+
+#. type: subsection{#2}
+#: contents_tex/five_to_ten_players.en.tex:200
+#: contents_tex/five_to_ten_players.en.tex:249
+#: contents_tex/five_to_ten_players.en.tex:377
+#: contents_tex/five_to_ten_players.en.tex:403
+#: contents_tex/five_to_ten_players.en.tex:468
+msgid "BOSSES ACTIONS"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:213
+msgid ""
+"\\textbf{May acquire} as many \\textbf{robots} as they are able to; return 6 "
+"\\faRubleSign\\ coins to the Bank (the pile of no one's coins) and place 1 "
+"robot in front of them, blue side face up."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:213
+msgid ""
+"Must outline their \\textbf{Contract offers} - in return for work, how many "
+"coins will Workers receive. Contracts are \\textbf{not binding}. Contracts "
+"can be verbal or written, the role playing is up to you."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:213
+msgid ""
+"\\textbf{Holidays}: in addition to a salary, Contracts may include Holidays. "
+"This does not have an extra cost for the boss. During phase 4 Payday, "
+"Holidays allow workers to \\textbf{eliminate Stress}. To understand how "
+"workers can get Stressed, see phase 5 Rent."
+msgstr ""
+
+#. type: subsection{#2}
+#: contents_tex/five_to_ten_players.en.tex:215
+#: contents_tex/five_to_ten_players.en.tex:256
+#: contents_tex/five_to_ten_players.en.tex:385
+#: contents_tex/five_to_ten_players.en.tex:414
+#: contents_tex/five_to_ten_players.en.tex:474
+#: contents_tex/five_to_ten_players.en.tex:539
+#: contents_tex/two_to_four_players.en.tex:131
+#: contents_tex/two_to_four_players.en.tex:200
+#: contents_tex/two_to_four_players.en.tex:260
+#: contents_tex/two_to_four_players.en.tex:313
+#: contents_tex/two_to_four_players.en.tex:343
+msgid "WORKERS ACTIONS"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:225
+msgid "May attempt to negotiate with the bosses for better pay."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:225
+msgid ""
+"Must \\textbf{pick who they will work for} by giving a boss their personal "
+"token."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:225
+msgid ""
+"Depending on the number of players, at most [5–6 \\faPeopleGroup] one, or [7–"
+"8 \\faPeopleGroup] two, or [9–10 \\faPeopleGroup] three workers may "
+"\\textbf{alternatively perform Public Work}, by placing their personal token "
+"on the Public Work card."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:225
+msgid ""
+"\\textbf{Public Work} provides some workers (max. 1, 2, or 3 depending on "
+"the number of players), with a Contract for a \\textbf{single round}, paying "
+"\\textbf{1 coin} with \\textbf{included Holidays}."
+msgstr ""
+
+#. type: subsection{#2}
+#: contents_tex/five_to_ten_players.en.tex:227
+#: contents_tex/five_to_ten_players.en.tex:319
+#: contents_tex/five_to_ten_players.en.tex:392
+#: contents_tex/five_to_ten_players.en.tex:427
+#: contents_tex/five_to_ten_players.en.tex:489
+#: contents_tex/two_to_four_players.en.tex:139
+#: contents_tex/two_to_four_players.en.tex:209
+#: contents_tex/two_to_four_players.en.tex:274
+#: contents_tex/two_to_four_players.en.tex:324
+#: contents_tex/two_to_four_players.en.tex:350
+msgid "ADDITIONAL DETAILS AND EXAMPLES"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:233
+msgid ""
+"Contracts given to workers can pay 0, up to anything a boss determines.  "
+"Contracts can include promises of future pay increases. Contracts given to "
+"individual workers can differ. Role playing/creativity when giving out "
+"Contracts is encouraged!"
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/five_to_ten_players.en.tex:243
+msgid ""
+"\\itsmall{Boss X offers one Contract for 2 \\faRubleSign\\ and one "
+"internship Contract starting from 0 and increasing by 1 coin each round. "
+"Boss Y returns 6 \\faRubleSign\\ to the Bank to purchase 1 robot. And offers "
+"three Contracts for 1 coin. Diana, the Luddite, rushes to take the only 2-"
+"coins Contract, giving her personal token to boss X. Caino, the Startupper, "
+"takes the Public Work, placing his player token on the Public Work card. As "
+"there are 6 players (2 bosses + 4 workers) there is only 1 Public Work job "
+"available. Beata, the Scab, believes in meritocracy and trusts boss X, so "
+"takes the internship Contract. Abele, the Prolet, takes one of the 1-coin "
+"Contracts from boss Y.}"
+msgstr ""
+
+#. type: section{#2}
+#: contents_tex/five_to_ten_players.en.tex:247
+msgid "Phase 2 STRIKE"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:254
+msgid ""
+"\\textbf{Must bid for the Security Guard}, even if their bid is 0, "
+"\\textbf{using fingers} to indicate a number from 0 to 5 \\textbf{during the "
+"simultaneous voting}."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:261
+msgid ""
+"\\textbf{All non-Stressed workers} must decide to strike or work; using, "
+"\\textbf{during the simultaneous voting}, a \\textbf{closed fist to strike "
+"or an open hand to work}."
+msgstr ""
+
+#. type: subsection{#2}
+#: contents_tex/five_to_ten_players.en.tex:263
+#: contents_tex/five_to_ten_players.en.tex:480
+msgid "ALL PLAYERS"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:268
+msgid ""
+"\\textbf{Simultaneous voting}: all the bosses and the non-Stressed workers "
+"place their hands in the centre of the table, then \\textbf{simultaneously "
+"reveal their action}."
+msgstr ""
+
+#. type: subsection{#2}
+#: contents_tex/five_to_ten_players.en.tex:270
+msgid "VOTE RESOLUTION"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:317
+msgid ""
+"First thing after the vote, \\textbf{both bosses pay} to the Bank an amount "
+"of coins equal to \\textbf{their bid multiplied by the number of robots} "
+"each of them controls.  For example: if a boss has 2 robots and indicated "
+"the number 3 with the fingers, will have to pay 6 to the Bank. If the boss "
+"has no robots, they will simply pay the bid amount, like if she had 1 robot."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:317
+msgid ""
+"The winner of the bidding is the boss with the \\textbf{highest bid}: the "
+"one who indicated the highest number \\textbf{with the fingers}, regardless "
+"the actually paid amount."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:317
+msgid ""
+"\\textbf{Security Guard card}: then, the boss who won the bidding, receives "
+"the Security Guard card for this round. This \\textbf{protects} this boss "
+"from \\textbf{Expropriation Strike and Sabotage}. It does not protect "
+"against Acceleration Strike."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:317
+msgid ""
+"If both bosses bid the same amount with the fingers, neither receives the "
+"Security Guard, yet both have to pay."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:317
+msgid ""
+"For a \\textbf{strike to be successful}, the \\textbf{majority of workers} "
+"must take the \\textbf{strike action} (e.g. with 4 workers, 3 workers must "
+"strike). In case of tie (i.e. 2 out of 4 workers striking) or when just a "
+"minority strikes, the strike fails. For calculating the required majority, "
+"also the Stressed workers are considered (e.g. with 4 workers in total, if 2 "
+"are Stressed it is impossible to reach the majority, as the Stressed ones "
+"cannot strike)."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:317
+msgid ""
+"\\textbf{Failed Strike}: [5 \\faPeopleGroup] In absence of the Luddite role, "
+"nothing happens, simply the striking workers will not produce during phase 3 "
+"Production. [6–10 \\faPeopleGroup] The \\textbf{Luddite could attack}! If at "
+"least two workers participated in a failed strike (which did not reach the "
+"majority) and there is at least one robot in the game (either associated to "
+"a worker or owned by a boss but not protected by the Security Guard card), "
+"the bosses close their eyes and both count down aloud from 10. At this "
+"moment, if the Luddite was one of the participants of the failed strike, "
+"\\textbf{may destroy one robot} (either assigned to a worker or owned by a "
+"boss, unless the Security Guard is protecting it). The Luddite can take the "
+"robot card and put it in a robots' rubbish pile (any place on the table, "
+"just make clear that this robot is not assigned to any player). The "
+"destroyed robots won't produce coins for anyone, but will count towards the "
+"workers' collective victory condition together with the expropriated robots. "
+"Also, destroying robots helps the Luddite to achieve an individual victory: "
+"If 3 robots get destroyed (over 3 failed strikes), see Luddite's victory "
+"conditions."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:317
+msgid ""
+"If a \\textbf{strike} is \\textbf{successful}; workers involved must "
+"collectively \\textbf{decide} to \\textbf{Expropriate} a robot or "
+"\\textbf{Accelerate} the acquisition of a robot. If the workers cannot agree "
+"on what type of strike they want to carry out, then the bosses decide."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:317
+msgid ""
+"\\textbf{Expropriation strike}: workers \\textbf{take a single blue robot "
+"owned by a boss} (excluding the boss whose robots are protected by the "
+"Security Guard), flip the card to the red side and \\textbf{assign it to a "
+"single worker}. If the workers cannot agree on who keeps the robot, the "
+"bosses choose which worker will receive it."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:317
+msgid ""
+"\\textbf{Acceleration strike}: forcing a single \\textbf{boss to purchase a "
+"blue robot} instantly, paying its cost immediately (6 \\faRubleSign). This "
+"robot remains in control of the boss."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:329
+msgid "\\textbf{Stressed workers cannot strike} and so must work."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:329
+msgid ""
+"The non-Stressed workers who took the Public Work, if any, can strike but "
+"would receive neither the related 1-coin salary nor the free Holidays."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:329
+msgid ""
+"\\textbf{Workers who strike will not produce} during phase 3 Production for "
+"their boss, regardless if the strike was successful or not."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:329
+msgid ""
+"At the end of this phase, return the Security Guard card to the centre of "
+"the table."
+msgstr ""
+
+#. type: subsubsection{#2}
+#: contents_tex/five_to_ten_players.en.tex:331
+msgid "EXAMPLE: Security Guard"
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/five_to_ten_players.en.tex:344
+msgid ""
+"\\itsmall{During the simultaneous voting, boss Y bids 1 with one finger, "
+"supposing that it will be enough for protecting their shiny new robot. But "
+"boss X, evil in nature, also bids 1, even without having any robot to "
+"protect! As they both bid the same, nobody gets the Security Guard and boss "
+"Y's shiny robot is unprotected, exactly what boss X was hoping for. Even if "
+"nobody got the Security Guard, both bosses have to pay.  Boss Y pays their "
+"bid of 1 multiplied by 1 (1 robot): for a total of 1. This mastermind move "
+"will not be free for boss X: They control no robots but must still pay their "
+"bid of 1.\\newline ... in a later round, boss X has 1 robot and bids 3, "
+"while boss Y has 2 robots and bids 2. In this case, boss X pays 3 to the "
+"Bank, boss Y pays 4 (2 multiplied by 2 robots).  Boss X is protected by the "
+"Security Guard (Boss X bid higher, despite boss Y paying more).}"
+msgstr ""
+
+#. type: subsubsection{#2}
+#: contents_tex/five_to_ten_players.en.tex:346
+msgid "EXAMPLE: Strike"
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/five_to_ten_players.en.tex:356
+msgid ""
+"\\itsmall{At the same time of the bosses' bidding, the workers' vote "
+"happens. Abele, Caino, and Diana, in an optimism surge, close their fists to "
+"indicate that they are striking, while Beata keeps it open and goes to work. "
+"With 3 participants, the majority of the workers' is secured and the strike "
+"is successful. At this point, Abele, Caino and Diana can decide to "
+"Accelerate (force one boss to buy a robot immediately) or to Expropriate one "
+"of the robots a boss already owns. They decide to take one of the robots "
+"from boss Y, that are not protected by the Security Guard. Caino the "
+"Startupper asks Abele and Diana if he can keep the robot, they have nothing "
+"against this and they accept.}"
+msgstr ""
+
+#. type: subsubsection{#2}
+#: contents_tex/five_to_ten_players.en.tex:358
+msgid "EXAMPLE: Sabotage"
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/five_to_ten_players.en.tex:371
+msgid ""
+"\\itsmall{[6–10 \\faPeopleGroup: the Luddite role is present] ... the next "
+"round, boss X has 1 robot and again manages to get the Security Guard, and "
+"boss Y also has 1 robot. At the same time as the bosses' bidding, the "
+"workers reveal their votes: Abele the Prolet and Diana the Luddite close "
+"their hands in a fist (they strike), while Beata keeps her hand open (she "
+"works). Caino has to go to work, as he got Stressed in the previous round "
+"(he couldn't pay the Rent in phase 5). So, only two workers over four are "
+"striking, not reaching the majority needed for proceeding to a strike. Even "
+"if the strike failed, the Luddite (a secret role for games with at least 6 "
+"\\faPeopleGroup) can still do things! The bosses close their eyes and, "
+"aloud, count back from ten. In a rage, Diana the Luddite destroys boss Y's "
+"robot and swiftly moves boss Y's blue robot card to the centre of the table. "
+"Now the workers are one robot closer to the workers' collective victory, but "
+"the Luddite is also closer to an individual victory!}"
+msgstr ""
+
+#. type: section{#2}
+#: contents_tex/five_to_ten_players.en.tex:375
+msgid "Phase 3 PRODUCTION"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:383
+msgid ""
+"Each \\textbf{robot and non-striking worker produces 5 \\faRubleSign}\\ for "
+"their boss. Each boss gains coins from the Bank equal to the total "
+"production of their workers and robots."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:390
+msgid ""
+"Each \\textbf{expropriated robot produces 1} coin for the worker it is "
+"assigned to; gain coins from the Bank equal to total production."
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/five_to_ten_players.en.tex:398
+msgid ""
+"\\itsmall{Boss X has 1 robot producing 5 and a Contract with Beata who also "
+"produces 5.  Abele and Diana went on strike, so they don't produce. Caino's "
+"robot produces 1.  Boss X gains 10 \\faRubleSign; boss Y gains no coins; and "
+"Caino gains 1 coin.}"
+msgstr ""
+
+#. type: section{#2}
+#: contents_tex/five_to_ten_players.en.tex:401
+msgid "Phase 4 PAYDAY"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:412
+msgid ""
+"Decide on \\textbf{whether or not to pay their workers} as promised in the "
+"Contracts given. Each boss can decide whether to distribute the salary as "
+"promised, keep it with an excuse, pay it only in part, or keep promises with "
+"some worker/s and not with others. Most likely, whoever went on strike will "
+"not receive any salary. Also, if an offered Contract includes Holidays, the "
+"boss may remove the worker's Stress for free (Untap the character card)."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:425
+msgid ""
+"Each worker who took the \\textbf{Public Work} (if any) and did not strike, "
+"earns \\textbf{1 coin} and receive \\textbf{free Holidays}."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:425
+msgid ""
+"Also, each Stressed worker can \\textbf{pay for their own Holidays} by "
+"giving \\textbf{2 \\faRubleSign}\\ to the Bank. They may take this from "
+"their own money and/or from the Union Fund card (see phase 6 Union Fund)."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:425
+msgid ""
+"\\textbf{Holidays} allow workers to \\textbf{remove their Stress}. To "
+"understand how workers can get Stressed, see phase 5 Rent. To remove the "
+"Stress, \\textbf{Untap the character card}, placing it straight in front of "
+"the player."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:441
+msgid ""
+"The \\textbf{Mayor} is a \\textbf{prize lasting one round}. Initially, it is "
+"placed at the centre of the table, not assigned to any boss/worker. It goes "
+"to the boss who \\textbf{has at least one working} (non-striking) "
+"\\textbf{worker}, \\textbf{respects all the Contracts} (excluding the "
+"striking workers' Contracts), and \\textbf{pays at least 1 coin} to each "
+"working worker. If only one boss respects these conditions, the Mayor card "
+"goes to this boss, and will be very useful for dealing with the Rent in "
+"phase 5. If no boss deserves it, and at least one worker worked (didn't "
+"strike) for a boss (not for the Public Work), then one of the workers "
+"becomes the new Mayor (workers decide whom). Otherwise, if both bosses "
+"deserve it, or if no boss deserved it and no worker actually worked for any "
+"boss (so no boss had the possibility to respect the Contracts), then nobody "
+"gets the Mayor card."
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/five_to_ten_players.en.tex:462
+msgid ""
+"\\itsmall{Caino was Stressed, and worked for the Public Work, so he gets "
+"directly 1 coin and free Holidays, which means he is not Stressed any more "
+"and Untaps his character card. Beata worked for boss X, and asks for her 1-"
+"coin salary. But boss X had to gift to the firstborn a submarine trip for "
+"seeing the Titanic, and cannot spend more this month, apologizes follow. "
+"Abele and Diana, as they participated in a strike (even if a failed one) do "
+"not receive any salary. Boss Y had only an employee, Abele, but he went on "
+"strike, so boss Y cannot get the Mayor card (didn't have at least one "
+"working worker). Boss X had a Contract with Beata and another with Diana. "
+"Diana participated in a strike, so she is not relevant for deciding on the "
+"Mayor card. Beata instead went to work, yet her salary has not been paid. If "
+"her salary had been paid, boss X would have got the Mayor card. So, no boss "
+"deserves to be the Mayor, and Beata actually worked for boss X. This means "
+"that the Mayor card goes to a worker.  Everybody considers that Beata "
+"deserves it, so she gets elected as the new Mayor!\\newline [...] the next "
+"round, only Caino accepted to work for boss X with a 1-coin salary.  "
+"Unexpectedly, boss X respected the Contract and paid him 1 coin. Boss Y was "
+"hit by a mass strike instead, and didn't even have the option to pay the "
+"workers. Thanks to the gained trust, boss X becomes the \"lesser evil\" and "
+"gets elected as the new Mayor.}"
+msgstr ""
+
+#. type: section{#2}
+#: contents_tex/five_to_ten_players.en.tex:466
+msgid "Phase 5 RENT"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:472
+msgid ""
+"Each \\textbf{boss} must \\textbf{pay} a Rent of \\textbf{2 \\faRubleSign}\\ "
+"to the Bank."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:478
+msgid ""
+"Each \\textbf{worker} must \\textbf{pay} a Rent of \\textbf{1 coin} to the "
+"Bank."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:487
+msgid ""
+"The player, worker or boss, who has the \\textbf{Mayor card}, if any, can "
+"indicate \\textbf{which players} (just one, some of them, or all) "
+"\\textbf{will not pay} any Rent for this turn (herself/himself included). "
+"Additionally, this player can also \\textbf{increase the Rent by 1 coin for "
+"one player} for this turn."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:505
+msgid "\\textbf{If any worker cannot pay} the Rent:"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:505
+msgid ""
+"They may use the coins on the \\textbf{Union Fund} card for paying the Rent;"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:505
+msgid ""
+"If there are no coins on the Union Fund card, the workers who cannot pay "
+"\\textbf{get Stressed}: these players Tap (rotate 90 degrees) their "
+"character card. A Stressed worker cannot strike, so in phase 2 will have to "
+"go to work."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:505
+msgid ""
+"Any worker that has no coins and is already Stressed, just stays like that, "
+"without paying the Rent."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:505
+msgid ""
+"\\textbf{If a boss cannot pay the Rent}, see \\textbf{Early ending of the "
+"game - Monopoly}."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:505
+msgid ""
+"At the end of this phase, return the Mayor card to the centre of the table."
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/five_to_ten_players.en.tex:533
+msgid ""
+"\\itsmall{As the new Mayor, the first law issued by boss X is to close down "
+"the fine arts museum in order to limit public spending. The second law, "
+"assigned the same museum to be the new house of the Mayor. With an act of "
+"charity, boss X allows Caino, the most loyal of the workers, to be the "
+"housekeeper. So, neither boss X nor Caino will have to pay the Rent for this "
+"round. Additionally, the new Mayor declares a central street to be a new "
+"space for freedom of expression, allowing any kind of street artist to "
+"perform there, day and night. Obviously, the residents will have to "
+"contribute with the initiative, like paying the paint for the graffiti "
+"artists. Fortuitously, that's where boss Y resides, so boss Y's Rent will be "
+"raised to 3 \\faRubleSign\\ for this round.\\newline [...] the next round, "
+"Diana had some savings, and even after participating in two strikes can "
+"still pay her Rent to the Bank. Abele and Beata, instead, cannot pay the "
+"Rent. Luckily, there are some shared savings on the Union Fund card (see "
+"phase 6): 1 coin. This is enough for paying one Rent. Beata the Scab doesn't "
+"mind getting Stressed, so Abele takes that coin, and pays the Rent. Beata "
+"Taps the character card (rotating it by 90 degrees), and will not be able to "
+"participate in any strike until she manages to recover from the Stress. "
+"Caino was the only one to get a salary in this round, so now he can pay 1 "
+"coin of Rent. Boss X pays 2 \\faRubleSign, complaining about the increasing "
+"expenses for the air conditioning of his golf course. Instead, boss Y is "
+"completely out of coins and, desperate, declares the end of the \"Rusty "
+"nachos\" dream while boss X celebrates the new Monopoly situation.  This "
+"triggers an Early ending of the game - Monopoly. At this point, what matters "
+"is the number of robots controlled or destroyed by workers. Sadly, in boss "
+"Y's abandoned factory, there isn't even a robot to steal. So, now workers "
+"have 1 expropriated robot, and 1 destroyed robot: a total of 2 robots, that "
+"reaches half of the workers' number! All the workers win collectively, and "
+"celebrate playing boardgames while their robots cultivate and cook the "
+"dinner.}"
+msgstr ""
+
+#. type: section{#2}
+#: contents_tex/five_to_ten_players.en.tex:537
+msgid "Phase 6 UNION FUND"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:544
+msgid ""
+"Freely, each worker may now make new donations to the Union Fund. The coins "
+"on this card will help workers to pay the Rent in phase 5."
+msgstr ""
+
+#. type: subsection{#2}
+#: contents_tex/five_to_ten_players.en.tex:546
+msgid "ADDITIONAL DETAILS"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:551
+msgid ""
+"Note that the worker with the Startupper secret role may steal this money "
+"for winning the game at any moment!"
+msgstr ""
+
+#. type: textbf{#1}
+#: contents_tex/five_to_ten_players.en.tex:554
+msgid ""
+"At this point, the game continues with phase 1 and follows all the phases "
+"again."
+msgstr ""
+
+#. type: section{#2}
+#: contents_tex/five_to_ten_players.en.tex:556
+#: contents_tex/two_to_four_players.en.tex:373
+msgid "ADDITIONAL RULES"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:567
+msgid "Bosses can lend coins to each other."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:567
+msgid "Bosses can bribe the Luddite to destroy a robot of their choice!"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:567
+msgid "Bosses can keep their coins secret, or reveal all or part of it."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:567
+#: contents_tex/two_to_four_players.en.tex:386
+msgid "Workers cannot keep their coins hidden."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:567
+msgid ""
+"The coins of the Union Fund have to be kept in sight on the Union Fund card."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:567
+msgid "Workers can openly discuss about strikes."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/five_to_ten_players.en.tex:567
+msgid ""
+"In case of disagreement between workers (e.g. who should take an "
+"expropriated robot), bosses will decide."
+msgstr ""
+
+#. type: chapter{#2}
+#: The_Fully_Automated_Board_Game.en.tex:87
+msgid "Rules for 2 to 4 players"
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/two_to_four_players.en.tex:9
+msgid ""
+"\\textbf{Beware!} The rules of the 2–4 \\faPeopleGroup\\ game are very "
+"different from the ones for 5–10 \\faPeopleGroup! \\textbf{Some cards have a "
+"text saying \"2–4 \\faPeopleGroup\"}: this is the side to use for games from "
+"2 to 4 players."
+msgstr ""
+
+#. type: enumerate
+#: contents_tex/two_to_four_players.en.tex:50
+msgid ""
+"Take a \\textbf{boss card} and place it at the centre of the table. It is "
+"\\textbf{automated}, it is therefore \\textbf{not a player}."
+msgstr ""
+
+#. type: enumerate
+#: contents_tex/two_to_four_players.en.tex:50
+msgid ""
+"Give \\textbf{each player a Prolet worker card} (red flag symbol, without "
+"any secret role) face up. They place it in front of them on the table."
+msgstr ""
+
+#. type: enumerate
+#: contents_tex/two_to_four_players.en.tex:50
+msgid ""
+"Give a \\textbf{personal token} to each player. Try to find the best suited "
+"token for each person, so that the association will be easier to remember. "
+"Keep aside the hourglass token."
+msgstr ""
+
+#. type: enumerate
+#: contents_tex/two_to_four_players.en.tex:50
+msgid "Place the \\textbf{robot cards deck} at the centre of the table."
+msgstr ""
+
+#. type: enumerate
+#: contents_tex/two_to_four_players.en.tex:50
+msgid ""
+"Remove the \"Depression\" Contracts card from the game. Or keep it in case "
+"you want to play a harder game. Place the deck of \\textbf{Contracts cards} "
+"face down at the centre of the table."
+msgstr ""
+
+#. type: enumerate
+#: contents_tex/two_to_four_players.en.tex:50
+msgid ""
+"Place the deck of \\textbf{Event cards} face down at the centre of the "
+"table. Assemble the Event cards deck with:"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/two_to_four_players.en.tex:50
+msgid "\\textbf{2 players}: 8 random Event cards"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/two_to_four_players.en.tex:50
+msgid "\\textbf{3 players}: 10 random Event cards"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/two_to_four_players.en.tex:50
+msgid "\\textbf{4 players}: all 17 Event cards"
+msgstr ""
+
+#. type: enumerate
+#: contents_tex/two_to_four_players.en.tex:50
+msgid ""
+"Place the \\textbf{6 phase cards} (on the \"2–4 \\faPeopleGroup\" side) face "
+"up, one next to the other, at the centre of the table. Place the "
+"\\textbf{phase marker token} (the one with an hourglass drawing) on the "
+"first phase card."
+msgstr ""
+
+#. type: enumerate
+#: contents_tex/two_to_four_players.en.tex:50
+msgid ""
+"Create a space for the \\textbf{Bank} where you put a \\textbf{pile of "
+"coins}. Take plenty of coins, the exact amount is not important (for a 3 "
+"\\faPeopleGroup\\ game, you will need approximately 30 coins, representing "
+"30 \\faRubleSign). Use some real coins, if you have them, for representing "
+"the \\faRubleSign, the in-game currency. If you don't have coins at hand, "
+"you can use anything you \"borrowed\" from work or any other small and "
+"homogeneous object you can find. Alternatively, note the amounts on a piece "
+"of paper."
+msgstr ""
+
+#. type: enumerate
+#: contents_tex/two_to_four_players.en.tex:50
+msgid ""
+"All the workers and the automated boss start with \\textbf{0 \\faRubleSign\\ "
+"coins each}."
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/two_to_four_players.en.tex:58
+msgid ""
+"Whoever achieves the victory conditions, at any moment, can declare victory, "
+"and end the game. It can happen for more than one player at the same time. "
+"In this case, all these players win the game."
+msgstr ""
+
+#. type: subsection{#2}
+#: contents_tex/two_to_four_players.en.tex:60
+msgid "COLLECTIVE VICTORY"
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/two_to_four_players.en.tex:63
+msgid ""
+"All players still in the game, win when they \\textbf{control as many robots "
+"as there are players}, eliminated or not."
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/two_to_four_players.en.tex:68
+msgid ""
+"After an epic victory, the players are encouraged to collect all the "
+"metallic coins used for playing and use them for making a donation to a "
+"workers' union or social movement. In the real world! We mean, out of this "
+"game, give those pennies some real use!"
+msgstr ""
+
+#. type: subsection{#2}
+#: contents_tex/two_to_four_players.en.tex:70
+msgid "COLLECTIVE DEFEAT"
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/two_to_four_players.en.tex:79
+msgid "All the players lose the game when:"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/two_to_four_players.en.tex:79
+msgid ""
+"\\textbf{The automated boss has as many robots as all the players}, "
+"eliminated and still in play;"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/two_to_four_players.en.tex:79
+msgid ""
+"A player should draw an Event card, but the \\textbf{Events deck ran out of "
+"cards};"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/two_to_four_players.en.tex:79
+msgid ""
+"\\textbf{Half of the players are eliminated} (when playing in 3, this "
+"happens with the elimination of 2 \\faPeopleGroup)."
+msgstr ""
+
+#. type: subsection{#2}
+#: contents_tex/two_to_four_players.en.tex:81
+msgid "CLASS BETRAYAL VICTORY"
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/two_to_four_players.en.tex:87
+msgid ""
+"\\textbf{Any non-Stressed player with 8 \\faRubleSign\\ coins}, or two non-"
+"Stressed players united by the Marriage Event card with 10 \\faRubleSign, "
+"can declare themselves the winner(s) as class traitor(s)! If more than one "
+"player fulfils the Class Betrayal victory conditions at the same time, they "
+"can all declare victory."
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/two_to_four_players.en.tex:95
+msgid ""
+"The game is played in rounds until 1 or more players achieve the Class "
+"Betrayal victory conditions or the workers' collective victory or collective "
+"defeat conditions are met. When this happens, the game immediately ends."
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/two_to_four_players.en.tex:98
+msgid ""
+"A round consists of 6 phases. The starting player changes every round and is "
+"in charge of revealing one Event and one Contracts card. Each phase is "
+"played differently."
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/two_to_four_players.en.tex:101
+msgid ""
+"The \\textbf{first starting player} is the one who most recently "
+"participated in a protest or strike (in real life or in the game)."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/two_to_four_players.en.tex:114
+msgid ""
+"\\textbf{Phase 1 State-funded innovation}: the boss could buy a "
+"\\textbf{robot}."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/two_to_four_players.en.tex:114
+msgid ""
+"\\textbf{Phase 2 Event}: the starting player reveals an \\textbf{Event} card "
+"and applies its effect."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/two_to_four_players.en.tex:114
+msgid ""
+"\\textbf{Phase 3 Contracts}: the starting player reveals a "
+"\\textbf{Contracts} card, and picks a Contract first. Clockwise, the other "
+"players choose between the remaining Contracts."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/two_to_four_players.en.tex:114
+msgid ""
+"\\textbf{Phase 4 Strike}: simultaneously, non-Stressed workers reveal "
+"whether they will \\textbf{strike or work}. Players \\textbf{cannot discuss} "
+"strike intentions."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/two_to_four_players.en.tex:114
+msgid ""
+"\\textbf{Phase 5 Payday}: players who worked get a \\textbf{salary}. Robots "
+"\\textbf{produce}."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/two_to_four_players.en.tex:114
+msgid ""
+"\\textbf{Phase 6 Rent}: the players pay the \\textbf{Rent} to the automated "
+"boss. The player on the left of the starting player is the new starting "
+"player."
+msgstr ""
+
+#. type: section{#2}
+#: contents_tex/two_to_four_players.en.tex:118
+msgid "Phase 1 STATE-FUNDED INNOVATION"
+msgstr ""
+
+#. type: subsection{#2}
+#: contents_tex/two_to_four_players.en.tex:120
+#: contents_tex/two_to_four_players.en.tex:307
+msgid "AUTOMATED BOSS ACTIONS"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/two_to_four_players.en.tex:125
+msgid ""
+"If the automated \\textbf{boss has at least 15 \\faRubleSign}, move 15 "
+"\\faRubleSign\\ to the Bank, and place next to the boss card a \\textbf{new "
+"robot} card on the blue side."
+msgstr ""
+
+#. type: section{#2}
+#: contents_tex/two_to_four_players.en.tex:129
+msgid "Phase 2 EVENT"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/two_to_four_players.en.tex:136
+msgid ""
+"The starting player must reveal an \\textbf{Event card and apply} its "
+"effect. If there is no card left to pick, see collective defeat."
+msgstr ""
+
+#. type: subsubsection{#2}
+#: contents_tex/two_to_four_players.en.tex:141
+msgid "SYMBOLS ON THE EVENT CARDS"
+msgstr ""
+
+#. type: textbf{#1}
+#: contents_tex/two_to_four_players.en.tex:148
+msgid "PLAY AND DISCARD"
+msgstr ""
+
+#. type: minipage
+#: contents_tex/two_to_four_players.en.tex:156
+msgid "\\textbf{PERMANENT EFFECT}, the affected player keeps the card"
+msgstr ""
+
+#. type: minipage
+#: contents_tex/two_to_four_players.en.tex:164
+msgid "This card affects the \\textbf{CURRENT STARTING PLAYER}"
+msgstr ""
+
+#. type: minipage
+#: contents_tex/two_to_four_players.en.tex:172
+msgid "This card affects a \\textbf{CHOSEN PLAYER}"
+msgstr ""
+
+#. type: minipage
+#: contents_tex/two_to_four_players.en.tex:180
+msgid "This card affects \\textbf{MORE THAN ONE PLAYER}"
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/two_to_four_players.en.tex:183
+msgid ""
+"If the unavoidable and immediate effect of an Event card is to eliminate a "
+"player, ignore this effect: \\textbf{Event cards cannot directly eliminate "
+"players}."
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/two_to_four_players.en.tex:194
+msgid ""
+"\\itsmall{The automated boss has no coins at the beginning of the game, so "
+"clearly will not buy a robot just yet. Between the 3 workers, Asdrubale, "
+"Bedelia and Candida, the last participating in a protest was Bedelia (the "
+"management of the data centre where she works is blocking the negotiation of "
+"the collective agreement, so she plugged a bunch of short network cables to "
+"adjacent ethernet ports of many switches), so she starts the game revealing "
+"the first Event card: the \"Gambling\" card says \"one of the players with "
+"most coins gives all but 1 coin to the boss\", but none of the 3 "
+"\\faPeopleGroup\\ have any coins, and the card is discarded (and no one gets "
+"Stressed).}"
+msgstr ""
+
+#. type: section{#2}
+#: contents_tex/two_to_four_players.en.tex:198
+msgid "Phase 3 CONTRACTS"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/two_to_four_players.en.tex:207
+msgid ""
+"The starting player must reveal a \\textbf{Contracts card}, choose a "
+"Contract and \\textbf{place the personal token} on it. The other players, in "
+"clockwise order, must choose between the remaining Contracts listed on the "
+"card, placing their personal token on the chosen Contract."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/two_to_four_players.en.tex:223
+msgid ""
+"\\textbf{Get Stressed}: Contracts may cause Stress, this will be applied "
+"during phase 5 Payday."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/two_to_four_players.en.tex:223
+msgid ""
+"\\textbf{Holidays included}: in addition to the salary, Contracts may "
+"include Holidays.  Holidays will allow players to eliminate Stress during "
+"phase 5 Payday."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/two_to_four_players.en.tex:223
+msgid ""
+"\\textbf{Permanent Contract}: will last for more rounds, until the player "
+"accepts another Contract or participates in a strike. This player will keep "
+"this card next to the character card during the Contract's validity."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/two_to_four_players.en.tex:223
+msgid ""
+"A \\textbf{Contracts card cannot directly eliminate a player}: if a Contract "
+"says \"get Stressed\" but you are already Stressed, you are unaffected."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/two_to_four_players.en.tex:223
+msgid ""
+"When the Contracts cards run out, shuffle the discarded Contracts cards "
+"(except the permanent Contract cards still in use by the players)."
+msgstr ""
+
+#. type: subsubsection{#2}
+#: contents_tex/two_to_four_players.en.tex:225
+msgid "SYMBOLS ON THE CONTRACTS CARDS"
+msgstr ""
+
+#. type: minipage
+#: contents_tex/two_to_four_players.en.tex:234
+msgid ""
+"\\textbf{Get Stressed}: Contracts may cause Stress, this will be applied "
+"during phase 5."
+msgstr ""
+
+#. type: minipage
+#: contents_tex/two_to_four_players.en.tex:243
+msgid ""
+"\\textbf{Holidays included}: in addition to the salary, Contracts may "
+"include Holidays.  Holidays will allow players to eliminate Stress during "
+"phase 5."
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/two_to_four_players.en.tex:254
+msgid ""
+"\\itsmall{Since it's her turn to start, Bedelia draws a Contracts card, and "
+"shows it to everyone. It's the \"Boom\" card! She chooses the \"3-coins "
+"Contract (with Stress)\" first. On her left, Candida, picks the \"2-coins "
+"Contract\" from the remaining Contracts. Finally, Asdrubale takes the \"1-"
+"coin permanent Contract (until strike)\". Asdrubale then places the "
+"Contracts card next to his Prolet character card, keeping it until he "
+"decides to rescind the Contract. On the card, there is a fourth Contract "
+"that no one will take, as there are only 3 players.}"
+msgstr ""
+
+#. type: section{#2}
+#: contents_tex/two_to_four_players.en.tex:258
+msgid "Phase 4 STRIKE"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/two_to_four_players.en.tex:271
+msgid ""
+"All the non-eliminated \\textbf{non-Stressed} players place one hand towards "
+"the centre of the table and, \\textbf{at the same time, must vote} one of "
+"the following:"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/two_to_four_players.en.tex:271
+msgid "\\textbf{thumb up} = strike for \\textbf{Acceleration}"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/two_to_four_players.en.tex:271
+msgid "\\textbf{closed fist} = strike for \\textbf{Expropriation}"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/two_to_four_players.en.tex:271
+msgid "\\textbf{open hand} = \\textbf{work}"
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/two_to_four_players.en.tex:271
+msgid "Alternatively, they can write their action on a piece of paper."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/two_to_four_players.en.tex:290
+msgid "\\textbf{Stressed players cannot strike} and so must work."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/two_to_four_players.en.tex:290
+msgid ""
+"\\textbf{It's forbidden to talk} or communicate \\textbf{about strikes}."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/two_to_four_players.en.tex:290
+msgid ""
+"\\textbf{Acceleration Strike: every thumb raised creates one robot for the "
+"boss}.  The boss loses all the coins earned up to that point. Beware that "
+"\\textbf{more than one robot can appear in the same round}! For example, if "
+"all the workers vote raising their thumbs, the boss loses all the savings "
+"and immediately receives those many robots, triggering the collective defeat!"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/two_to_four_players.en.tex:290
+msgid ""
+"\\textbf{Expropriation Strike}: If the \\textbf{majority} of players (with 2 "
+"\\faPeopleGroup\\ the majority is 2; with 3 \\faPeopleGroup\\ majority is 2; "
+"with 4 \\faPeopleGroup\\ majority is 3) voted with a closed fist, "
+"\\textbf{take one robot} from the boss, flip it to the red side and assign "
+"it to a single player.  You can also expropriate a robot created by an "
+"Acceleration Strike in this very round. If the strike does not reach the "
+"majority, nothing happens, but the striking players will not get any salary "
+"in phase 5 Payday."
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/two_to_four_players.en.tex:301
+msgid ""
+"\\itsmall{After a short countdown, the 3 \\faPeopleGroup\\ express their "
+"decisions with their hands: Bedelia wants to work (secretly intends to win "
+"with a Class Betrayal) and so keeps her hand open; Candida also intends to "
+"work, and therefore exposes her open hand; Asdrubale wasn't really "
+"interested in the permanent Contract, and decided to do an Acceleration "
+"Strike! He is showing his thumb up, which indicates the Acceleration Strike. "
+"Consequently, he returns the permanent Contract card to the area of "
+"discarded Contracts, and places a new blue robot next to the boss. The "
+"automated boss discards all the owned coins, if any.}"
+msgstr ""
+
+#. type: section{#2}
+#: contents_tex/two_to_four_players.en.tex:305
+msgid "Phase 5 PAYDAY"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/two_to_four_players.en.tex:311
+msgid ""
+"Each \\textbf{robot} the boss controls \\textbf{produces 2 \\faRubleSign}\\ "
+"for the boss."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/two_to_four_players.en.tex:322
+msgid ""
+"Each \\textbf{non-striking worker} receives the \\textbf{salary} and applies "
+"the \\textbf{additional effects} from the chosen Contract. The effect of "
+"\"\\textbf{with Holidays}\" is to remove the Stress, Untapping the character "
+"card. The effect of \"\\textbf{get Stressed}\" is to Tap the character card "
+"(remember that a Stressed player cannot do any kind of strike)."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/two_to_four_players.en.tex:322
+msgid ""
+"Each \\textbf{Expropriated robot} produces \\textbf{1 coin} for the worker "
+"it is assigned to."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/two_to_four_players.en.tex:330
+msgid ""
+"Players who attempt any kind of strike will receive neither the salary from "
+"the chosen Contract, nor its positive or negative effect (i.e. \"get "
+"Stressed\" or \"with Holidays\")."
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/two_to_four_players.en.tex:337
+msgid ""
+"\\itsmall{The new robot produces 2 \\faRubleSign\\ for the boss. Bedelia "
+"receives 3 \\faRubleSign\\ from the Bank, but has to Tap her Prolet "
+"character card, as the chosen Contract indicated that she would have become "
+"Stressed. Candida receives 2 \\faRubleSign\\ from the Bank. Asdrubale went "
+"on strike, so he receives nothing.}"
+msgstr ""
+
+#. type: section{#2}
+#: contents_tex/two_to_four_players.en.tex:341
+msgid "Phase 6 RENT"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/two_to_four_players.en.tex:348
+msgid ""
+"Unless an Event card changes this, \\textbf{each worker pays 1 coin directly "
+"to the boss}."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/two_to_four_players.en.tex:362
+msgid ""
+"A player who \\textbf{can't pay the Rent gets Stressed}. \\textbf{If already "
+"Stressed} and cannot pay the Rent, this player is considered "
+"\\textbf{eliminated} and stops participating in the game."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/two_to_four_players.en.tex:362
+msgid ""
+"If a player needs to pay Rent of 2 \\faRubleSign\\ (e.g. due to the "
+"\"Birth\" Event card), but has only 1 coin, they pay nothing but become "
+"Stressed. If they are already Stressed, they are eliminated."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/two_to_four_players.en.tex:362
+msgid ""
+"\\textbf{If half of the players are eliminated, the game is over}, see "
+"collective de- feat. In a game with 3 \\faPeopleGroup, this happens when 2 "
+"\\faPeopleGroup\\ are eliminated."
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/two_to_four_players.en.tex:362
+msgid ""
+"The player on the left of the starting player is the new starting player. "
+"The game continues with phase 1, and follows all the phases again."
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/two_to_four_players.en.tex:369
+msgid ""
+"\\itsmall{Bedelia pays her 1-coin Rent, moving one of her 3 \\faRubleSign\\ "
+"next to the boss card. Candida does the same thing. Asdrubale, having no "
+"coins for paying the Rent, has to Tap his Prolet card (he is now Stressed).}"
+msgstr ""
+
+#. type: itemize
+#: contents_tex/two_to_four_players.en.tex:386
+msgid ""
+"An elimination can happen only if a player cannot pay the Rent during phase "
+"6 and is already Stressed."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/two_to_four_players.en.tex:386
+msgid ""
+"If some effect of an Event card cannot be applied, skip it and apply the "
+"remaining effects on that card."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/two_to_four_players.en.tex:386
+msgid ""
+"It is forbidden to communicate about strikes: only the voting during phase 4 "
+"will reveal the workers' actions."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/two_to_four_players.en.tex:386
+msgid "Workers pay the Rent directly to the automated boss."
+msgstr ""
+
+#. type: itemize
+#: contents_tex/two_to_four_players.en.tex:386
+msgid ""
+"In case of disagreement between players (e.g. who should control an "
+"expropriated robot), the starting player will decide."
+msgstr ""
+
+#. type: section{#2}
+#: contents_tex/two_to_four_players.en.tex:390
+msgid "NOTES ON THE EVENT CARDS"
+msgstr ""
+
+#. type: paragraph{#1}
+#: contents_tex/two_to_four_players.en.tex:392
+msgid "Birth"
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/two_to_four_players.en.tex:395
+msgid ""
+"If a married couple (see Marriage card) has a Birth, they can decide who "
+"takes care of the child in case there will be a Divorce Event."
+msgstr ""
+
+#. type: paragraph{#1}
+#: contents_tex/two_to_four_players.en.tex:397
+msgid "Collective Agreement"
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/two_to_four_players.en.tex:400
+msgid ""
+"Each Contract on this round's Contracts card can be chosen by more than one "
+"player."
+msgstr ""
+
+#. type: paragraph{#1}
+#: contents_tex/two_to_four_players.en.tex:402
+msgid "Dentist"
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/two_to_four_players.en.tex:406
+msgid ""
+"If possible, one player should pay or get Stressed. If no player has 2 "
+"\\faRubleSign, and all players are already Stressed, this card is the least "
+"of your problems and you can ignore it."
+msgstr ""
+
+#. type: paragraph{#1}
+#: contents_tex/two_to_four_players.en.tex:408
+msgid "Divorce"
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/two_to_four_players.en.tex:411
+msgid ""
+"If the Marriage card is in game, both of the involved players lose all the "
+"coins, and remove the Stress, if not, ignore this card."
+msgstr ""
+
+#. type: paragraph{#1}
+#: contents_tex/two_to_four_players.en.tex:413
+msgid "Eviction"
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/two_to_four_players.en.tex:415
+msgid ""
+"The card effect is applied to the player who has the Gentrification card."
+msgstr ""
+
+#. type: paragraph{#1}
+#: contents_tex/two_to_four_players.en.tex:417
+msgid "Gentrification"
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/two_to_four_players.en.tex:420
+msgid ""
+"Once one player has this card, the only way to get rid of it is that any "
+"player draws the Eviction card."
+msgstr ""
+
+#. type: paragraph{#1}
+#: contents_tex/two_to_four_players.en.tex:422
+msgid "Mandatory Overtime"
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/two_to_four_players.en.tex:426
+msgid ""
+"If the player who picked this card participates in a strike this round, they "
+"do not get the 1 coin extra, and do not get Stressed due to this card."
+msgstr ""
+
+#. type: paragraph{#1}
+#: contents_tex/two_to_four_players.en.tex:428
+msgid "Marriage"
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/two_to_four_players.en.tex:433
+msgid ""
+"You can bring the characters cards closer together and put this card in the "
+"middle. Even if married, the Rent is 1 coin for each worker. What changes is "
+"that one player may pay both Rents. Marriage modifies the Class Betrayal "
+"winning conditions, check them out."
+msgstr ""
+
+#. type: paragraph{#1}
+#: contents_tex/two_to_four_players.en.tex:435
+msgid "Production Bonus"
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/two_to_four_players.en.tex:438
+msgid ""
+"If the player who picked this card participates in a strike this round, they "
+"do not receive the extra 2 \\faRubleSign."
+msgstr ""
+
+#. type: paragraph{#1}
+#: contents_tex/two_to_four_players.en.tex:440
+msgid "Rotating Shifts"
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/two_to_four_players.en.tex:443
+msgid ""
+"Participants in a strike this round, do not get the 1 coin extra, and do not "
+"get Stressed due to this card."
+msgstr ""
+
+#. type: paragraph{#1}
+#: contents_tex/two_to_four_players.en.tex:445
+msgid "Sabotage"
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/two_to_four_players.en.tex:448
+msgid ""
+"If there is only a red robot (an expropriated one), destroy it, if there are "
+"no robots in play, ignore this card."
+msgstr ""
+
+#. type: paragraph{#1}
+#: contents_tex/two_to_four_players.en.tex:450
+msgid "Workers' Union"
+msgstr ""
+
+#. type: Plain text
+#: contents_tex/two_to_four_players.en.tex:452
+msgid "If the boss is out of money, you are out of luck."
+msgstr ""
+
+#
+#. ewglossaryentry{}{name={}, description={}, sort={}}
+#. type: newglossaryentry{#2}
+#: contents_tex/glossary.en.tex:5
+msgid ""
+"name={Acceleration Strike (action)}, description={ A strike in which a boss "
+"is forced to buy a robot immediately. This robot remains in control of the "
+"boss.}"
+msgstr ""
+
+#. type: newglossaryentry{#2}
+#: contents_tex/glossary.en.tex:8
+msgid ""
+"name={Bank (place)}, description={ The reservoir of coins, property of no "
+"player.}"
+msgstr ""
+
+#. type: newglossaryentry{#2}
+#: contents_tex/glossary.en.tex:12
+msgid ""
+"name={Boss (role/card)}, description={ The stingy blue character. [2–4 "
+"\\faPeopleGroup] An automated role collecting the Rent, and buying robots. "
+"[5–10 \\faPeopleGroup] Two human players.}"
+msgstr ""
+
+#. type: newglossaryentry{#2}
+#: contents_tex/glossary.en.tex:16
+msgid ""
+"name={Class Betrayal (winning condition)}, description={ [2–4 "
+"\\faPeopleGroup] Any player can win individually by accumulating coins. [5–"
+"10 \\faPeopleGroup] The Startupper can win by accumulating coins.}"
+msgstr ""
+
+#. type: newglossaryentry{#2}
+#: contents_tex/glossary.en.tex:21
+msgid ""
+"name={Contract (card/agreement)}, description={ [2–4 \\faPeopleGroup] Each "
+"of the enlistment options on the Contracts cards. [5–10 \\faPeopleGroup] The "
+"agreements between bosses and workers happening during phase 1.}"
+msgstr ""
+
+#. type: newglossaryentry{#2}
+#: contents_tex/glossary.en.tex:25
+msgid ""
+"name={Event (card)}, description={ [2–4 \\faPeopleGroup] During phase 2, the "
+"starting player reveals an Event card that can affect this/any/all players "
+"in an instantaneous or permanent fashion.}"
+msgstr ""
+
+#. type: newglossaryentry{#2}
+#: contents_tex/glossary.en.tex:29
+msgid ""
+"name={Expropriation Strike (action)}, description={ A strike in which "
+"workers can take a robot from a chosen boss. [5–10 \\faPeopleGroup] From a "
+"boss without the Security Guard.}"
+msgstr ""
+
+#. type: newglossaryentry{#2}
+#: contents_tex/glossary.en.tex:34
+msgid ""
+"name={Holidays (action)}, description={ [2–4 \\faPeopleGroup] Workers can "
+"choose a Contract with Holidays to remove Stress. [5–10 \\faPeopleGroup] "
+"Workers can remove Stress with Holidays if they: pay 2 \\faRubleSign; or "
+"choose the Public Work; or get it as part of a Contract offered by a boss.}"
+msgstr ""
+
+#. type: newglossaryentry{#2}
+#: contents_tex/glossary.en.tex:39
+msgid ""
+"name={Luddite (role/card)}, description={ [6–10 \\faPeopleGroup] A saboteur "
+"secret role for workers. Adds an individual winning option, destroying 3 "
+"robots during failed strikes. Destroyed robots also count towards the "
+"workers' collective victory.}"
+msgstr ""
+
+#. type: newglossaryentry{#2}
+#: contents_tex/glossary.en.tex:45
+msgid ""
+"name={Monopoly (winning condition)}, description={ [5–10 \\faPeopleGroup] "
+"When a boss gets eliminated due to not being able to pay the Rent or cannot "
+"buy a robot after a successful Acceleration Strike. The winner gets "
+"determined based on the expropriated or destroyed robots. See the victory "
+"conditions Early ending of the game.}"
+msgstr ""
+
+#. type: newglossaryentry{#2}
+#: contents_tex/glossary.en.tex:49
+msgid ""
+"name={Prolet (role/card)}, description={ [5–10 \\faPeopleGroup] A “virtual "
+"pauper” secret role for workers. Does not have any individual winning "
+"option. It's very focused on striking!}"
+msgstr ""
+
+#. type: newglossaryentry{#2}
+#: contents_tex/glossary.en.tex:54
+msgid ""
+"name={Public Work (card)}, description={ [5–10 \\faPeopleGroup] During phase "
+"1, workers can take this Contract instead of one offered from the bosses. "
+"There is only one such job in games with 5–6 \\faPeopleGroup, two in games "
+"with 7–8 \\faPeopleGroup, and 3 in games with 9–10 \\faPeopleGroup.}"
+msgstr ""
+
+#. type: newglossaryentry{#2}
+#: contents_tex/glossary.en.tex:58
+msgid ""
+"name={Rent (phase)}, description={ In the Rent phase, each player pays an "
+"amount of coins. With [2–4 \\faPeopleGroup] the Rent goes to the automated "
+"boss, [5–10 \\faPeopleGroup] The Rent goes to the Bank.}"
+msgstr ""
+
+#. type: newglossaryentry{#2}
+#: contents_tex/glossary.en.tex:62
+msgid ""
+"name={Sabotage (action)}, description={ [6–10 \\faPeopleGroup] In phase 2 "
+"Strike, the Luddite player can destroy a robot during a failed strike.}"
+msgstr ""
+
+#. type: newglossaryentry{#2}
+#: contents_tex/glossary.en.tex:68
+msgid ""
+"name={Scab (role/card)}, description={ [5–10 \\faPeopleGroup] A workaholic "
+"secret role for workers. Adds an individual winning option: each Scab can "
+"win together with a victory-declaring boss (a boss winning either with coins "
+"accumulation or Monopoly) if they were working (not on strike) for this boss "
+"when the victory declaration happens.}"
+msgstr ""
+
+#. type: newglossaryentry{#2}
+#: contents_tex/glossary.en.tex:72
+msgid ""
+"name={Security Guard (card)}, description={ [5–10 \\faPeopleGroup] It is a "
+"protection from Expropriation Strike and Sabotage. The bosses bid for "
+"getting it (from 0 to 5 fingers, check phase 2 rules).}"
+msgstr ""
+
+#. type: newglossaryentry{#2}
+#: contents_tex/glossary.en.tex:77
+msgid ""
+"name={Startupper (role/card)}, description={ [5–10 \\faPeopleGroup] A petite "
+"bourgeoisie secret role for workers.  Adds a Class Betrayal individual "
+"winning option via the accumulation of coins and stealing from the Union "
+"Fund.}"
+msgstr ""
+
+#. type: newglossaryentry{#2}
+#: contents_tex/glossary.en.tex:81
+msgid ""
+"name={Stress (status)}, description={ A condition for workers that hinders "
+"them from striking, and thus forces them to work.}"
+msgstr ""
+
+#. type: newglossaryentry{#2}
+#: contents_tex/glossary.en.tex:85
+msgid ""
+"name={Tap/Untap (action)}, description={ Tap your character card, placing it "
+"rotated 90° in front of you for indicating Stress. Untap placing it "
+"straight.}"
+msgstr ""
+
+#. type: newglossaryentry{#2}
+#: The_Fully_Automated_Board_Game.en.tex:103 contents_tex/glossary.en.tex:88
+msgid ""
+"name={Union Fund (card)}, description={ [5–10 \\faPeopleGroup] The workers "
+"can share their coins, placing them on this card during phase 6.}"
+msgstr ""
+
+#. type: textbf{#1}
+#: contents_tex/rear_page.en.tex:15
+msgid "The Fully Automated Boardgame"
+msgstr ""
+
+#. type: center
+#: contents_tex/rear_page.en.tex:32
+msgid ""
+"NO BOARD GAMES is an international group that creates radical board games.  "
+"\\url{https://noboardgames.com}"
+msgstr ""
+
+#. type: center
+#: contents_tex/rear_page.en.tex:36
+msgid "PUBLISHED IN 2025"
+msgstr ""
+
+#. type: center
+#: contents_tex/rear_page.en.tex:41
+msgid "Printed in Poland by:"
+msgstr ""
