@@ -122,6 +122,7 @@
 % taken from:
 % https://tex.stackexchange.com/a/619781/173645
 \newlength{\currentparindent} % define new variable
+% \newenvironment{name}[numargs][optarg_default]{begin_code}{end_code}
 \newenvironment{minipageparindent}[2][c]{
     \setlength{\currentparindent}{\parindent} % save the value
     \noindent\begin{minipage}[#1]{#2} % open the minipage
@@ -131,7 +132,7 @@
 % \par has to be included so that LaTeX understands that the paragraph is over and 
 % calculates again the distance between lines for the smaller font
 \newcommand{\itsmall}[1]{
-    {\small\textit{#1}
+    {\small\textsl{#1}
     \par}}
 
 \author{No Board Games}
