@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-06-04 15:37+0200\n"
+"POT-Creation-Date: 2026-06-08 15:15+0200\n"
 "PO-Revision-Date: 2026-06-04 10:56+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -103,7 +103,7 @@ msgstr ""
 
 #. type: Plain text
 #: contents_tex/introduction.en.tex:44
-msgid "\\textbf{Design}: Matteo Modena, Ilario Gelmetti"
+msgid "\\textbf{\\indent Design}: Matteo Modena, Ilario Gelmetti"
 msgstr ""
 
 #. type: Plain text
@@ -2244,26 +2244,21 @@ msgstr ""
 msgid "Glossary"
 msgstr ""
 
-#. type: paragraph{#1}
-#: contents_tex/glossary.en.tex:94
-msgid "Acceleration Strike (action)"
-msgstr ""
-
 #. type: multicols
-#: contents_tex/glossary.en.tex:97
+#: contents_tex/glossary.en.tex:6
 msgid ""
-"A strike in which a boss is forced to buy a robot immediately. This robot "
-"remains in control of the boss."
+"\\paragraph{Acceleration Strike (action)} A strike in which a boss is forced "
+"to buy a robot immediately. This robot remains in control of the boss."
 msgstr ""
 
 #. type: multicols
-#: contents_tex/glossary.en.tex:100
+#: contents_tex/glossary.en.tex:9
 msgid ""
 "\\paragraph{Bank (place)} The reservoir of coins, property of no player."
 msgstr ""
 
 #. type: multicols
-#: contents_tex/glossary.en.tex:104
+#: contents_tex/glossary.en.tex:13
 msgid ""
 "\\paragraph{Boss (role/card)} The stingy blue character. [2–4 "
 "\\faPeopleGroup] An automated role collecting the Rent, and buying robots. "
@@ -2271,7 +2266,7 @@ msgid ""
 msgstr ""
 
 #. type: multicols
-#: contents_tex/glossary.en.tex:108
+#: contents_tex/glossary.en.tex:17
 msgid ""
 "\\paragraph{Class Betrayal (winning condition)} [2–4 \\faPeopleGroup] Any "
 "player can win individually by accumulating coins. [5–10 \\faPeopleGroup] "
@@ -2279,7 +2274,7 @@ msgid ""
 msgstr ""
 
 #. type: multicols
-#: contents_tex/glossary.en.tex:113
+#: contents_tex/glossary.en.tex:22
 msgid ""
 "\\paragraph{Contract (card/agreement)} [2–4 \\faPeopleGroup] Each of the "
 "enlistment options on the Contracts cards. [5–10 \\faPeopleGroup] The "
@@ -2287,7 +2282,7 @@ msgid ""
 msgstr ""
 
 #. type: multicols
-#: contents_tex/glossary.en.tex:117
+#: contents_tex/glossary.en.tex:26
 msgid ""
 "\\paragraph{Event (card)} [2–4 \\faPeopleGroup] During phase 2, the starting "
 "player reveals an Event card that can affect this/any/all players in an "
@@ -2295,7 +2290,7 @@ msgid ""
 msgstr ""
 
 #. type: multicols
-#: contents_tex/glossary.en.tex:121
+#: contents_tex/glossary.en.tex:30
 msgid ""
 "\\paragraph{Expropriation Strike (action)} A strike in which workers can "
 "take a robot from a chosen boss. [5–10 \\faPeopleGroup] From a boss without "
@@ -2303,7 +2298,7 @@ msgid ""
 msgstr ""
 
 #. type: multicols
-#: contents_tex/glossary.en.tex:126
+#: contents_tex/glossary.en.tex:35
 msgid ""
 "\\paragraph{Holidays (action)} [2–4 \\faPeopleGroup] Workers can choose a "
 "Contract with Holidays to remove Stress. [5–10 \\faPeopleGroup] Workers can "
@@ -2312,7 +2307,7 @@ msgid ""
 msgstr ""
 
 #. type: multicols
-#: contents_tex/glossary.en.tex:131
+#: contents_tex/glossary.en.tex:40
 msgid ""
 "\\paragraph{Luddite (role/card)} [6–10 \\faPeopleGroup] A saboteur secret "
 "role for workers. Adds an individual winning option, destroying 3 robots "
@@ -2321,7 +2316,7 @@ msgid ""
 msgstr ""
 
 #. type: multicols
-#: contents_tex/glossary.en.tex:137
+#: contents_tex/glossary.en.tex:46
 msgid ""
 "\\paragraph{Monopoly (winning condition)} [5–10 \\faPeopleGroup] When a boss "
 "gets eliminated due to not being able to pay the Rent or cannot buy a robot "
@@ -2331,7 +2326,7 @@ msgid ""
 msgstr ""
 
 #. type: multicols
-#: contents_tex/glossary.en.tex:141
+#: contents_tex/glossary.en.tex:50
 msgid ""
 "\\paragraph{Prolet (role/card)} [5–10 \\faPeopleGroup] A “virtual pauper” "
 "secret role for workers. Does not have any individual winning option. It's "
@@ -2339,7 +2334,7 @@ msgid ""
 msgstr ""
 
 #. type: multicols
-#: contents_tex/glossary.en.tex:146
+#: contents_tex/glossary.en.tex:55
 msgid ""
 "\\paragraph{Public Work (card)} [5–10 \\faPeopleGroup] During phase 1, "
 "workers can take this Contract instead of one offered from the bosses. There "
@@ -2348,7 +2343,7 @@ msgid ""
 msgstr ""
 
 #. type: multicols
-#: contents_tex/glossary.en.tex:150
+#: contents_tex/glossary.en.tex:59
 msgid ""
 "\\paragraph{Rent (phase)} In the Rent phase, each player pays an amount of "
 "coins. With [2–4 \\faPeopleGroup] the Rent goes to the automated boss, [5–10 "
@@ -2356,14 +2351,14 @@ msgid ""
 msgstr ""
 
 #. type: multicols
-#: contents_tex/glossary.en.tex:154
+#: contents_tex/glossary.en.tex:63
 msgid ""
 "\\paragraph{Sabotage (action)} [6–10 \\faPeopleGroup] In phase 2 Strike, the "
 "Luddite player can destroy a robot during a failed strike."
 msgstr ""
 
 #. type: multicols
-#: contents_tex/glossary.en.tex:160
+#: contents_tex/glossary.en.tex:69
 msgid ""
 "\\paragraph{Scab (role/card)} [5–10 \\faPeopleGroup] A workaholic secret "
 "role for workers. Adds an individual winning option: each Scab can win "
@@ -2373,7 +2368,7 @@ msgid ""
 msgstr ""
 
 #. type: multicols
-#: contents_tex/glossary.en.tex:164
+#: contents_tex/glossary.en.tex:73
 msgid ""
 "\\paragraph{Security Guard (card)} [5–10 \\faPeopleGroup] It is a protection "
 "from Expropriation Strike and Sabotage. The bosses bid for getting it (from "
@@ -2381,7 +2376,7 @@ msgid ""
 msgstr ""
 
 #. type: multicols
-#: contents_tex/glossary.en.tex:169
+#: contents_tex/glossary.en.tex:78
 msgid ""
 "\\paragraph{Startupper (role/card)} [5–10 \\faPeopleGroup] A petite "
 "bourgeoisie secret role for workers.  Adds a Class Betrayal individual "
@@ -2390,21 +2385,21 @@ msgid ""
 msgstr ""
 
 #. type: multicols
-#: contents_tex/glossary.en.tex:173
+#: contents_tex/glossary.en.tex:82
 msgid ""
 "\\paragraph{Stress (status)} A condition for workers that hinders them from "
 "striking, and thus forces them to work."
 msgstr ""
 
 #. type: multicols
-#: contents_tex/glossary.en.tex:177
+#: contents_tex/glossary.en.tex:86
 msgid ""
 "\\paragraph{Tap/Untap (action)} Tap your character card, placing it rotated "
 "90° in front of you for indicating Stress. Untap placing it straight."
 msgstr ""
 
 #. type: multicols
-#: contents_tex/glossary.en.tex:181
+#: contents_tex/glossary.en.tex:90
 msgid ""
 "\\paragraph{Union Fund (card)} [5–10 \\faPeopleGroup] The workers can share "
 "their coins, placing them on this card during phase 6."
