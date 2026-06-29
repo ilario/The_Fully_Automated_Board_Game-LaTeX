@@ -8,7 +8,7 @@
 
 % In order to decrease the dimension of the PDF file and reduce the resolution of some raster images, use:
 % gs -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress -dPrinted=false -dNOPAUSE -dQUIET -dBATCH -dAutoFilterColorImages=false -dColorImageFilter=/FlateEncode -sOutputFile=The_Fully_Automated_Board_Game-ENG-printer_quality.pdf The_Fully_Automated_Board_Game.en.pdf
-% instead of preprint, you can also try /screen and /ebook
+% instead of preprint, you can also try /screen, /ebook and /printer
 
 % Some rights are reserved as specified by
 % Creative Commons Attribution - NonCommercial version 4.0 licence
@@ -42,13 +42,12 @@
 % po4a: command -indent 
 % po4a: command -begingroup 
 % po4a: command -let 
-% po4a: command -cleardoublepage 
-% po4a: command -relax 
 % po4a: command -endgroup 
 % po4a: command -setupTOC 
 % po4a: command -hrule 
 % po4a: command -titlespacing {}{}{}{}
 % po4a: command selectlanguage {_}
+% po4a: command -renewcommand {}{}
 % po4a: environment minipageparindent {}
 % po4a: environment wrapfigure []{}{}
 % po4a: environment multicols {}
@@ -82,7 +81,8 @@
 % avoid having a page break just after the ToC
 \begingroup
 
-\let\cleardoublepage\relax
+% the common way for avoiding the newpage after the page title would be to use \let\cleardoublepage\relax but po4a cannot match it
+\renewcommand{\cleardoublepage}{\relax}
 
 % ToC on two columns
 \begin{multicols}{2}
