@@ -7,9 +7,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-06-08 15:15+0200\n"
-"PO-Revision-Date: 2026-06-04 10:56+0200\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2026-06-27 16:18+0200\n"
+"PO-Revision-Date: 2026-06-29 14:32+0200\n"
+"Last-Translator: Ilario Gelmetti <ilario@noboardgames.com>\n"
 "Language-Team: \n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -23,19 +23,22 @@ msgstr ""
 msgid ""
 "hidelinks, pdftitle={The Fully Automated Board Game - English rulebook}, "
 "pdfauthor={No Board Games} pdfkeywords={the fully automated board game, no "
-"boad games}"
+"board games}"
 msgstr ""
+"hidelinks, pdftitle={The Fully Automated Board Game - Regles en català}, "
+"pdfauthor={No Board Games} pdfkeywords={the fully automated board game, no "
+"board games}"
 
 #. type: author{#1}
 #: The_Fully_Automated_Board_Game.en.tex:57
 #: contents_tex/latex_preamble.en.tex:153
 msgid "No Board Games"
-msgstr ""
+msgstr "No Board Games"
 
 #. type: textbf{#1}
 #: The_Fully_Automated_Board_Game.en.tex:64 contents_tex/rear_page.en.tex:15
 msgid "The Fully Automated Boardgame"
-msgstr ""
+msgstr "The Fully Automated Boardgame"
 
 #. type: title{#1}
 #: The_Fully_Automated_Board_Game.en.tex:64
@@ -48,120 +51,134 @@ msgid ""
 "A party game about robots and strikes.\\\\ Become a greedy boss or a riotous "
 "worker! --- From 2 to 10 players\\\\ Duration 1 to 60 minutes"
 msgstr ""
+"Un joc de taula sobre robots i vagues.\\\\ Siguis un cap avariciós o un "
+"treballador insubmís! --- De 2 a 10 jugadoris\\\\ Duració de 1 a 60 minuts"
 
 #. type: selectlanguage{#1}
 #: The_Fully_Automated_Board_Game.en.tex:76
 msgid "english"
-msgstr ""
-
-#. type: document
-#: The_Fully_Automated_Board_Game.en.tex:85
-msgid "\\let\\cleardoublepage\\relax"
-msgstr ""
+msgstr "catalan"
 
 #.  closing the group opened for avoiding the page break after the ToC
 #. type: Plain text
 #: contents_tex/introduction.en.tex:7
 msgid "Copyright 2025 No Board Games"
-msgstr ""
+msgstr "Copyright 2025 No Board Games"
 
 #. type: Plain text
 #: contents_tex/introduction.en.tex:11
 msgid ""
 "Some rights are reserved as specified by Creative Commons Attribution - "
-"NonCommercial version 4.0 licence, which can be accessed on"
+"NonCommercial version 4.0 licence, which can be accessed on:"
 msgstr ""
+"Alguns drets són reservats com especificat per la llicència Creative Commons "
+"Attribution - NonCommercial versió 4.0, que es pot llegir a:"
 
 #. type: minipageparindent
-#: contents_tex/introduction.en.tex:24
+#: contents_tex/introduction.en.tex:19
 msgid ""
 "\\textbf{No Board Games} is an international group that creates radical "
-"board games.  Check for gameplay videos on our website: \\url{https://"
-"noboardgames.com}"
+"board games.  Check for gameplay videos on our website:"
 msgstr ""
+"\\textbf{No Board Games} és un grup internacional que crea jocs de taula "
+"radicals. Per trobar vídeos explicatius de les regles, mireu la nostra web:"
 
-#. type: Plain text
-#: contents_tex/introduction.en.tex:38
-msgid ""
-"\\textit{You are reading the version 1.0 of the rulebook, printed in English "
-"and Italian. For new revisions and more translations, check our website. If "
-"you want to contribute translations, contact us at: info@noboardgames.com "
-"The development and discussion on the rules will continue on BoardGameGeek "
-"forum \"Rules\". Log your games on the forum \"Sessions\".} \\url{https://"
-"boardgamegeek.com/boardgame/357812/fully-automated-board-game/forums/}"
-msgstr ""
-
-#. type: Plain text
+#. type: textit{#1}
 #: contents_tex/introduction.en.tex:40
-msgid "Printed in Poland by Fabryka Kart, 2025."
+msgid ""
+"You are reading the version 1.0 of the rulebook, printed in English and "
+"Italian. For new revisions and more translations, check our website. If you "
+"want to contribute translations, contact us at: info@noboardgames.com The "
+"development and discussion on the rules will continue on BoardGameGeek forum "
+"\"Rules\". Log your games on the forum \"Sessions\"."
 msgstr ""
-
-#. type: section{#2}
-#: contents_tex/introduction.en.tex:42
-msgid "ACKNOWLEDGEMENTS"
-msgstr ""
-
-#. type: Plain text
-#: contents_tex/introduction.en.tex:44
-msgid "\\textbf{\\indent Design}: Matteo Modena, Ilario Gelmetti"
-msgstr ""
+"Esteu llegint la versió 1.0 del llibre de regles, imprès en Anglès i en "
+"Italià. Per noves versions i més traduccions, visiteu la nostra pàgina web. "
+"Si voleu ajudar amb les traduccions, contacteu-nos a: info@noboardgames.com "
+"El desenvolupament i la discussió sobre les regles continuarà en el fòrum "
+"\"Rules\" de la pàgina del joc a Board Game Geek. Enregistreu les vostres "
+"partides en el fòrum \"Sessions\"."
 
 #. type: Plain text
 #: contents_tex/introduction.en.tex:46
-msgid "\\textbf{Art}: Bernardo \"RUPE\" Anichini - IG: \\texttt{@rupe\\_b}"
-msgstr ""
+msgid "Printed in Poland by Fabryka Kart, 2025."
+msgstr "Imprés per Fabryka Kart en Polonia, 2025."
+
+#. type: section{#2}
+#: contents_tex/introduction.en.tex:48
+msgid "ACKNOWLEDGEMENTS"
+msgstr "AGRAÏMENTS"
 
 #. type: Plain text
 #: contents_tex/introduction.en.tex:50
+msgid "\\textbf{\\indent Design}: Matteo Modena, Ilario Gelmetti"
+msgstr "\\textbf{\\indent Disseny}: Matteo Modena, Ilario Gelmetti"
+
+#. type: Plain text
+#: contents_tex/introduction.en.tex:52
+msgid "\\textbf{Art}: Bernardo \"RUPE\" Anichini - IG: \\texttt{@rupe\\_b}"
+msgstr "\\textbf{Art}: Bernardo \"RUPE\" Anichini - IG: \\texttt{@rupe\\_b}"
+
+#. type: Plain text
+#: contents_tex/introduction.en.tex:56
 msgid ""
 "\\textbf{Testing}: Ilario Gelmetti, Matteo Modena, Matteo Paolini, Giulio "
 "Mazzocchi,Bernardo Anichini, Emanuele Croce, Dan Howitt, Luis Gutiérrez, "
 "Nicola Fiorillo, Loz, Riccardo Bernori, Luna Golino, Michele Bertoldi"
 msgstr ""
+"\\textbf{Testeig}: Ilario Gelmetti, Matteo Modena, Matteo Paolini, Giulio "
+"Mazzocchi,Bernardo Anichini, Emanuele Croce, Dan Howitt, Luis Gutiérrez, "
+"Nicola Fiorillo, Loz, Riccardo"
 
 #. type: Plain text
-#: contents_tex/introduction.en.tex:52
+#: contents_tex/introduction.en.tex:58
 msgid "\\textbf{Communication}: Matteo Paolini, Matteo Modena"
-msgstr ""
+msgstr "\\textbf{Comunicació}: Matteo Paolini, Matteo Modena"
 
 #. type: Plain text
-#: contents_tex/introduction.en.tex:54
+#: contents_tex/introduction.en.tex:60
 msgid "\\textbf{Video}: Davide Morittu"
-msgstr ""
+msgstr "\\textbf{Vídeo}: Davide Morittu"
 
 #. type: Plain text
-#: contents_tex/introduction.en.tex:57
+#: contents_tex/introduction.en.tex:63
 msgid ""
 "We want to thank all the backers that trusted us during the crowdfunding "
 "campaign, and specifically \"The Boss\" backers: \\textbf{Rock Castle}, "
 "\\textbf{Matteo R.} and \\textbf{Comrade Alex}!"
 msgstr ""
+"Volem agrair totis lis mecenes que van confiar en nosaltres durant la "
+"campanya de micromecenatge, i específicament lis mecenes \"The Boss\": "
+"\\textbf{Rock Castle}, \\textbf{Matteo R.} and \\textbf{Comrade Alex}!"
 
 #. type: Plain text
-#: contents_tex/introduction.en.tex:61
+#: contents_tex/introduction.en.tex:67
 msgid ""
 "Also, this game would not have been possible without the countless online "
 "testing sessions that were joined by many. Special thanks go to the heroic "
 "\\textbf{Dan Howitt} and the unstoppable \\textbf{Luis Gutiérrez}."
 msgstr ""
+"També, aquest joc no hauria sigut possible sense les moltíssimes sessions de "
+"joc en línia on moltes persones van participar. Agraïments especials al "
+"heroic \\textbf{Dan Howitt}  i al imparable \\textbf{Luis Gutiérrez}."
 
 #. type: section{#2}
-#: contents_tex/introduction.en.tex:64
+#: contents_tex/introduction.en.tex:70
 msgid "BACKGROUND"
-msgstr ""
+msgstr "CONTEXT"
 
 #. type: epigraph{#1}
-#: contents_tex/introduction.en.tex:66
+#: contents_tex/introduction.en.tex:72
 msgid "The working class and the employing class have nothing in common."
-msgstr ""
+msgstr "La classe treballadora i la classe emprenedora no tenen res en comú."
 
 #. type: textit{#1}
-#: contents_tex/introduction.en.tex:66
+#: contents_tex/introduction.en.tex:72
 msgid "Industrial Workers of the World"
-msgstr ""
+msgstr "Industrial Workers of the World"
 
 #. type: Plain text
-#: contents_tex/introduction.en.tex:79
+#: contents_tex/introduction.en.tex:85
 msgid ""
 "There will never be peace between the oppressed and the oppressors, and thus "
 "between master and subordinate. From the first utopian socialists to the "
@@ -178,63 +195,91 @@ msgid ""
 "always be class struggle as long as power and resources are not distributed "
 "equally among people."
 msgstr ""
+"No hi haurà mai pau entre l'oprimit i l'opressor, doncs entre el subordinat "
+"i el seu cap. Des dels primers socialistes utòpics al dia d'avui, una nova "
+"visió del canvi social ha aparegut, una basada en la lluita de classe. Els "
+"caps han adquirit els seus patrimonis amb la sistemàtica explotació de la "
+"classe treballadora, han aprofitat de la tecnologia per obtenir aquest fi i "
+"per evitar vagues i sabotatges. Davant de les noves tecnologies que "
+"acceleren i pugen la eficiència de la producció, alguns van respondre amb "
+"sabotatge i destrucció, com ara el moviment Luddita*, o altres que demanen "
+"gaudir des beneficis, com el moviment dels accelerationistes d'esquerra. "
+"Aquest joc et proposa de reflexionar sobre la qüestió de la automació de la "
+"feina, la sempre més baixa necessitat de empleats humans i, més en general, "
+"sobre el concepte de lluita de classe. Perquè sempre hi haurà lluita de "
+"classe si el poder i els recursos no són distribuïts igualment entre les "
+"persones."
 
 #. type: textsl{#1}
-#: contents_tex/introduction.en.tex:82
+#: contents_tex/introduction.en.tex:88
 msgid ""
 "*The Luddite movement was a class struggle in England during the 19th "
 "century, whereby workers struggled against their labours being replaced with "
 "machinery."
 msgstr ""
+"*El moviment Luddita va ser una lluita de classe en la Anglaterra del segle "
+"XIX, on els treballadors van lluitar en contra que la seva força de treball "
+"fos substituïda amb màquines."
 
 #. type: section{#2}
-#: contents_tex/introduction.en.tex:85
+#: contents_tex/introduction.en.tex:91
 msgid "OVERVIEW"
-msgstr ""
+msgstr "PANORÀMICA"
 
 #. type: Plain text
-#: contents_tex/introduction.en.tex:88
+#: contents_tex/introduction.en.tex:94
 msgid ""
 "Take the role of a greedy boss (representing the Bourgeoisie) or suffer the "
 "burden of a worker (representing the Proletariat)."
 msgstr ""
+"Agafa el rol d'un cap avariciós (que representa la burgesia) o pateix la "
+"càrrega d'un treballador (que representa el proletariat)."
 
 #. type: Plain text
-#: contents_tex/introduction.en.tex:92
+#: contents_tex/introduction.en.tex:98
 msgid ""
 "As a \\textbf{worker}, you must negotiate and accept Contracts from the "
 "bosses, to collect enough coins to pay your Rent and \\textbf{survive}. But "
 "only a collective and coordinated \\textbf{strike} will bring victory to the "
 "workers."
 msgstr ""
+"Com a \\textbf{treballador}, hauràs de negociar i acceptar Contractes que "
+"t'ofereixen els caps, recollir prou diners per tal de pagar el Lloguer i "
+"\\textbf{sobreviure}. Però només una \\textbf{vaga} multitudinària i "
+"coordinada portarà la victòria als treballadors."
 
 #. type: Plain text
-#: contents_tex/introduction.en.tex:96
+#: contents_tex/introduction.en.tex:102
 msgid ""
 "As a \\textbf{boss}, you control the production, the money, and therefore "
 "the workers. You must offer the favoured Contracts and \\textbf{accumulate "
 "the greatest profit} before your competitor does."
 msgstr ""
+"Com a \\textbf{cap}, control·les la producció, els diners, i doncs també els "
+"treballadors. Has d'oferir els millors Contractes i \\textbf{acumular el "
+"profit més gran} abans que ho faci l'altre cap."
 
 #. type: Plain text
-#: contents_tex/introduction.en.tex:99
+#: contents_tex/introduction.en.tex:105
 msgid ""
 "The Fully Automated Board Game is a fusion of negotiation, hidden roles, "
 "bluffing, voting, and class struggle."
 msgstr ""
+"The Fully Automated Board Game és una fusió de negociació, rols secrets, "
+"bluf, votacions i lluita de classe."
 
 #. type: section{#2}
-#: contents_tex/introduction.en.tex:102
+#: contents_tex/introduction.en.tex:108
 msgid "COMPONENTS"
-msgstr ""
+msgstr "COMPONENTS"
 
 #. type: subsubsection{#2}
-#: contents_tex/introduction.en.tex:126
+#: contents_tex/introduction.en.tex:132
 msgid "PHASE MARKER TOKEN"
-msgstr ""
+msgstr "MARCADOR DE FASE"
 
 #. type: Plain text
-#: contents_tex/introduction.en.tex:126
+#: contents_tex/introduction.en.tex:132
 msgid ""
 "In this box, we decided to not include any component representing the "
 "\\faRubleSign\\ money. Instead, we propose you to use real coins. This will "
@@ -247,106 +292,118 @@ msgid ""
 "real world! Consider this a way of helping your local social community.  "
 "Reach out, maybe we can recommend some entity!"
 msgstr ""
+"En aquesta capsa, vam decidir no incloure cap component que representi els "
+"\\faRubleSign\\ diners. El que us proposem és de fer servir monedes reals. "
+"Això farà que el joc sembli més \"real\" o ens ajuda a reduir materials, que "
+"resulta en una capsa més petita i fàcil per transportar, i fa que la seva "
+"producció contamini menys. Per la mateixa raó, aquest joc ha sigut fabricat "
+"amb materials i mètodes \"eco-friendly\" seleccionats per Fabryka Kart, en "
+"Polonia. Al final de cada sessió de joc, us encoratgem a que agafeu totes "
+"aquestes monedes que vau fer servir com diners a dins del joc i fer-les "
+"servir per fer un donatiu a un projecte social o a un sindicat, en el món "
+"real! Considereu aquesta com una manera d'ajudar a la teva comunitat social "
+"local. Contacteu-nos, pot ser us podem aconsellar alguna entitat social pel "
+"donatiu!"
 
 #. type: subsubsection{#2}
-#: contents_tex/introduction.en.tex:132
+#: contents_tex/introduction.en.tex:138
 msgid "WHAT'S IN THE BOX"
-msgstr ""
+msgstr "QUÈ HI HA A DINS DE LA CAPSA"
 
 #. type: itemize
-#: contents_tex/introduction.en.tex:132
+#: contents_tex/introduction.en.tex:138
 msgid "2 Boss cards - Bourgeoisie (blue card with a blue pig symbol)"
 msgstr ""
 
 #. type: itemize
-#: contents_tex/introduction.en.tex:134
+#: contents_tex/introduction.en.tex:140
 msgid "10 Worker character cards:"
 msgstr ""
 
 #. type: itemize
-#: contents_tex/introduction.en.tex:138
+#: contents_tex/introduction.en.tex:144
 msgid "4 Proletarians - Virtual pauper (red card with a red flag symbol)"
 msgstr ""
 
 #. type: itemize
-#: contents_tex/introduction.en.tex:141
+#: contents_tex/introduction.en.tex:147
 msgid "3 Startupper - Petite bourgeoisie (red card with a blue pig symbol)"
 msgstr ""
 
 #. type: itemize
-#: contents_tex/introduction.en.tex:144
+#: contents_tex/introduction.en.tex:150
 msgid ""
 "2 Scab - Workaholic (red card with a symbol of a mug \"I \\textless3 "
 "Mondays\")"
 msgstr ""
 
 #. type: itemize
-#: contents_tex/introduction.en.tex:148
+#: contents_tex/introduction.en.tex:154
 msgid "1 Luddite - Saboteur (red card with a bomb symbol)"
 msgstr ""
 
 #. type: itemize
-#: The_Fully_Automated_Board_Game.en.tex:100
-#: contents_tex/introduction.en.tex:160
+#: The_Fully_Automated_Board_Game.en.tex:101
+#: contents_tex/introduction.en.tex:166
 msgid "10 Robot cards (blue and red sides)"
 msgstr ""
 
 #. type: itemize
-#: The_Fully_Automated_Board_Game.en.tex:100
-#: contents_tex/introduction.en.tex:160
+#: The_Fully_Automated_Board_Game.en.tex:101
+#: contents_tex/introduction.en.tex:166
 msgid "17 Event cards"
 msgstr ""
 
 #. type: itemize
-#: The_Fully_Automated_Board_Game.en.tex:100
-#: contents_tex/introduction.en.tex:160
+#: The_Fully_Automated_Board_Game.en.tex:101
+#: contents_tex/introduction.en.tex:166
 msgid "6 Contracts cards"
 msgstr ""
 
 #. type: itemize
-#: The_Fully_Automated_Board_Game.en.tex:100
-#: contents_tex/introduction.en.tex:160
+#: The_Fully_Automated_Board_Game.en.tex:101
+#: contents_tex/introduction.en.tex:166
 msgid "1 Union Fund card"
 msgstr ""
 
 #. type: itemize
-#: The_Fully_Automated_Board_Game.en.tex:100
-#: contents_tex/introduction.en.tex:160
+#: The_Fully_Automated_Board_Game.en.tex:101
+#: contents_tex/introduction.en.tex:166
 msgid "1 Public Work card"
 msgstr ""
 
 #. type: itemize
-#: The_Fully_Automated_Board_Game.en.tex:100
-#: contents_tex/introduction.en.tex:160
+#: The_Fully_Automated_Board_Game.en.tex:101
+#: contents_tex/introduction.en.tex:166
 msgid "1 Mayor card"
 msgstr ""
 
 #. type: itemize
-#: The_Fully_Automated_Board_Game.en.tex:100
-#: contents_tex/introduction.en.tex:160
+#: The_Fully_Automated_Board_Game.en.tex:101
+#: contents_tex/introduction.en.tex:166
 msgid "1 Security Guard card"
 msgstr ""
 
 #. type: itemize
-#: The_Fully_Automated_Board_Game.en.tex:100
-#: contents_tex/introduction.en.tex:160
+#: The_Fully_Automated_Board_Game.en.tex:101
+#: contents_tex/introduction.en.tex:166
 msgid "6 Phase cards"
 msgstr ""
 
 #. type: itemize
-#: The_Fully_Automated_Board_Game.en.tex:100
-#: contents_tex/introduction.en.tex:160
+#: The_Fully_Automated_Board_Game.en.tex:101
+#: contents_tex/introduction.en.tex:166
 msgid "8 Personal tokens for workers"
 msgstr ""
 
 #. type: itemize
-#: The_Fully_Automated_Board_Game.en.tex:100
-#: contents_tex/introduction.en.tex:160
+#: The_Fully_Automated_Board_Game.en.tex:101
+#: contents_tex/introduction.en.tex:166
 msgid "1 Phase marker token"
 msgstr ""
 
 #. type: chapter{#2}
-#: The_Fully_Automated_Board_Game.en.tex:103
+#: The_Fully_Automated_Board_Game.en.tex:104
 msgid "Rules for 5 to 10 players"
 msgstr ""
 
@@ -1467,7 +1524,7 @@ msgid ""
 msgstr ""
 
 #. type: chapter{#2}
-#: The_Fully_Automated_Board_Game.en.tex:113
+#: The_Fully_Automated_Board_Game.en.tex:114
 msgid "Rules for 2 to 4 players"
 msgstr ""
 
@@ -2240,7 +2297,7 @@ msgid "If the boss is out of money, you are out of luck."
 msgstr ""
 
 #. type: chapter{#2}
-#: The_Fully_Automated_Board_Game.en.tex:129
+#: The_Fully_Automated_Board_Game.en.tex:130
 msgid "Glossary"
 msgstr ""
 
