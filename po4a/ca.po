@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2026-06-27 16:18+0200\n"
-"PO-Revision-Date: 2026-06-29 14:32+0200\n"
+"POT-Creation-Date: 2026-07-02 15:40+0200\n"
+"PO-Revision-Date: 2026-07-02 15:40+0200\n"
 "Last-Translator: Ilario Gelmetti <ilario@noboardgames.com>\n"
 "Language-Team: \n"
 "Language: ca\n"
@@ -313,22 +313,24 @@ msgstr "QUÈ HI HA A DINS DE LA CAPSA"
 #. type: itemize
 #: contents_tex/introduction.en.tex:138
 msgid "2 Boss cards - Bourgeoisie (blue card with a blue pig symbol)"
-msgstr ""
+msgstr "2 cartes Cap - Burgesia (carta blava amb el símbol d'un porc)"
 
 #. type: itemize
 #: contents_tex/introduction.en.tex:140
 msgid "10 Worker character cards:"
-msgstr ""
+msgstr "10 cartes personatge Treballador:"
 
 #. type: itemize
 #: contents_tex/introduction.en.tex:144
 msgid "4 Proletarians - Virtual pauper (red card with a red flag symbol)"
 msgstr ""
+"4 Proletàries - Pobres virtuals (carta vermella amb el símbol d'una bandera)"
 
 #. type: itemize
 #: contents_tex/introduction.en.tex:147
 msgid "3 Startupper - Petite bourgeoisie (red card with a blue pig symbol)"
 msgstr ""
+"3 Startupper - Petita burgesia (carta vermella amb el símbol d'un porc blau)"
 
 #. type: itemize
 #: contents_tex/introduction.en.tex:150
@@ -336,92 +338,99 @@ msgid ""
 "2 Scab - Workaholic (red card with a symbol of a mug \"I \\textless3 "
 "Mondays\")"
 msgstr ""
+"2 Esquirols - Addictes a la feina (carta vermella amb el símbol d'una tassa "
+"que posa \"I \\textless3 Mondays\")"
 
 #. type: itemize
 #: contents_tex/introduction.en.tex:154
 msgid "1 Luddite - Saboteur (red card with a bomb symbol)"
-msgstr ""
+msgstr "1 Luddita - Sabotejadora (carta vermella amb el símbol d'una bomba)"
 
 #. type: itemize
 #: The_Fully_Automated_Board_Game.en.tex:101
 #: contents_tex/introduction.en.tex:166
 msgid "10 Robot cards (blue and red sides)"
-msgstr ""
+msgstr "10 cartes Robot (amb part frontal i posterior vermella i blava)"
 
 #. type: itemize
 #: The_Fully_Automated_Board_Game.en.tex:101
 #: contents_tex/introduction.en.tex:166
 msgid "17 Event cards"
-msgstr ""
+msgstr "17 cartes Esdeveniments"
 
 #. type: itemize
 #: The_Fully_Automated_Board_Game.en.tex:101
 #: contents_tex/introduction.en.tex:166
 msgid "6 Contracts cards"
-msgstr ""
+msgstr "6 cartes Contractes"
 
 #. type: itemize
 #: The_Fully_Automated_Board_Game.en.tex:101
 #: contents_tex/introduction.en.tex:166
 msgid "1 Union Fund card"
-msgstr ""
+msgstr "1 carta Fons de solidaritat (Union Fund)"
 
 #. type: itemize
 #: The_Fully_Automated_Board_Game.en.tex:101
 #: contents_tex/introduction.en.tex:166
 msgid "1 Public Work card"
-msgstr ""
+msgstr "1 carta de Feina pública (Public Work)"
 
 #. type: itemize
 #: The_Fully_Automated_Board_Game.en.tex:101
 #: contents_tex/introduction.en.tex:166
 msgid "1 Mayor card"
-msgstr ""
+msgstr "1 carta de Alcaldessa (Mayor)"
 
 #. type: itemize
 #: The_Fully_Automated_Board_Game.en.tex:101
 #: contents_tex/introduction.en.tex:166
 msgid "1 Security Guard card"
-msgstr ""
+msgstr "1 carta de Segurata (Security Guard)"
 
 #. type: itemize
 #: The_Fully_Automated_Board_Game.en.tex:101
 #: contents_tex/introduction.en.tex:166
 msgid "6 Phase cards"
-msgstr ""
+msgstr "6 cartes de Fase"
 
 #. type: itemize
 #: The_Fully_Automated_Board_Game.en.tex:101
 #: contents_tex/introduction.en.tex:166
 msgid "8 Personal tokens for workers"
-msgstr ""
+msgstr "8 fitxes personals per les treballadores"
 
 #. type: itemize
 #: The_Fully_Automated_Board_Game.en.tex:101
 #: contents_tex/introduction.en.tex:166
 msgid "1 Phase marker token"
-msgstr ""
+msgstr "1 fitxa de marcador se fase"
 
 #. type: chapter{#2}
 #: The_Fully_Automated_Board_Game.en.tex:104
 msgid "Rules for 5 to 10 players"
-msgstr ""
+msgstr "Regles per 5 -10 jugadores"
 
 #. type: section{#2}
 #: contents_tex/five_to_ten_players.en.tex:6
 #: contents_tex/two_to_four_players.en.tex:6
 msgid "NUMBER OF PLAYERS"
-msgstr ""
+msgstr "NÚMERO DE JUGADORES"
 
 #. type: Plain text
 #: contents_tex/five_to_ten_players.en.tex:9
 msgid ""
 "\\textbf{Beware!} The rules of the 5–10 \\faPeopleGroup\\ game are very "
 "different from the ones for 2–4 \\faPeopleGroup! \\textbf{Some cards have a "
-"text saying} \"5–10 \\faPeopleGroup\": the rules here are for games from 5 "
-"to 10 players. For games with 2–4 \\faPeopleGroup, go to page "
+"text saying} \"5–10 \\faPeopleGroup\": that is a card to be used for games "
+"from 5 to 10 players. For games with 2–4 \\faPeopleGroup, go to page "
 "\\pageref{ch:2-4}."
 msgstr ""
+"\\textbf{Vigileu!} Le regles pel joc amb 5-10 \\faPeopleGroup\\ són molt "
+"differents d'aquelles per 2–4 \\faPeopleGroup! \\textbf{Algunes cartes tenen "
+"escrit} \"5–10 \\faPeopleGroup\": aquest costat de les cartes és el que es "
+"fa servir per 5 - 10 jugadores. Per partides amb 2–4 \\faPeopleGroup, aneu a "
+"pàgina \\pageref{ch:2-4}."
 
 #. type: section{#2}
 #: contents_tex/five_to_ten_players.en.tex:13
