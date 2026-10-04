@@ -2371,6 +2371,10 @@ msgid ""
 "remove Stress with Holidays if they: pay 2 \\faRubleSign; or choose the "
 "Public Work; or get it as part of a Contract offered by a boss."
 msgstr ""
+"\\paragraph{Vacances (acció)} [2–4 \\faPeopleGroup] Treballadoris poden escollir un "
+"Contracte amb Vancances per eliminar Estrès. [5–10 \\faPeopleGroup] Traballadoris poden "
+"eliminar Estrès amb Vacances si: paguen 2 \\faRubleSign; o escullen fer "
+"Funcionariat; o tenir-les com part d'un Contracte ofert per un cap."
 
 #. type: multicols
 #: contents_tex/glossary.en.tex:40
@@ -2380,6 +2384,10 @@ msgid ""
 "during failed strikes. Destroyed robots also count towards the workers' "
 "collective victory."
 msgstr ""
+"\\paragraph{Luddita (rol/carta)} [6–10 \\faPeopleGroup] És un rol secret "
+"de saboteig per treballadoris. Afageix una opció de victòria individualista, destruint 3 robots "
+"durant vagues fallides. Els robots destruïts també compten per la "
+"condició de victòria colectiva."
 
 #. type: multicols
 #: contents_tex/glossary.en.tex:46
@@ -2390,6 +2398,11 @@ msgid ""
 "the expropriated or destroyed robots. See the victory conditions Early "
 "ending of the game."
 msgstr ""
+"\\paragraph{Monopoli (condició de victòria)} [5–10 \\faPeopleGroup] Quan un cap "
+"és eliminat degut a no ser capaç de pagar el Lloguer o no poguer pagar un robot  "
+"després d'una Vaga d'Acceleració. El guanyador es determinat basat en "
+"els robots expropiats o destruïts. Mira les condicions de victòria "
+"pel final de joc Precipitat"
 
 #. type: multicols
 #: contents_tex/glossary.en.tex:50
@@ -2398,6 +2411,9 @@ msgid ""
 "secret role for workers. Does not have any individual winning option. It's "
 "very focused on striking!"
 msgstr ""
+"\\paragraph{Proletariat (rol/carta)} [5–10 \\faPeopleGroup] És el rol secret classic per "
+" “virtual pauper” traballadoris. No té manera indivualista de guanyar. "
+"Està molt enfocat en fer vagues!"
 
 #. type: multicols
 #: contents_tex/glossary.en.tex:55
@@ -2407,6 +2423,10 @@ msgid ""
 "is only one such job in games with 5–6 \\faPeopleGroup, two in games with 7–"
 "8 \\faPeopleGroup, and 3 in games with 9–10 \\faPeopleGroup."
 msgstr ""
+"\\paragraph{Funcionariat (carta)} [5–10 \\faPeopleGroup] Durant la fase 1, "
+"treballadoris poden agafar aquesta Contracte en comptes d'una de les feines ofertes per un dels caps. "
+"Hi ha una única posició de funcionari en jocs de 5-6 \\faPeopleGroup, dos en jocs de 7–"
+"8 \\faPeopleGroup, i 3 en jocs de 9–10 \\faPeopleGroup."
 
 #. type: multicols
 #: contents_tex/glossary.en.tex:59
@@ -2415,6 +2435,9 @@ msgid ""
 "coins. With [2–4 \\faPeopleGroup] the Rent goes to the automated boss, [5–10 "
 "\\faPeopleGroup] The Rent goes to the Bank."
 msgstr ""
+"\\paragraph{Lloguer (fase)} En la fase de Lloguer, cada jugadori paga una quantit de "
+"monedes. Amb [2–4 \\faPeopleGroup] el Lloger va al cap automatitzat, [5–10 "
+"\\faPeopleGroup] el Lloger va al Banc."
 
 #. type: multicols
 #: contents_tex/glossary.en.tex:63
@@ -2422,6 +2445,8 @@ msgid ""
 "\\paragraph{Sabotage (action)} [6–10 \\faPeopleGroup] In phase 2 Strike, the "
 "Luddite player can destroy a robot during a failed strike."
 msgstr ""
+"\\paragraph{Sabotatge (acció)} [6–10 \\faPeopleGroup] A la fase 2 Vaga, li "
+"jugadori Luddita pot destruir un robot durant una vaga fallida."
 
 #. type: multicols
 #: contents_tex/glossary.en.tex:69
@@ -2432,6 +2457,11 @@ msgid ""
 "accumulation or Monopoly) if they were working (not on strike) for this boss "
 "when the victory declaration happens."
 msgstr ""
+"\\paragraph{Esquirol (rol/carta)} [5–10 \\faPeopleGroup] És el rol secret "
+"d'addicte a la feina per treballadoris. Afageix una opció individualista de victòria: "
+"cada Esquirol pot guanyar al costat d'un cap que es declari guanyador (un cap que guanyi per acumulació "
+"de monedes o Monopoli) si estaven treballant (no fent vaga) per aquest cap "
+"quan la condició de victoria es cumpleix per aquest cap."
 
 #. type: multicols
 #: contents_tex/glossary.en.tex:73
@@ -2440,6 +2470,9 @@ msgid ""
 "from Expropriation Strike and Sabotage. The bosses bid for getting it (from "
 "0 to 5 fingers, check phase 2 rules)."
 msgstr ""
+"\\paragraph{Segurata (carta)} [5–10 \\faPeopleGroup] És una protecció "
+"de la Vaga Expropiadora i del Sabotatge. Els caps aposten per agafar-la (des de "
+"0 a 5 dits, mira les regles de la fase 2)."
 
 #. type: multicols
 #: contents_tex/glossary.en.tex:78
@@ -2449,6 +2482,9 @@ msgid ""
 "winning option via the accumulation of coins and stealing from the Union "
 "Fund."
 msgstr ""
+"\\paragraph{Emprenedori (rol/carta)} [5–10 \\faPeopleGroup] És el rol secret "
+"de petita burguesia per treballadoris. Afageix una manera individualista de guanyar
+"sent Traïdori de Classe acumulant monedes i robant del Sindicat "
 
 #. type: multicols
 #: contents_tex/glossary.en.tex:82
@@ -2456,6 +2492,8 @@ msgid ""
 "\\paragraph{Stress (status)} A condition for workers that hinders them from "
 "striking, and thus forces them to work."
 msgstr ""
+"\\paragraph{Estrès (estat)} Una condició per treballadoris que els impedeix "
+"fer vaga, i són forçadis a treballar."
 
 #. type: multicols
 #: contents_tex/glossary.en.tex:86
@@ -2463,6 +2501,8 @@ msgid ""
 "\\paragraph{Tap/Untap (action)} Tap your character card, placing it rotated "
 "90° in front of you for indicating Stress. Untap placing it straight."
 msgstr ""
+"\\paragraph{Girar (acció)} Gira la teva carta 90º en front teu "
+"per indicar que estàs estresat. Posa la recta quan ja no ho estiguis."
 
 #. type: multicols
 #: contents_tex/glossary.en.tex:90
@@ -2470,24 +2510,26 @@ msgid ""
 "\\paragraph{Union Fund (card)} [5–10 \\faPeopleGroup] The workers can share "
 "their coins, placing them on this card during phase 6."
 msgstr ""
+"\\paragraph{Fons del sindicat (carta)} [5–10 \\faPeopleGroup] Lis treballadoris poden compartir "
+"les seves monedes, posant-les en aquesta carta durant la fase 6."
 
 #. type: center
 #: contents_tex/rear_page.en.tex:32
 msgid ""
 "NO BOARD GAMES is an international group that creates radical board games."
-msgstr ""
+msgstr "NO BOARD GAMES és un grup internacional que crea jocs de taula radicals."
 
 #. type: center
 #: contents_tex/rear_page.en.tex:32
 msgid "\\url{https://noboardgames.com}"
-msgstr ""
+msgstr "\\url{https://noboardgames.com}"
 
 #. type: center
 #: contents_tex/rear_page.en.tex:36
 msgid "PUBLISHED IN 2025"
-msgstr ""
+msgstr "PUBLICAT EL 2025"
 
 #. type: center
 #: contents_tex/rear_page.en.tex:41
 msgid "Printed in Poland by:"
-msgstr ""
+msgstr "Imprès a Polonia per:"
